@@ -10,6 +10,8 @@ headers = {
 # 采集源地址
 SOURCES = [
     "https://cloud.7so.top/f/Bgw1H8/%E5%A4%A7%E6%94%B9.txt",
+    "https://wget.la/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u",
+    "https://wget.la/https://github.com/fafa002/yf2025/blob/main/yiyifafa.txt"
     "https://dsj-1312694395.cos.ap-guangzhou.myqcloud.com/dsj10.1.txt"
 ]
 
