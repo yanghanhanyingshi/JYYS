@@ -9,8 +9,8 @@ headers = {
 
 # 采集源地址
 SOURCES = [
-    "https://wget.la/https://github.com/adminouyang/231006/blob/main/py/卫视/output/ipv4/result.txt",
-    "https://wget.la/https://github.com/adminouyang/231006/blob/main/py/TV/output/ipv4/result.txt"
+    "https://cloud.7so.top/f/Bgw1H8/%E5%A4%A7%E6%94%B9.txt",
+    "https://dsj-1312694395.cos.ap-guangzhou.myqcloud.com/dsj10.1.txt"
 ]
 
 # 排序模板：央视+卫视固定顺序
