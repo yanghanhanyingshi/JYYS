@@ -1,25 +1,24 @@
-name: IPTV轻度测速采集
+name: IPTV简易测速采集
 on:
-  push:
-    branches: [ main ]
+  workflow_dispatch:
   schedule:
     - cron: '0 6 * * *'
-  workflow_dispatch:
 
 jobs:
   run:
     runs-on: ubuntu-latest
+    timeout-minutes: 3
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: python-version: "3.11"
+        with:
+          python-version: "3.11"
       - run: pip install requests
-      - run: timeout 300 python collect.py
-      - name: 提交
+      - run: python collect.py
+      - name: 提交文件
         run: |
-          git config --global user.name bot
-          git config --global user.email bot@a.com
+          git config user.name "bot"
+          git config user.email "bot@run.com"
           git add .
-          git commit -m update || true
+          git commit -m "update iptv" || true
           git push
-
