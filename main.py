@@ -204,8 +204,8 @@ def main():
     raw_all_lines = []
 
     # 1.总分组头
-    out_lines.append("灵鹿整合,#genre#")
-    raw_all_lines.append("灵鹿整合,#genre#")
+    out_lines.append("央视卫视,#genre#")
+    raw_all_lines.append("央视卫视,#genre#")
 
     # 2.CCTV+卫视全部（含CCTV14少儿）
     for chn in ALL_ORDER:
@@ -225,16 +225,16 @@ def main():
             raw_all_lines.append(f"{chn},{ru}$LR•IPV4•29『线路{idx}』")
 
     # 4.更新时间分组头 + 时间行
-    out_lines.append("更新时间,#genre#")
+    out_lines.append("灵鹿整合,#genre#")
     out_lines.append(f"{CURRENT_BJ_TIME},{time_url}")
 
-    raw_all_lines.append("更新时间,#genre#")
+    raw_all_lines.append("灵鹿整合,#genre#")
     raw_all_lines.append(f"{CURRENT_BJ_TIME},{time_url}")
 
     save_file(out_lines, "live.txt")
     save_file(raw_all_lines, "result.txt")
 
-    print("✅ 结构完全对齐：灵鹿整合→央视卫视→少儿动画→更新时间")
+    print("✅ 结构完全对齐：央视卫视→央视卫视→少儿动画→灵鹿整合")
 
 if __name__ == "__main__":
     main()
