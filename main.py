@@ -1,3 +1,4 @@
+import os
 import requests
 import re
 import time
@@ -9,12 +10,12 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
-# ========== 你的豆包AI官方配置 ==========
-DOUBAO_API_KEY = "a5c4504e-8146-4681-80d3-a206ea1f79ce"
+# ========== 豆包AI安全配置（从GitHub Secrets读取，无明文密钥） ==========
+DOUBAO_API_KEY = os.getenv("DOUBAO_API_KEY", "")
 DOUBAO_EP_ID    = "ep-20260330071637-v4ldt"
 DOUBAO_API_URL  = "https://ark.cn-beijing.volces.com/api/v3/chat/completions"
 MAX_KEEP_PER_CH = 5   # 每个频道保留最优5条活源
-# ======================================
+# =====================================================================
 
 # CCTV完整别名映射
 CCTV_NAME_FULL = {
@@ -59,7 +60,7 @@ SOURCES = [
     "https://cloud.7so.top/f/Bgw1H8/%E5%A4%A7%E6%94%B9.txt",
     "https://wget.la/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u",
     "https://wget.la/https://github.com/fafa002/yf2025/blob/main/yiyifafa.txt",
-    "https://dsj-1312694395.cos.ap-guangzhou.myqcloud.com/dsj10.1.txt"
+    "dsj-1312694395.cos.ap-guangzhou.myqcloud.com/dsj10.1.txt"
 ]
 
 # 测速超时配置
@@ -69,7 +70,7 @@ MAX_WORKERS = 30
 # 北京时间时区（UTC+8）
 BEIJING_TZ = timezone(timedelta(hours=8))
 
-def doubao_ai_keep_best_urls(url_list, keep_num=5):
+def doubaoi_keep_best_urls(url_list, keep_num=5):
     """AI智能去重同源链接，筛选最优存活5条"""
     if len(url_list) <= keep_num:
         return url_list
@@ -234,7 +235,7 @@ def main():
         unique_uris=list(dict.fromkeys(uris))
         ok_uris=batch_filter_urls(unique_uris)
         # AI同源去重+精选保留最优5条
-        best_uris=doubao_ai_keep_best_urls(ok_uris,MAX_KEEP_PER_CH)
+        best_uris=doubaoi_keep_best_urls(ok_uris,MAX_KEEP_PER_CH)
         valid_map[chn]=best_uris
 
     out_lines=["家用频道,#genre#"]
@@ -262,3 +263,4 @@ def main():
 
 if __name__=="__main__":
     main()
+
