@@ -39,19 +39,17 @@ CCTV_NAME_FULL = {
     "CCTV17": "CCTV17农业农村"
 }
 
-# 少儿动画专属频道列表
-# 完整版：少儿动画专属频道列表（直接替换你代码里的旧KID_ANIME_LIST）
+# 少儿卡通列表【已移除CCTV14少儿，留在央视分组】
 KID_ANIME_LIST = [
-    # 上星六大卡通
-    "CCTV14少儿", "金鹰卡通", "卡酷少儿", "优漫卡通", "哈哈炫动", "嘉佳卡通",
+    # 上星卡通（不含CCTV14）
+    "金鹰卡通","卡酷少儿","优漫卡通","哈哈炫动","嘉佳卡通",
     # 省级少儿
-    "广东少儿", "浙江少儿", "山东少儿", "重庆少儿", "四川妇女儿童",
-    "福建少儿", "江西少儿", "云南少儿", "河北少儿科教", "内蒙古少儿",
-    "辽宁教育·青少", "黑龙江少儿", "海南少儿", "甘肃少儿", "宁夏少儿", "新疆少儿",
-    # 地方热门
-    "深圳少儿", "南京少儿", "杭州青少体育", "济南少儿", "成都少儿"
+    "广东少儿","浙江少儿","山东少儿","重庆少儿","四川妇女儿童",
+    "福建少儿","江西少儿","云南少儿","河北少儿科教","内蒙古少儿",
+    "辽宁教育·青少","黑龙江少儿","海南少儿","甘肃少儿","宁夏少儿","新疆少儿",
+    # 地方热门少儿
+    "深圳少儿","南京少儿","杭州青少体育","济南少儿","成都少儿"
 ]
-
 
 # 排序模板：央视+卫视固定顺序
 CCTV_ORDER = [
@@ -99,14 +97,37 @@ def parse_channels(text):
     return channels
 
 def normalize_name(name):
-    """频道标准化统一命名"""
-    raw = name.upper().replace(" ", "")
-    # CCTV5+特殊识别
+    """频道标准化 + 少儿卡通自动匹配归一"""
+    if not name:
+        return None
+    raw = name.upper().replace(" ","")
+
+    # CCTV特殊匹配
+    if "CCTV14" in raw:
+        return "CCTV14少儿"
     if "CCTV5+" in raw or ("CCTV5" in raw and "+" in raw):
         return "CCTV5+"
     cctv_mat = re.search(r"CCTV[-_]?(\d+)", raw)
     if cctv_mat:
         return f"CCTV{cctv_mat.group(1)}"
+
+    # 少儿卡通关键词智能归一
+    if "金鹰卡通" in name: return "金鹰卡通"
+    if "卡酷少儿" in name or "卡酷动画" in name: return "卡酷少儿"
+    if "优漫卡通" in name: return "优漫卡通"
+    if "哈哈炫动" in name or "炫动卡通" in name: return "哈哈炫动"
+    if "嘉佳卡通" in name: return "嘉佳卡通"
+    if "广东少儿" in name: return "广东少儿"
+    if "浙江少儿" in name: return "浙江少儿"
+    if "深圳少儿" in name: return "深圳少儿"
+    if "山东少儿" in name: return "山东少儿"
+    if "重庆少儿" in name: return "重庆少儿"
+    if "四川妇女儿童" in name or "四川少儿" in name: return "四川妇女儿童"
+    if "福建少儿" in name: return "福建少儿"
+    if "江西少儿" in name: return "江西少儿"
+    if "河北少儿科教" in name: return "河北少儿科教"
+    if "辽宁青少" in name: return "辽宁教育·青少"
+
     # 卫视匹配
     for ws in WEISHI_ORDER:
         if ws in name:
@@ -149,13 +170,11 @@ def get_beijing_time():
     return datetime.now(BEIJING_TZ).strftime("%Y%m%d %H:%M")
 
 def main():
-    # 唯一北京时间戳
     CURRENT_BJ_TIME = get_beijing_time()
     print(f"脚本运行北京时间：{CURRENT_BJ_TIME}")
 
-    time_url = "https://d.kstore.dev/download/7547/20260401003530.mp4"
+    time_url = "https://d.kstore.dev/7547/20260401003530.mp4"
 
-    # 2.全量抓取合并
     all_raw = []
     for src in SOURCES:
         print(f"正在抓取源: {src}")
@@ -163,26 +182,22 @@ def main():
         chs = parse_channels(txt)
         all_raw.extend(chs)
 
-    # 3.标准化归类
+    # 初始化容器
     channel_map = {k:[] for k in ALL_ORDER}
-    kid_map = {k:[] for k in KID_ANIME_LIST}
+    kid_map     = {k:[] for k in KID_ANIME_LIST}
 
     for nm, url in all_raw:
         std_nm = normalize_name(nm)
-        show_nm = CCTV_NAME_FULL.get(std_nm, std_nm)
-        # 归入少儿动画分组
-        if show_nm in KID_ANIME_LIST:
-            kid_map[show_nm].append(url)
-        # 同时保留原排序分组
+        if std_nm in kid_map:
+            kid_map[std_nm].append(url)
         if std_nm in channel_map:
             channel_map[std_nm].append(url)
 
-    # 4.测速清洗
     print("开始多线程测速过滤死链...")
     valid_map = {}
     kid_valid_map = {}
 
-    # 常规频道测速
+    # 常规测速
     for chn, uris in channel_map.items():
         if not uris:
             valid_map[chn] = []
@@ -191,7 +206,7 @@ def main():
         ok_uris = batch_filter_urls(unique_uris)
         valid_map[chn] = ok_uris
 
-    # 少儿动画频道测速
+    # 少儿卡通独立测速
     for chn, uris in kid_map.items():
         if not uris:
             kid_valid_map[chn] = []
@@ -200,41 +215,41 @@ def main():
         ok_uris = batch_filter_urls(unique_uris)
         kid_valid_map[chn] = ok_uris
 
-    # 5.组装输出：先少儿动画分组 → 再常规分组
-    out_lines = ["灵鹿整合,#genre#"]
-    raw_all_lines = ["灵鹿整合,#genre#"]
+    # 固定顺序：1灵鹿整合 → 2少儿动画 → 3央视卫视
+    out_lines = []
+    raw_all_lines = []
 
-    # 新增：少儿动画分组置顶
+    out_lines.append("灵鹿整合,#genre#")
+    raw_all_lines.append("灵鹿整合,#genre#")
+
     out_lines.append("少儿动画,#genre#")
     raw_all_lines.append("少儿动画,#genre#")
+
+    # 输出少儿动画（无CCTV14）
     for chn in KID_ANIME_LIST:
         for idx, vu in enumerate(kid_valid_map[chn], 1):
             out_lines.append(f"{chn},{vu}$LR•IPV4•29『线路{idx}』")
         for idx, ru in enumerate(kid_map[chn], 1):
             raw_all_lines.append(f"{chn},{ru}$LR•IPV4•29『线路{idx}』")
 
-    # 再接原有央视卫视分组
+    # CCTV14 留在央视原有排序里显示
     for chn in ALL_ORDER:
         show_name = CCTV_NAME_FULL.get(chn, chn)
-        # 填充live.txt（测速可用）
         for idx, vu in enumerate(valid_map[chn], 1):
             out_lines.append(f"{show_name},{vu}$LR•IPV4•29『线路{idx}』")
-        # 填充result.txt（原始全量）
         for idx, ru in enumerate(channel_map[chn], 1):
-            raw_all_lines.append(f"{show_name},{ru}$LR•IPV4•29『线路{idx}』")
+            raw_all_lines.append(f"{chn},{ru}$LR•IPV4•29『线路{idx}』")
 
-    # 所有频道写完 → 文件最底部追加时间行
+    # 末尾时间戳
     out_lines.append(f"{CURRENT_BJ_TIME},{time_url}")
     raw_all_lines.append(f"{CURRENT_BJ_TIME},{time_url}")
 
-    # 6.保存文件
     save_file(out_lines, "live.txt")
     save_file(raw_all_lines, "result.txt")
 
+    print("✅ 已移除：少儿动画分组 → CCTV14少儿")
+    print("✅ CCTV14少儿保留在央视正常排序中")
     print(f"✅ 处理完成！时间戳：{CURRENT_BJ_TIME}")
-    print(f"✅ 已新增【少儿动画,#genre#】分组置顶归集")
-    print(f"✅ 有效可用源: {len(out_lines)-3} 条")
 
 if __name__ == "__main__":
     main()
-
