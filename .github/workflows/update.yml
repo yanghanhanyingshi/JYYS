@@ -13,6 +13,10 @@ on:
 jobs:
   run-spider:
     runs-on: ubuntu-latest
+    # 全局设置时区为北京时间
+    env:
+      TZ: Asia/Shanghai
+
     steps:
       - name: 拉取仓库代码
         uses: actions/checkout@v4
