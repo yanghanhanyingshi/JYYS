@@ -13,7 +13,7 @@ SOURCES = [
     "https://cloud.7so.top/f/Bgw1H8/%E5%A4%A7%E6%94%B9.txt",
     "https://wget.la/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u",
     "https://wget.la/https://github.com/fafa002/yf2025/blob/main/yiyifafa.txt",
-    "https://dsj-1312694395.cos.ap-guangzhou.myqcloud.com/dsj10.1.txt"
+    "https://dsj-131269435.cos.ap-guangzhou.myqcloud.com/dsj10.1.txt"
 ]
 
 # CCTV完整别名映射
@@ -129,13 +129,15 @@ def save_file(content_list, fname):
         f.write("\n".join(content_list))
 
 def get_beijing_time():
-    """获取北京时间（UTC+8），不受服务器时区影响"""
-    return datetime.now(BEIJING_TZ).strftime("%Y-%m-%d %H:%M:%S")
+    """格式：20260403 04:23"""
+    return datetime.now(BEIJING_TZ).strftime("%Y%m%d %H:%M")
 
 def main():
-    # 1. 唯一北京时间戳，全程只生成一次
+    # 唯一北京时间戳
     CURRENT_BJ_TIME = get_beijing_time()
     print(f"脚本运行北京时间：{CURRENT_BJ_TIME}")
+
+    time_url = "https://d.kstore.dev/download/7547/20260401003530.mp4"
 
     # 2.全量抓取合并
     all_raw = []
@@ -163,15 +165,9 @@ def main():
         ok_uris = batch_filter_urls(unique_uris)
         valid_map[chn] = ok_uris
 
-    # 5.生成内容（只写一次时间）
-    out_lines = [
-        "家用频道,#genre#",
-        f"更新时间：{CURRENT_BJ_TIME}"
-    ]
-    raw_all_lines = [
-        "家用频道,#genre#",
-        f"更新时间：{CURRENT_BJ_TIME}"
-    ]
+    # 5.先写分组+所有频道，时间不放头部、统一放末尾
+    out_lines = ["家用频道,#genre#"]
+    raw_all_lines = ["家用频道,#genre#"]
 
     for chn in ALL_ORDER:
         show_name = CCTV_NAME_FULL.get(chn, chn)
@@ -182,11 +178,15 @@ def main():
         for idx, ru in enumerate(channel_map[chn], 1):
             raw_all_lines.append(f"{show_name},{ru}$LR•IPV4•29『线路{idx}』")
 
+    # 所有频道写完 → 文件最底部追加时间行
+    out_lines.append(f"{CURRENT_BJ_TIME},{time_url}")
+    raw_all_lines.append(f"{CURRENT_BJ_TIME},{time_url}")
+
     # 6.保存文件
     save_file(out_lines, "live.txt")
     save_file(raw_all_lines, "result.txt")
 
-    print(f"✅ 处理完成！文件更新时间：{CURRENT_BJ_TIME}")
+    print(f"✅ 处理完成！时间戳：{CURRENT_BJ_TIME}")
     print(f"✅ 有效可用源: {len(out_lines)-2} 条")
 
 if __name__ == "__main__":
