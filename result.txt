@@ -1636,4 +1636,5 @@ CCTV17农业农村,http://183.10.180.36:202/tsfile/live/1003_1.m3u8$LR•IPV4•
 新疆卫视,https://live.264788.xyz/channel/xinjiangweishi?streamid=2b66bbca8d66afc1d8014d7fa046a55e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路16』
 新疆卫视,https://live.264788.xyz/channel/xinjiangweishi?streamid=3511726477c06c73fec0bab6f61e7594&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路17』
 新疆卫视,https://live.264788.xyz/channel/xinjiangweishi?streamid=342945bcfa42b0c38e26f3dbe372a06a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路18』
-20260403 15:51,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260403 19:44,https://d.kstore.dev/download/7547/20260401003530.mp4
+# 豆包AI播报：AI摘要生成失败
