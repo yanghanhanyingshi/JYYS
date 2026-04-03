@@ -10,12 +10,12 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
-# ========== 豆包AI安全配置（从GitHub Secrets读取，无明文密钥） ==========
+# ========== 豆包AI安全配置 ==========
 DOUBAO_API_KEY = os.getenv("DOUBAO_API_KEY", "")
 DOUBAO_EP_ID    = "ep-20260330071637-v4ldt"
 DOUBAO_API_URL  = "https://ark.cn-beijing.volces.com/api/v3/chat/completions"
 MAX_KEEP_PER_CH = 5   # 每个频道保留最优5条活源
-# =====================================================================
+# ===================================
 
 # CCTV完整别名映射
 CCTV_NAME_FULL = {
@@ -60,7 +60,7 @@ SOURCES = [
     "https://cloud.7so.top/f/Bgw1H8/%E5%A4%A7%E6%94%B9.txt",
     "https://wget.la/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u",
     "https://wget.la/https://github.com/fafa002/yf2025/blob/main/yiyifafa.txt",
-    "dsj-1312694395.cos.ap-guangzhou.myqcloud.com/dsj10.1.txt"
+    "https://dsj-1312694395.cos.ap-guangzhou.myqcloud.com/dsj10.1.txt"
 ]
 
 # 测速超时配置
@@ -70,8 +70,8 @@ MAX_WORKERS = 30
 # 北京时间时区（UTC+8）
 BEIJING_TZ = timezone(timedelta(hours=8))
 
-def doubaoi_keep_best_urls(url_list, keep_num=5):
-    """AI智能去重同源链接，筛选最优存活5条"""
+def doubao_ai_keep_best_urls(url_list, keep_num=5):
+    """AI智能去重同源链接，筛选最优存活5条（修复函数名）"""
     if len(url_list) <= keep_num:
         return url_list
     prompt = f"""下面是同一个频道多条播放URL，有大量同源重复、冗余线路，请智能去重，只挑选质量最优、域名不同源的{keep_num}条，按顺序只返回url每行一条，不要多余文字：
@@ -98,7 +98,7 @@ def doubaoi_keep_best_urls(url_list, keep_num=5):
         return list(dict.fromkeys(url_list))[:keep_num]
 
 def doubao_ai_fix_channel_name(channel_name):
-    """AI自动修正乱码/不规范频道名，返回标准名称"""
+    """AI自动修正乱码/不规范频道名"""
     prompt = f"""请将不规范直播频道名修正为标准官方名，只返回结果无多余内容：
 待修正：{channel_name}
 标准库：{','.join(ALL_CHANNEL_NAMES)}
@@ -119,7 +119,8 @@ def doubao_ai_fix_channel_name(channel_name):
             timeout=10
         )
         return res.json()["choices"][0]["message"]["content"].strip()
-    except:
+    except Exception as e:
+        print(f"AI修正频道名失败：{e}")
         return channel_name
 
 def doubao_ai_summary(ok_count, time_str):
@@ -140,8 +141,9 @@ def doubao_ai_summary(ok_count, time_str):
             timeout=15
         )
         return res.json()["choices"][0]["message"]["content"].strip()
-    except:
-        return "AI摘要生成失败"
+    except Exception as e:
+        print(f"AI生成摘要失败：{e}")
+        return f"更新时间{time_str}，有效{ok_count}条，AI优化"
 
 def fetch_text(url):
     try:
@@ -210,7 +212,8 @@ def get_beijing_time():
 def main():
     CURRENT_BJ_TIME=get_beijing_time()
     print(f"运行北京时间：{CURRENT_BJ_TIME}")
-    time_url="https://d.kstore.dev/download/7547/20260401003530.mp4"
+    # 替换成有效直播源链接（修复MP4无效问题）
+    time_url = "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8"
 
     all_raw=[]
     for src in SOURCES:
@@ -234,8 +237,8 @@ def main():
             continue
         unique_uris=list(dict.fromkeys(uris))
         ok_uris=batch_filter_urls(unique_uris)
-        # AI同源去重+精选保留最优5条
-        best_uris=doubaoi_keep_best_urls(ok_uris,MAX_KEEP_PER_CH)
+        # 修复：调用正确的AI去重函数名
+        best_uris=doubao_ai_keep_best_urls(ok_uris,MAX_KEEP_PER_CH)
         valid_map[chn]=best_uris
 
     out_lines=["家用频道,#genre#"]
@@ -260,7 +263,7 @@ def main():
 
     print(f"✅ 时间戳：{CURRENT_BJ_TIME}")
     print(f"✅ AI每条保留5条最优活源，已完成纠错+去重+测速")
+    print(f"✅ AI播报内容：{ai_text}")
 
 if __name__=="__main__":
     main()
-
