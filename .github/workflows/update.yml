@@ -1,13 +1,13 @@
-name: 鹿直播源自动更新
+name: 家用直播源自动更新
 
 # 👉就这里插入权限，别的全都不动！
 permissions:
   contents: write
 
-# 触发：12小时定时 + 手动可点运行
+# 触发：6小时定时 + 手动可点运行
 on:
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 jobs:
