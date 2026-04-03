@@ -1,7 +1,7 @@
 import requests
 import re
 import time
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from concurrent.futures import ThreadPoolExecutor
 
 headers = {
@@ -57,6 +57,9 @@ ALL_ORDER = CCTV_ORDER + WEISHI_ORDER
 TEST_TIMEOUT = 3
 MAX_WORKERS = 30
 
+# 北京时间时区（UTC+8）
+BEIJING_TZ = timezone(timedelta(hours=8))
+
 def fetch_text(url):
     """抓取源文本"""
     try:
@@ -97,13 +100,11 @@ def normalize_name(name):
 def check_url_alive(uri):
     """HTTP HEAD测速去死链"""
     try:
-        # 优先HEAD
         r = requests.head(uri, timeout=TEST_TIMEOUT, headers=headers, allow_redirects=True)
         if r.status_code in (200, 301, 302, 304):
             return True, uri
     except:
         pass
-    # HEAD失败改用GET片段探测
     try:
         r = requests.get(uri, timeout=TEST_TIMEOUT, headers=headers, stream=True)
         for _ in r.iter_content(chunk_size=1024):
@@ -127,13 +128,16 @@ def save_file(content_list, fname):
     with open(fname, "w", encoding="utf-8") as f:
         f.write("\n".join(content_list))
 
-def get_update_time():
-    """获取格式化更新时间"""
-    return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+def get_beijing_time():
+    """获取北京时间（UTC+8），不受服务器时区影响"""
+    return datetime.now(BEIJING_TZ).strftime("%Y-%m-%d %H:%M:%S")
 
 def main():
-    update_time = get_update_time()
-    # 1.全量抓取合并
+    # 1. 唯一北京时间戳，全程只生成一次
+    CURRENT_BJ_TIME = get_beijing_time()
+    print(f"脚本运行北京时间：{CURRENT_BJ_TIME}")
+
+    # 2.全量抓取合并
     all_raw = []
     for src in SOURCES:
         print(f"正在抓取源: {src}")
@@ -141,52 +145,49 @@ def main():
         chs = parse_channels(txt)
         all_raw.extend(chs)
 
-    # 2.标准化归类
+    # 3.标准化归类
     channel_map = {k:[] for k in ALL_ORDER}
     for nm, url in all_raw:
         std_nm = normalize_name(nm)
         if std_nm in channel_map:
             channel_map[std_nm].append(url)
 
-    # 3.测速清洗每个频道链接，剔除死链
+    # 4.测速清洗
     print("开始多线程测速过滤死链...")
     valid_map = {}
     for chn, uris in channel_map.items():
         if not uris:
             valid_map[chn] = []
             continue
-        unique_uris = list(dict.fromkeys(uris)) #去重
+        unique_uris = list(dict.fromkeys(uris))
         ok_uris = batch_filter_urls(unique_uris)
         valid_map[chn] = ok_uris
 
-    # 4.生成标准输出内容 + 分组 + 更新时间
+    # 5.生成内容（只写一次时间）
     out_lines = [
         "家用频道,#genre#",
-        f"更新时间：{update_time}"
+        f"更新时间：{CURRENT_BJ_TIME}"
     ]
     raw_all_lines = [
         "家用频道,#genre#",
-        f"更新时间：{update_time}"
+        f"更新时间：{CURRENT_BJ_TIME}"
     ]
 
     for chn in ALL_ORDER:
-        # 显示美化名称
         show_name = CCTV_NAME_FULL.get(chn, chn)
-        # 测速后可用：live.txt
+        # 填充live.txt（测速可用）
         for idx, vu in enumerate(valid_map[chn], 1):
             out_lines.append(f"{show_name},{vu}$LR•IPV4•29『线路{idx}』")
-        # 原始未测速全量：result.txt
+        # 填充result.txt（原始全量）
         for idx, ru in enumerate(channel_map[chn], 1):
             raw_all_lines.append(f"{show_name},{ru}$LR•IPV4•29『线路{idx}』")
 
-    # 5.双文件落地
+    # 6.保存文件
     save_file(out_lines, "live.txt")
     save_file(raw_all_lines, "result.txt")
 
-    print(f"✅ 处理完成！更新时间：{update_time}")
+    print(f"✅ 处理完成！文件更新时间：{CURRENT_BJ_TIME}")
     print(f"✅ 有效可用源: {len(out_lines)-2} 条")
-    print("已生成: live.txt(测速可用) + result.txt(原始全量未测速)")
-    print("🔔 可配置GitHub Actions 12小时Cron定时自动爬取更新")
 
 if __name__ == "__main__":
     main()
