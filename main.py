@@ -209,7 +209,7 @@ def get_beijing_time():
 def main():
     CURRENT_BJ_TIME=get_beijing_time()
     print(f"运行北京时间：{CURRENT_BJ_TIME}")
-    time_url="http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8"
+    time_url="https://d.kstore.dev/download/7547/20260401003530.mp4"
 
     all_raw=[]
     for src in SOURCES:
