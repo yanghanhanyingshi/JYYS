@@ -1,4 +1,4 @@
-灵鹿整合,#genre#
+央视卫视,#genre#
 CCTV1,https://cdn13.178.indevs.in/163189/bea1d91d91364062$LR•IPV4•29『线路1』
 CCTV1,http://183.57.248.146:8183/tsfile/live/0001_1.m3u8$LR•IPV4•29『线路2』
 CCTV1,http://111.221.137.234:44330/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路3』
@@ -2192,5 +2192,5 @@ CCTV17,http://1.24.39.180:9003/hls/61/index.m3u8$LR•IPV4•29『线路49』
 甘肃少儿,https://hls.gstv.com.cn/49048r/922k96.m3u8$LR•IPV4•29『线路1』
 宁夏少儿,https://hls.ningxiahuangheyun.com/live/nxse1M.m3u8$LR•IPV4•29『线路1』
 深圳少儿,http://120.198.95.220:9901/tsfile/live/1034_1.m3u8?key=txiptv&playlive=1&down=1$LR•IPV4•29『线路1』
-更新时间,#genre#
-20260404 00:14,https://d.kstore.dev/download/7547/20260401003530.mp4
+灵鹿整合,#genre#
+20260404 00:40,https://d.kstore.dev/download/7547/20260401003530.mp4
