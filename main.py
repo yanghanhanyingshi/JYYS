@@ -116,7 +116,7 @@ def doubao_ai_fix_channel_name(channel_name):
             },
             json=payload,
             timeout=10
-        }
+        )
         return res.json()["choices"][0]["message"]["content"].strip()
     except:
         return channel_name
@@ -180,12 +180,14 @@ def check_url_alive(uri):
         r = requests.head(uri, timeout=TEST_TIMEOUT, headers=headers, allow_redirects=True)
         if r.status_code in (200,301,302,304):
             return True,uri
-    except:pass
+    except:
+        pass
     try:
         r = requests.get(uri, timeout=TEST_TIMEOUT, headers=headers, stream=True)
         for _ in r.iter_content(chunk_size=1024):
             return True,uri
-    except:pass
+    except:
+        pass
     return False,uri
 
 def batch_filter_urls(uri_list):
@@ -193,7 +195,8 @@ def batch_filter_urls(uri_list):
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as exe:
         res=exe.map(check_url_alive,uri_list)
     for ok,u in res:
-        if ok:valid.append(u)
+        if ok:
+            valid.append(u)
     return valid
 
 def save_file(content_list,fname):
