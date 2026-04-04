@@ -2719,4 +2719,4 @@ CCTV17,http://74.48.192.96:82/live.php?id=CCTV17$LR•IPV4•29『线路59』
 甘肃少儿,https://hls.gstv.com.cn/49048r/922k96.m3u8$LR•IPV4•29『线路1』
 深圳少儿,http://120.198.95.220:9901/tsfile/live/1034_1.m3u8?key=txiptv&playlive=1&down=1$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260404 10:04,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260404 10:35,https://d.kstore.dev/download/7547/20260401003530.mp4
