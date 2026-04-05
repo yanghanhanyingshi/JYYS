@@ -1,0 +1,1 @@
+http://live-pull-zego.ikstatic.cn/inkemain/1775360014290109.flv?stream_id=1775360014290109&stream_type=zego&codecInfo=8192&ikFastRate=1.1&ikMaxBuf=3600&ikMinBuf=2900&ikHost=ws&ikNetOp=01111&ikSlowRate=0.9&wsSecret=6f4e1f6fc68c554e573e79cff8ad85f8&wsABStime=69d3298e
