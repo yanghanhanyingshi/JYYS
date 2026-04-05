@@ -18,7 +18,7 @@ class AisiMuScraper:
             "password_field": "password",
             "username": "xyzvip",
             "password": "qq123456",
-            "csrf_token_field": "",
+            "csrf_token_field": "",   # 自动提取
             "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36",
             "logged_in_expected_url": "http://zhibo.aisimu.cn/zhubo/index.php",
             "login_failed_check_text": "账号密码错误",
@@ -45,7 +45,7 @@ class AisiMuScraper:
         self.crawled_set = self._load_crawl_cache()
 
         self.MAX_KEEP_PER_GROUP = 999
-        self.PLAY_CHECK_TIMEOUT = 5
+        self.PLAY_CHECK_TIMEOUT = 5       # 测速超时从3秒提高到5秒，减少误判
         self.CRAWL_WORKERS = 8
         self.CHECK_WORKERS = 10
         self.SLEEP_INTERVAL = 0.1
@@ -81,12 +81,14 @@ class AisiMuScraper:
         print("[🚀] 开始登录...")
         for retry in range(5):
             try:
+                # 先获取登录页，提取可能的 CSRF token
                 resp = self.session.get(self.cfg["login_url"], timeout=15)
                 soup = BeautifulSoup(resp.text, "html.parser")
                 payload = {
                     self.cfg["username_field"]: self.cfg["username"],
                     self.cfg["password_field"]: self.cfg["password"]
                 }
+                # 自动查找隐藏的 CSRF 字段
                 for inp in soup.find_all("input", {"type": "hidden"}):
                     name = inp.get("name")
                     value = inp.get("value", "")
@@ -111,6 +113,7 @@ class AisiMuScraper:
         try:
             r = self.session.get(self.cfg["logged_in_expected_url"], timeout=15)
             soup = BeautifulSoup(r.text, "html.parser")
+            # 增强选择器：匹配 href 中包含 zblist.php 或 ?action=zblist 等常见模式
             for a in soup.find_all('a', href=True):
                 href = a['href']
                 if 'zblist.php' in href or 'action=zblist' in href:
@@ -136,6 +139,7 @@ class AisiMuScraper:
             r = self.session.get(url, timeout=15)
             soup = BeautifulSoup(r.text, "html.parser")
 
+            # 提取所有表格行
             for tr in soup.select("table tr"):
                 tds = tr.find_all("td")
                 if len(tds) < 4:
@@ -145,11 +149,14 @@ class AisiMuScraper:
                 if not raw_url:
                     continue
 
+                # 【修复】处理相对路径
                 if not raw_url.startswith(('http://', 'https://')):
+                    # 用当前分类页面的 URL 补全相对地址
                     full_url = urljoin(url, raw_url)
                 else:
                     full_url = raw_url
 
+                # 过滤掉明显无效的地址（如 javascript:; 或 #）
                 if full_url.startswith(('http://', 'https://')):
                     self.group_results[cname][full_url] = room
 
@@ -177,7 +184,9 @@ class AisiMuScraper:
                 f.write(u + "\n")
 
     def check_stream(self, url):
+        """检测流是否可用，返回 (url, True/False)"""
         try:
+            # 先尝试 HEAD 请求
             resp = self.session.head(url, timeout=(3, self.PLAY_CHECK_TIMEOUT), allow_redirects=True)
             if resp.status_code in (200, 301, 302, 304, 403):
                 resp.close()
@@ -185,8 +194,11 @@ class AisiMuScraper:
             resp.close()
         except:
             pass
+
+        # HEAD 失败或返回错误，再尝试 GET 流式读取一小段
         try:
             resp = self.session.get(url, timeout=(3, self.PLAY_CHECK_TIMEOUT), stream=True)
+            # 只读取前 1024 字节就断开
             for _ in resp.iter_content(chunk_size=1024):
                 resp.close()
                 return url, True
@@ -196,7 +208,7 @@ class AisiMuScraper:
         return url, False
 
     def validate_streams(self):
-        print("[🚀] 分批次测速...")
+        print("[🚀] 分批次测速（10线程，每批200个）...")
         all_urls = []
         mp = {}
         for g, ud in self.group_results.items():
@@ -240,7 +252,8 @@ class AisiMuScraper:
         ]
         cnt = 0
         for g, ud in self.group_results.items():
-            items = sorted(ud.items(), key=lambda x: x[1])
+            # 按字典顺序排序，避免每次变动
+            items = sorted(ud.items(), key=lambda x: x[1])  # 按房间名排序
             for u, n in items[:self.MAX_KEEP_PER_GROUP]:
                 lines.append(f'#EXTINF:-1 group-title="{g}",{n if n else "未知频道"}')
                 lines.append(u)
@@ -252,53 +265,42 @@ class AisiMuScraper:
         return path
 
     def run(self):
-        try:
-            if not self.login():
-                raise Exception("登录失败")
-            if not self.fetch_index():
-                raise Exception("获取分类列表失败")
+        if not self.login():
+            sys.exit(1)
+        if not self.fetch_index():
+            sys.exit(1)
 
-            total = len(self.category_urls)
-            if total == 0:
-                raise Exception("未找到任何分类")
+        total = len(self.category_urls)
+        if total == 0:
+            print("[❌] 未找到任何分类，退出")
+            sys.exit(1)
 
-            print(f"[断点续爬] 待抓取剩余分类: {total - len(self.crawled_set)} 个")
-            with ThreadPoolExecutor(max_workers=self.CRAWL_WORKERS) as pool:
-                tasks = []
-                for i, (url, name) in enumerate(self.category_urls.items(), 1):
-                    tasks.append(pool.submit(self.fetch_category, url, name, i, total))
-                for future in as_completed(tasks, timeout=600):
-                    try:
-                        future.result()
-                    except Exception as e:
-                        print(f"[⚠️] 抓取子任务异常: {e}")
+        print(f"[断点续爬] 待抓取剩余分类: {total - len(self.crawled_set)} 个")
+        with ThreadPoolExecutor(max_workers=self.CRAWL_WORKERS) as pool:
+            tasks = []
+            for i, (url, name) in enumerate(self.category_urls.items(), 1):
+                tasks.append(pool.submit(self.fetch_category, url, name, i, total))
+            # 等待所有任务完成，超时 600 秒
+            for future in as_completed(tasks, timeout=600):
+                try:
+                    future.result()
+                except Exception as e:
+                    print(f"[⚠️] 抓取子任务异常: {e}")
 
-            self.validate_streams()
-        except Exception as e:
-            print(f"[ERROR] 运行过程中出错: {e}")
-            import traceback
-            traceback.print_exc()
-        finally:
-            # 无论如何，只要抓到了数据就导出 M3U
-            if self.group_results:
-                # 如果还没测速（比如在抓取阶段就异常了），确保测速
-                # 但为了效率，只在未测速时执行
-                if not hasattr(self, '_validated') or not self._validated:
-                    self.validate_streams()
-                    self._validated = True
-                self.export_m3u()
-                self._save_history()
-                # 统计新增
-                nowall = set()
-                for d in self.group_results.values():
-                    nowall.update(d.keys())
-                self.new_urls = nowall - self.old_urls
-                if self.new_urls:
-                    self.tg(f"🆕 新增 {len(self.new_urls)} 条源")
-                print("[🎉] 脚本执行完毕（可能部分失败，但已导出已有数据）")
-            else:
-                print("[跳过] 没有采集到任何数据，不生成 M3U")
-                sys.exit(1)
+        self.validate_streams()
+
+        # 统计新增源
+        nowall = set()
+        for d in self.group_results.values():
+            nowall.update(d.keys())
+        self.new_urls = nowall - self.old_urls
+        if self.new_urls:
+            self.tg(f"🆕 新增 {len(self.new_urls)} 条源")
+            print(f"[🆕] 新增 {len(self.new_urls)} 条源")
+
+        self.export_m3u()
+        self._save_history()
+        print("[🎉] 全流程执行完毕，脚本正常退出")
 
 if __name__ == "__main__":
     try:
@@ -308,7 +310,7 @@ if __name__ == "__main__":
         def _timeout_handler(signum, frame):
             raise TimeoutEx("全局超时")
         signal.signal(signal.SIGALRM, _timeout_handler)
-        signal.alarm(1800)
+        signal.alarm(1800)   # 30分钟全局超时
         AisiMuScraper().run()
     except TimeoutEx:
         print("[💥] 脚本30分钟超时，下次断点续爬")
