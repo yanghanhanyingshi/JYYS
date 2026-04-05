@@ -6,8 +6,8 @@ permissions:
 
 on:
   schedule:
-    - cron: '0 */8 * * *'   # 每8小时一次
-  workflow_dispatch:         # 手动触发
+    - cron: '0 */8 * * *'
+  workflow_dispatch:
 
 env:
   TZ: Asia/Shanghai
@@ -48,14 +48,13 @@ jobs:
         pip install requests beautifulsoup4
 
     - name: 执行Aisimu采集脚本
-      run: python aisimu.py
+      run: python py/aisimu.py   # ← 修改这里，指向 py 子目录下的脚本
 
-    - name: 提交并推送更新（修复版：不再reset hard）
+    - name: 提交并推送更新（修复版）
       run: |
         git config --global user.name "GitHub Actions Bot"
         git config --global user.email "actions@github.com"
         git fetch origin main
-        # 先尝试合并远程更新（避免冲突）
         git checkout main
         git merge origin/main --no-edit || true
         git add output/
