@@ -20,9 +20,6 @@ jobs:
     steps:
       - name: 拉取仓库代码
         uses: actions/checkout@v4
-        with:
-          # 关键修复1：拉取完整历史，彻底解决浅克隆导致的版本不一致
-          fetch-depth: 0
 
       - name: 配置Python环境
         uses: actions/setup-python@v5
@@ -37,15 +34,10 @@ jobs:
 
       - name: 提交更新文件回仓库
         run: |
-          # 配置提交者信息
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # 关键修复2：推送前拉取远程最新代码，用rebase保持提交历史干净
-          git pull --rebase origin main
-          # 暂存更新文件
           git add live.txt result.txt
-          # 提交变更（无变更时不报错）
           git commit -m "自动更新直播源 定时3h任务" || echo "无变更无需提交"
-          # 关键修复3：显式指定分支推送，避免默认分支问题
-          git push origin main
+          # 强制推送，彻底解决所有冲突
+          git push -f origin main
 
