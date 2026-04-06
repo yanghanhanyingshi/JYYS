@@ -2784,4 +2784,4 @@ CCTV17,http://221.229.212.86:14965$LR•IPV4•29『线路60』
 宁夏少儿,https://hls.ningxiahuangheyun.com/live/nxse1M.m3u8$LR•IPV4•29『线路1』
 深圳少儿,http://120.198.95.220:9901/tsfile/live/1034_1.m3u8?key=txiptv&playlive=1&down=1$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260406 09:22,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260406 10:54,https://d.kstore.dev/download/7547/20260401003530.mp4
