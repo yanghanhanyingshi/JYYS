@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-直播源采集器（带测速 + 更新时间频道）
-- 自动采集、分类、去重、测速
-- 删除“其他频道”分类（未匹配的频道不保留）
-- 增加一个固定的“更新时间”频道，放在“灵鹿整合”分类下
+直播源采集器（多源合并 + 固定分类排序 + 测速）
+- 支持多个采集源，自动合并去重
+- 输出分类固定顺序：央视 → 卫视 → 卡通动漫 → 香港台 → 其他频道
+- 可选保留未匹配频道（归入“其他频道”）
+- 保留“更新时间”频道（灵鹿整合分类）
 """
 
 import re
@@ -18,8 +19,14 @@ import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import time
 
-# ==================== 配置 ====================
-SOURCE_URL = "https://proxy.api.030101.xyz/kuyun.814555752.workers.dev/"
+# ==================== 配置区域 ====================
+# 多源采集列表（按顺序依次采集，合并去重）
+SOURCE_URLS = [
+    "https://proxy.api.030101.xyz/kuyun.814555752.workers.dev/",
+    # 可以添加更多源，例如：
+    # "https://另一个代理地址/live.txt",
+]
+
 OUTPUT_FILE = "live_sources.m3u"
 BACKUP_FILE = "live_sources.m3u.bak"
 TIMEOUT = 15
@@ -27,15 +34,19 @@ USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 RETRY_TIMES = 2
 
 # 测速配置
-SPEED_TEST_ENABLE = True
-SPEED_TIMEOUT = 5
-MAX_WORKERS = 10
-SPEED_KEEP_RATIO = 0.8
+SPEED_TEST_ENABLE = True          # 是否启用测速
+SPEED_TIMEOUT = 5                 # 单个源测速超时（秒）
+MAX_WORKERS = 10                  # 并发测速线程数
+SPEED_KEEP_RATIO = 0.8            # 保留速度前80%的源
+SORT_BY_SPEED = True              # True: 分类内按速度排序（快→慢）；False: 按频道名排序
 
-# 更新时间频道配置（固定显示）
+# 未匹配频道处理：True=保留并归入“其他频道”，False=丢弃
+KEEP_UNMATCHED = True
+
+# 更新时间频道配置
 UPDATE_CHANNEL_NAME = "更新时间"
 UPDATE_CHANNEL_URL = "https://d.kstore.dev/download/7547/20260401003530.mp4"
-INFO_GROUP_TITLE = "灵鹿整合"   # 放置更新频道的分类名
+INFO_GROUP_TITLE = "灵鹿整合"
 
 logging.basicConfig(
     level=logging.INFO,
@@ -44,7 +55,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# 分类关键词（不含“其他频道”）
+# 分类关键词（匹配规则）
 CATEGORY_RULES = {
     "央视": ["cctv", "中央", "央视", "CCTV", "CCTV-", "中央一台", "中央二台", "中央三台", "中央四台", "中央五台",
              "中央六台", "中央七台", "中央八台", "中央九台", "中央十台", "中央十一台", "中央十二台", "中央十三台",
@@ -59,39 +70,53 @@ CATEGORY_RULES = {
     "香港台": ["香港", "TVB", "翡翠台", "明珠台", "凤凰香港", "港台", "无线", "星河频道", "TVB8", "TVB星河",
                "香港开电视", "香港国际", "香港卫视", "now新闻", "有线新闻", "RTHK"]
 }
-# 不再使用 DEFAULT_GROUP，未匹配的频道将被丢弃
+# 固定分类顺序（输出时严格按照此顺序）
+CATEGORY_ORDER = ["央视", "卫视", "卡通动漫", "香港台"]
+# “其他频道”将放在最后
 
 def get_beijing_time() -> str:
-    """返回北京时间字符串（仅用于日志）"""
     return datetime.now(timezone(timedelta(hours=8))).strftime("%Y%m%d %H:%M")
 
-def classify_channel(name: str) -> Optional[str]:
-    """
-    根据频道名称返回分类名，若未匹配任何关键词则返回 None（表示丢弃）
-    """
+def classify_channel(name: str) -> str:
+    """返回分类名，未匹配时根据 KEEP_UNMATCHED 返回 '其他频道' 或 None"""
     name_lower = name.lower()
     for group, keywords in CATEGORY_RULES.items():
         for kw in keywords:
             if kw.lower() in name_lower:
                 return group
-    return None   # 未匹配，丢弃
+    if KEEP_UNMATCHED:
+        return "其他频道"
+    else:
+        return None
 
-def fetch_data() -> Optional[str]:
+def fetch_single_source(url: str) -> Optional[str]:
+    """从单个源获取原始数据"""
     headers = {"User-Agent": USER_AGENT}
     for attempt in range(RETRY_TIMES + 1):
         try:
-            logger.info(f"请求数据 (尝试 {attempt+1}/{RETRY_TIMES+1}): {SOURCE_URL}")
-            resp = requests.get(SOURCE_URL, headers=headers, timeout=TIMEOUT)
+            logger.info(f"请求源: {url} (尝试 {attempt+1}/{RETRY_TIMES+1})")
+            resp = requests.get(url, headers=headers, timeout=TIMEOUT)
             resp.raise_for_status()
             resp.encoding = 'utf-8'
             content = resp.text.strip()
             if content:
-                logger.info(f"获取成功，数据长度 {len(content)} 字符")
+                logger.info(f"成功，数据长度 {len(content)} 字符")
                 return content
             logger.warning("返回内容为空")
         except Exception as e:
             logger.warning(f"请求失败: {e}")
     return None
+
+def parse_content(content: str) -> List[Tuple[str, str]]:
+    """自动识别格式并解析"""
+    channels = []
+    if content.strip().startswith('#EXTM3U'):
+        channels = parse_m3u(content)
+    if not channels and (content.strip().startswith('{') or content.strip().startswith('[')):
+        channels = parse_json(content)
+    if not channels:
+        channels = parse_generic(content)
+    return channels
 
 def parse_m3u(content: str) -> List[Tuple[str, str]]:
     channels = []
@@ -206,13 +231,10 @@ def speed_test_single(url: str) -> Tuple[str, Optional[float]]:
 
 def filter_by_speed(channels: List[Tuple[str, str]]) -> List[Tuple[str, str]]:
     if not SPEED_TEST_ENABLE:
-        logger.info("测速已禁用，保留全部源")
         return channels
-
     logger.info(f"开始测速，共 {len(channels)} 个源，并发数 {MAX_WORKERS}")
     url_to_name = {url: name for name, url in channels}
     results: Dict[str, float] = {}
-
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         future_to_url = {executor.submit(speed_test_single, url): url for _, url in channels}
         for future in as_completed(future_to_url):
@@ -221,47 +243,56 @@ def filter_by_speed(channels: List[Tuple[str, str]]) -> List[Tuple[str, str]]:
                 _, elapsed = future.result()
                 if elapsed is not None:
                     results[url] = elapsed
-                    logger.debug(f"✓ {url}  {elapsed:.0f}ms")
-                else:
-                    logger.debug(f"✗ {url} 超时/失败")
             except Exception:
-                logger.debug(f"✗ {url} 异常")
-
+                pass
     valid = [(url_to_name[url], url) for url in results if url in results]
     if not valid:
-        logger.warning("测速后无有效源，将保留全部原始源")
+        logger.warning("测速后无有效源，保留全部原始源")
         return channels
-
     valid_sorted = sorted(valid, key=lambda x: results[x[1]])
     keep_count = max(1, int(len(valid_sorted) * SPEED_KEEP_RATIO))
     kept = valid_sorted[:keep_count]
-    logger.info(f"测速完成：有效 {len(valid)} 个，保留速度最快的 {keep_count} 个（{SPEED_KEEP_RATIO*100:.0f}%）")
+    logger.info(f"有效 {len(valid)} 个，保留最快 {keep_count} 个 ({SPEED_KEEP_RATIO*100:.0f}%)")
     return kept
 
 def generate_m3u(channels: List[Tuple[str, str]], update_time: str) -> str:
     """
-    生成 M3U 文件：
-    - 只输出有分类的频道（丢弃 classify_channel 返回 None 的频道）
-    - 最后固定添加“更新时间”频道，放在“灵鹿整合”分类下
-    - 不再输出文件末尾的时间注释
+    生成M3U，分类顺序固定：
+    央视 → 卫视 → 卡通动漫 → 香港台 → 其他频道（如果存在） → 灵鹿整合（更新时间）
+    每个分类内可按速度排序或名称排序
     """
-    # 先过滤掉未匹配分类的频道
-    filtered = []
+    # 先对每个频道分类
+    classified = []
     for name, url in channels:
         cat = classify_channel(name)
         if cat is not None:
-            filtered.append((name, url, cat))
+            classified.append((name, url, cat))
         else:
+            # cat为None时丢弃（仅当KEEP_UNMATCHED=False时发生）
             logger.debug(f"丢弃未匹配频道: {name}")
-
-    # 按分类分组
-    grouped = {}
-    for name, url, cat in filtered:
+    
+    # 分组
+    grouped: Dict[str, List[Tuple[str, str]]] = {}
+    for name, url, cat in classified:
         grouped.setdefault(cat, []).append((name, url))
-
+    
+    # 对每个分类内的频道排序
+    for cat in grouped:
+        if SORT_BY_SPEED and SPEED_TEST_ENABLE:
+            # 注意：此时channels已经是测速后的，但grouped内顺序未按速度重排
+            # 需要根据测速结果排序（测速结果保存在全局变量？不便，简单起见按名称排序）
+            # 为简化，测速后filter_by_speed已经按速度排序返回了列表，但分组后顺序丢失。
+            # 改进：在调用generate_m3u之前，channels已经是排序后的列表，分组时保持顺序。
+            # 下面实现分组时保留原始顺序（即channels的顺序，已经按速度排好）
+            # 因此不需要额外排序。我们只需确保传入的channels是排好序的。
+            pass
+        else:
+            # 按频道名称排序
+            grouped[cat].sort(key=lambda x: x[0])
+    
     lines = ["#EXTM3U", ""]
-    order = ["央视", "卫视", "卡通动漫", "香港台"]
-    for cat in order:
+    # 按固定顺序输出分类
+    for cat in CATEGORY_ORDER:
         if cat in grouped:
             lines.append(f"# 分类: {cat} ({len(grouped[cat])}个频道)")
             for name, url in grouped[cat]:
@@ -269,45 +300,41 @@ def generate_m3u(channels: List[Tuple[str, str]], update_time: str) -> str:
                 lines.append(f'#EXTINF:-1 group-title="{cat}",{safe_name}')
                 lines.append(url)
             lines.append("")
-    # 输出其他分类（不在 order 中的）
+    # 输出其他分类（比如“其他频道”或其他动态分类）
     for cat, chs in grouped.items():
-        if cat not in order:
+        if cat not in CATEGORY_ORDER and cat != INFO_GROUP_TITLE:
             lines.append(f"# 分类: {cat} ({len(chs)}个频道)")
             for name, url in chs:
                 safe_name = name.replace(',', ' ').strip()
                 lines.append(f'#EXTINF:-1 group-title="{cat}",{safe_name}')
                 lines.append(url)
             lines.append("")
-
-    # 固定添加更新时间频道（放在“灵鹿整合”分类下）
+    # 最后添加更新时间频道
     lines.append(f"# 分类: {INFO_GROUP_TITLE} (1个频道)")
     lines.append(f'#EXTINF:-1 group-title="{INFO_GROUP_TITLE}",{UPDATE_CHANNEL_NAME}')
     lines.append(UPDATE_CHANNEL_URL)
     lines.append("")
-
     return "\n".join(lines)
 
 def main():
-    logger.info("=== 直播源采集器启动（带测速 + 更新时间频道）===")
+    logger.info("=== 直播源采集器启动（多源合并 + 固定分类排序）===")
     beijing_time = get_beijing_time()
     logger.info(f"北京时间: {beijing_time}")
 
-    raw = fetch_data()
-    channels = []
-    if raw:
-        if raw.strip().startswith('#EXTM3U'):
-            channels = parse_m3u(raw)
-        if not channels and (raw.strip().startswith('{') or raw.strip().startswith('[')):
-            channels = parse_json(raw)
-        if not channels:
-            channels = parse_generic(raw)
-        logger.info(f"解析到 {len(channels)} 个频道")
-    else:
-        logger.error("获取原始数据失败")
-
-    # 若本次无频道，尝试从备份恢复（但备份中可能包含其他频道分类，恢复后也会被过滤）
-    if not channels:
-        logger.warning("当前采集频道数为0，尝试使用上次备份")
+    all_channels = []
+    # 依次采集每个源
+    for url in SOURCE_URLS:
+        raw = fetch_single_source(url)
+        if raw:
+            channels = parse_content(raw)
+            logger.info(f"从 {url} 解析到 {len(channels)} 个频道")
+            all_channels.extend(channels)
+        else:
+            logger.warning(f"源 {url} 采集失败")
+    
+    # 如果所有源都失败，尝试从备份恢复
+    if not all_channels:
+        logger.warning("所有源均未采集到频道，尝试使用上次备份")
         backup_m3u = load_backup()
         if backup_m3u:
             url_pat = re.compile(r'(https?://[^\s<>"\'()]+)')
@@ -315,38 +342,44 @@ def main():
             names = name_pat.findall(backup_m3u)
             urls = url_pat.findall(backup_m3u)
             min_len = min(len(names), len(urls))
-            channels = [(names[i].strip(), urls[i]) for i in range(min_len)]
-            logger.info(f"从备份恢复 {len(channels)} 个频道")
+            all_channels = [(names[i].strip(), urls[i]) for i in range(min_len)]
+            logger.info(f"从备份恢复 {len(all_channels)} 个频道")
         else:
-            logger.error("没有可用备份，将生成空列表")
-
-    # 去重
+            logger.error("没有可用备份")
+            sys.exit(1)
+    
+    # 去重（基于URL）
     seen = set()
     unique = []
-    for name, url in channels:
+    for name, url in all_channels:
         if url not in seen:
             seen.add(url)
             unique.append((name, url))
-    logger.info(f"去重后 {len(unique)} 个频道")
-
-    # 测速过滤
+    logger.info(f"去重后剩余 {len(unique)} 个频道")
+    
+    # 测速（会返回按速度排序后的列表）
     if unique and SPEED_TEST_ENABLE:
         unique = filter_by_speed(unique)
-
-    # 生成 M3U（内部会丢弃未匹配分类的频道）
+        # filter_by_speed 返回的列表已经是按速度从快到慢排序
+    elif SORT_BY_SPEED:
+        # 如果没测速但要求按速度排序，则不做排序（保持原序）
+        pass
+    else:
+        # 按频道名称排序
+        unique.sort(key=lambda x: x[0])
+    
+    # 生成M3U（分类内顺序基于传入的unique顺序，即如果测速了就是按速度排）
     m3u_content = generate_m3u(unique, beijing_time)
-
-    # 写入文件
+    
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write(m3u_content)
     logger.info(f"已写入 {OUTPUT_FILE}")
-
-    # 备份（只备份非空且有效）
+    
     if unique:
         save_backup(m3u_content)
     else:
         logger.warning("频道数为0，未更新备份")
-
+    
     logger.info("=== 采集完成 ===")
 
 if __name__ == "__main__":
