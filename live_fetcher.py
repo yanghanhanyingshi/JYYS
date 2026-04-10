@@ -24,6 +24,7 @@ import time
 # 多源采集列表（按顺序依次采集，合并去重）
 SOURCE_URLS = [
     "https://proxy.api.030101.xyz/kuyun.814555752.workers.dev/",
+    "https://proxy.api.030101.xyz/linglu.814555752.workers.dev/",
     # 可以添加更多源，例如：
     # "https://另一个代理地址/live.txt",
 ]
