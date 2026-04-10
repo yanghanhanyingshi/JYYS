@@ -1,4 +1,4 @@
-name: 直播源自动采集
+name: 家用直播源自动采集2
 
 on:
   schedule:
