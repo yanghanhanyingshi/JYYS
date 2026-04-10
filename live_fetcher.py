@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-直播源采集器（多源合并 + 固定分类排序 + 测速）
+直播源采集器（多源合并 + 固定分类排序 + 央视数字排序 + 测速）
 - 支持多个采集源，自动合并去重
 - 输出分类固定顺序：央视 → 卫视 → 卡通动漫 → 香港台 → 其他频道
-- 可选保留未匹配频道（归入“其他频道”）
+- 央视分类内按频道名中的数字顺序排列（CCTV1, CCTV2, ...）
+- 其他分类可按速度或名称排序
 - 保留“更新时间”频道（灵鹿整合分类）
 """
 
@@ -38,7 +39,7 @@ SPEED_TEST_ENABLE = True          # 是否启用测速
 SPEED_TIMEOUT = 5                 # 单个源测速超时（秒）
 MAX_WORKERS = 10                  # 并发测速线程数
 SPEED_KEEP_RATIO = 0.8            # 保留速度前80%的源
-SORT_BY_SPEED = True              # True: 分类内按速度排序（快→慢）；False: 按频道名排序
+SORT_BY_SPEED = True              # True: 非央视分类按速度排序（快→慢）；False: 按频道名排序
 
 # 未匹配频道处理：True=保留并归入“其他频道”，False=丢弃
 KEEP_UNMATCHED = True
@@ -88,6 +89,36 @@ def classify_channel(name: str) -> str:
         return "其他频道"
     else:
         return None
+
+def extract_cctv_number(channel_name: str) -> int:
+    """
+    从央视频道名中提取数字，用于排序。
+    例如：CCTV1 -> 1, CCTV5+ -> 5, 中央一台 -> 1, 中央十五台 -> 15
+    无法提取的返回 9999（排在最后）
+    """
+    name = channel_name.lower()
+    # 匹配 "cctv" 后的数字（可能带加号或减号）
+    m = re.search(r'cctv[-]?(\d+)', name)
+    if m:
+        return int(m.group(1))
+    # 匹配 "中央" 后的数字（中央一台 -> 1）
+    m = re.search(r'中央[一二三四五六七八九十\d]+台', name)
+    if m:
+        # 简单处理：提取数字或中文数字
+        text = m.group()
+        # 中文数字映射
+        chinese_num = {'一':1, '二':2, '三':3, '四':4, '五':5, '六':6, '七':7, '八':8, '九':9, '十':10}
+        for ch, num in chinese_num.items():
+            if ch in text:
+                return num
+        # 直接数字
+        num_match = re.search(r'(\d+)', text)
+        if num_match:
+            return int(num_match.group(1))
+    # 匹配 "cctv" 后无数字的（如 cctv）返回 0
+    if 'cctv' in name and not re.search(r'cctv\s*\d', name):
+        return 0
+    return 9999
 
 def fetch_single_source(url: str) -> Optional[str]:
     """从单个源获取原始数据"""
@@ -259,7 +290,9 @@ def generate_m3u(channels: List[Tuple[str, str]], update_time: str) -> str:
     """
     生成M3U，分类顺序固定：
     央视 → 卫视 → 卡通动漫 → 香港台 → 其他频道（如果存在） → 灵鹿整合（更新时间）
-    每个分类内可按速度排序或名称排序
+    央视分类内按数字顺序排序（CCTV1, CCTV2, ...）
+    其他分类：如果 SORT_BY_SPEED=True 且测速启用，则保持速度顺序（传入列表已按速度排序）；
+             否则按频道名排序。
     """
     # 先对每个频道分类
     classified = []
@@ -268,27 +301,23 @@ def generate_m3u(channels: List[Tuple[str, str]], update_time: str) -> str:
         if cat is not None:
             classified.append((name, url, cat))
         else:
-            # cat为None时丢弃（仅当KEEP_UNMATCHED=False时发生）
             logger.debug(f"丢弃未匹配频道: {name}")
     
-    # 分组
+    # 分组（保持传入顺序，这样非央视分类若已按速度排序则顺序保留）
     grouped: Dict[str, List[Tuple[str, str]]] = {}
     for name, url, cat in classified:
         grouped.setdefault(cat, []).append((name, url))
     
-    # 对每个分类内的频道排序
-    for cat in grouped:
-        if SORT_BY_SPEED and SPEED_TEST_ENABLE:
-            # 注意：此时channels已经是测速后的，但grouped内顺序未按速度重排
-            # 需要根据测速结果排序（测速结果保存在全局变量？不便，简单起见按名称排序）
-            # 为简化，测速后filter_by_speed已经按速度排序返回了列表，但分组后顺序丢失。
-            # 改进：在调用generate_m3u之前，channels已经是排序后的列表，分组时保持顺序。
-            # 下面实现分组时保留原始顺序（即channels的顺序，已经按速度排好）
-            # 因此不需要额外排序。我们只需确保传入的channels是排好序的。
-            pass
-        else:
-            # 按频道名称排序
-            grouped[cat].sort(key=lambda x: x[0])
+    # 对央视分类进行数字排序
+    if "央视" in grouped:
+        grouped["央视"].sort(key=lambda x: extract_cctv_number(x[0]))
+        logger.info("央视频道已按数字顺序排序")
+    
+    # 对其他分类，若未启用速度排序或未测速，则按名称排序
+    if not SORT_BY_SPEED or not SPEED_TEST_ENABLE:
+        for cat, chs in grouped.items():
+            if cat != "央视":  # 央视已经排过序了
+                chs.sort(key=lambda x: x[0])
     
     lines = ["#EXTM3U", ""]
     # 按固定顺序输出分类
@@ -317,7 +346,7 @@ def generate_m3u(channels: List[Tuple[str, str]], update_time: str) -> str:
     return "\n".join(lines)
 
 def main():
-    logger.info("=== 直播源采集器启动（多源合并 + 固定分类排序）===")
+    logger.info("=== 直播源采集器启动（多源合并 + 央视数字排序）===")
     beijing_time = get_beijing_time()
     logger.info(f"北京时间: {beijing_time}")
 
@@ -357,18 +386,15 @@ def main():
             unique.append((name, url))
     logger.info(f"去重后剩余 {len(unique)} 个频道")
     
-    # 测速（会返回按速度排序后的列表）
+    # 测速（返回按速度排序后的列表）
     if unique and SPEED_TEST_ENABLE:
         unique = filter_by_speed(unique)
         # filter_by_speed 返回的列表已经是按速度从快到慢排序
-    elif SORT_BY_SPEED:
-        # 如果没测速但要求按速度排序，则不做排序（保持原序）
-        pass
-    else:
-        # 按频道名称排序
+    elif not SORT_BY_SPEED:
+        # 如果不按速度排序，按频道名称排序（但央视后续会再按数字排序，所以整体排序也可）
         unique.sort(key=lambda x: x[0])
     
-    # 生成M3U（分类内顺序基于传入的unique顺序，即如果测速了就是按速度排）
+    # 生成M3U（内部对央视进行数字排序，其他分类按需保留速度顺序或名称顺序）
     m3u_content = generate_m3u(unique, beijing_time)
     
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
