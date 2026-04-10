@@ -1,4 +1,4 @@
-name: 直播源自动采集2
+name: 直播源自动采集
 
 on:
   schedule:
@@ -11,25 +11,46 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: 检出代码
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: actions/setup-python@v5
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
+
       - name: 安装依赖
-        run: pip install requests
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
       - name: 运行采集脚本
         run: python live_fetcher.py
-      - name: 提交并推送
+
+      - name: 提交并推送结果
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # 暂存所有未提交的更改（包括新生成的文件）
+          git stash push --include-untracked -m "auto-stash-before-pull"
+
+          # 拉取远程最新代码并 rebase
           git pull --rebase origin main
+
+          # 恢复暂存的内容（可能会产生冲突，但这里生成的文件与远程不冲突）
+          git stash pop || true
+
+          # 添加生成的文件（忽略不存在的情况）
           git add live_sources.m3u live_sources.m3u.bak 2>/dev/null || true
+
+          # 如果有变更则提交并推送
           if git diff --staged --quiet; then
-            echo "无变化，跳过提交"
+            echo "没有变化，跳过提交"
           else
             git commit -m "自动更新直播源 $(date '+%Y-%m-%d %H:%M:%S')"
             git push origin main
