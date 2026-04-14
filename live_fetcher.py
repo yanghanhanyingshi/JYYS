@@ -33,6 +33,7 @@ SOURCE_URLS = [
 ]
 
 OUTPUT_FILE = "live_sources.m3u"
+OUTPUT_FILE_TXT = "live_sources.txt"  # 新增 TXT 输出
 BACKUP_FILE = "live_sources.m3u.bak"
 TIMEOUT = 15
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -349,6 +350,13 @@ def generate_m3u(channels: List[Tuple[str, str]], update_time: str) -> str:
     lines.append("")
     return "\n".join(lines)
 
+# 新增：生成 TXT 格式内容（频道名,链接）
+def generate_txt(channels: List[Tuple[str, str]]) -> str:
+    lines = []
+    for name, url in channels:
+        lines.append(f"{name},{url}")
+    return "\n".join(lines)
+
 def main():
     logger.info("=== 直播源采集器启动（多源合并 + 央视数字排序）===")
     beijing_time = get_beijing_time()
@@ -398,12 +406,17 @@ def main():
         # 如果不按速度排序，按频道名称排序（但央视后续会再按数字排序，所以整体排序也可）
         unique.sort(key=lambda x: x[0])
     
-    # 生成M3U（内部对央视进行数字排序，其他分类按需保留速度顺序或名称顺序）
+    # 生成 M3U
     m3u_content = generate_m3u(unique, beijing_time)
-    
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write(m3u_content)
     logger.info(f"已写入 {OUTPUT_FILE}")
+
+    # 生成 TXT 【新增】
+    txt_content = generate_txt(unique)
+    with open(OUTPUT_FILE_TXT, 'w', encoding='utf-8') as f:
+        f.write(txt_content)
+    logger.info(f"已写入 {OUTPUT_FILE_TXT}")
     
     if unique:
         save_backup(m3u_content)
