@@ -23,7 +23,7 @@ import time
 # ==================== 配置区域 ====================
 # 多源采集列表（按顺序依次采集，合并去重）
 SOURCE_URLS = [
-    "https://wget.la/https://github.com/yanghanhanyingshi/gyys/blob/main/best_sorted.m3u",
+    "https://wget.la/https://github.com/yanghanhanyingshi/GYYS/blob/main/best_sorted.m3u",
     "https://proxy.api.030101.xyz/kuyun.814555752.workers.dev",
     "https://proxy.api.030101.xyz/linglu.814555752.workers.dev",
     "https://kuyutv.ccwu.cc",
