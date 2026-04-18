@@ -14,7 +14,6 @@ SOURCES = [
     "https://wget.la/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
     "https://wget.la/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u",
     "https://wget.la/https://github.com/fafa002/yf2025/blob/main/yiyifafa.txt",
-    "https://wget.la/https://github.com/adminouyang/231006/blob/main/py/TV/output/ipv4/result.txt",
     "https://wget.la/https://github.com/st800820/iptv-api/blob/master/output/ipv4/result.txt",
     "https://dsj-131269435.cos.ap-guangzhou.myqcloud.com/dsj10.1.txt",
     "http://ge.html-5.me//ii/%E9%BB%83%E8%9A%82%E8%9A%81%E5%85%88%E9%94%8B%E6%8E%A8%E6%B5%81%E6%BA%90.txt"
