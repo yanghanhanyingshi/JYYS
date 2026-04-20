@@ -24,6 +24,7 @@ import time
 # 多源采集列表（按顺序依次采集，合并去重）
 SOURCE_URLS = [
     "https://wget.la/https://github.com/yanghanhanyingshi/GYYS/blob/main/best_sorted.m3u",
+    "https://linglu.814555752.workers.dev",
     "https://lingluzhibo.ccwu.cc",
     # 可以添加更多源，例如：
     # "https://另一个代理地址/live.txt",
