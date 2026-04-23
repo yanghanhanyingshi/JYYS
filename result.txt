@@ -2209,4 +2209,4 @@ TVB Plus,http://2:2@113.89.101.85:9981/stream/channelid/1354578766?profile=htsp$
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 成都少儿,http://183.214.23.16:2380/hw1live.rxip.sc96655.com.huan.tv/live/CDTV-6_2000.m3u8$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260424 03:18,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260424 05:52,https://d.kstore.dev/download/7547/20260401003530.mp4
