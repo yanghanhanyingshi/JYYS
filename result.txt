@@ -2086,6 +2086,10 @@ TVBS新闻,http://jnzq.ohoyee.com:9080/live/xingjiaoge-tvbsxw.m3u8$LR•IPV4•2
 港台電視 32,http://2:2@113.89.101.85:9981/stream/channelid/1136133890?profile=htsp$LR•IPV4•29『线路1』
 TVB Plus,http://2:2@113.89.101.85:9981/stream/channelid/1354578766?profile=htsp$LR•IPV4•29『线路1』
 鳳凰衛視香港台,http://2:2@113.89.101.85:9981/stream/channelid/1091885173?profile=htsp$LR•IPV4•29『线路1』
+鳳凰衛視香港台,https://a3f1b2.kylintv.tv/live/pxhkus_iphone.m3u8$LR•IPV4•29『线路2』
+TVB星河頻道,http://46.38.157.60:53874/proxy/eec374cc1e8d1626.m3u8$LR•IPV4•29『线路1』
+RTHK 33,http://46.38.157.60:53874/proxy/0fdfa04b92f5c594.m3u8$LR•IPV4•29『线路1』
+TVBS,https://a3f1b2.kylintv.tv/live/tvbshd_iphone.m3u8$LR•IPV4•29『线路1』
 凤凰香港频标,http://m.061899.xyz/mg/fhhk$LR•IPV4•29『线路1』
 经典香港电影,http://k.061899.xyz/k.php?id=xgdy$LR•IPV4•29『线路1』
 经典香港电影,http://119.29.233.26:1234/625703337$LR•IPV4•29『线路2』
@@ -2207,4 +2211,4 @@ TVB Plus,http://2:2@113.89.101.85:9981/stream/channelid/1354578766?profile=htsp$
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 成都少儿,http://183.214.23.16:2380/hw1live.rxip.sc96655.com.huan.tv/live/CDTV-6_2000.m3u8$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260424 21:45,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260425 00:07,https://d.kstore.dev/download/7547/20260401003530.mp4
