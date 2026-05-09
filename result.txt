@@ -1800,4 +1800,4 @@ TVB Plus,http://zwg6818.vicp.net:28000/bysid/82$LR•IPV4•29『线路3』
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260509 16:01,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260509 18:09,https://d.kstore.dev/download/7547/20260401003530.mp4
