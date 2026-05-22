@@ -1799,6 +1799,7 @@ TVBS新聞,https://iptv.852851.xyz/ch/34dfa3110b23be3964e6630ef747a71b/master.m3
 TVBS新聞,https://test.946985.filegear-sg.me/proxy/aeeed2eb197331b1$LR•IPV4•29『线路3』
 TVBS精采,http://iptv.4666888.xyz/iptv2A.php?id=47$LR•IPV4•29『线路1』
 TVBS新闻,http://jnzq.ohoyee.com:9080/live/xingjiaoge-tvbsxw.m3u8$LR•IPV4•29『线路1』
+TVB新闻,https://3ea9e6-31f5e6.kylintv.tv/live/tvbnews_iphone.m3u8$LR•IPV4•29『线路1』
 鳳凰衛視香港台,https://iptv.852851.xyz/ch/1183bed3a5b7e98e94e1ca51f890a1bb/master.m3u8$LR•IPV4•29『线路1』
 鳳凰衛視香港台,https://test.946985.filegear-sg.me/proxy/ba40adf45ca80e66$LR•IPV4•29『线路2』
 TVB Plus,https://iptv.852851.xyz/ch/c5b298dd4959390d55e5028330511be1/master.m3u8$LR•IPV4•29『线路1』
@@ -1930,4 +1931,4 @@ TVBS精采台,https://test.946985.filegear-sg.me/proxy/6cece77d92558ddc$LR•IPV
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260522 06:22,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260522 12:02,https://d.kstore.dev/download/7547/20260401003530.mp4
