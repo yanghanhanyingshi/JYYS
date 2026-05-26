@@ -1432,21 +1432,25 @@ RTHK31,http://iptv.4666888.xyz/iptv2A.php?id=23$LR•IPV4•29『线路1』
 TVB娛樂新聞,http://iptv.4666888.xyz/iptv2A.php?id=36$LR•IPV4•29『线路1』
 TVB翡翠劇集,http://iptv.4666888.xyz/iptv2A.php?id=33$LR•IPV4•29『线路1』
 TVBS新聞,http://iptv.4666888.xyz/iptv2A.php?id=43$LR•IPV4•29『线路1』
-TVBS新聞,https://iptv.852851.xyz/ch/34dfa3110b23be3964e6630ef747a71b/master.m3u8$LR•IPV4•29『线路2』
-TVBS新聞,https://test.946985.filegear-sg.me/proxy/aeeed2eb197331b1$LR•IPV4•29『线路3』
+TVBS新聞,https://4gtv.158.qzz.io/163189/c8e17fe8-dcc5-426b-ae9a-a898fe305d30/$LR•IPV4•29『线路2』
+TVBS新聞,https://4gtv.158.qzz.io/163189/59c88c85-193e-4be8-a7ed-6e225192abf1/$LR•IPV4•29『线路3』
+TVBS新聞,https://iptv.852851.xyz/ch/34dfa3110b23be3964e6630ef747a71b/master.m3u8$LR•IPV4•29『线路4』
 TVBS精采,http://iptv.4666888.xyz/iptv2A.php?id=47$LR•IPV4•29『线路1』
 TVBS新闻,http://jnzq.ohoyee.com:9080/live/xingjiaoge-tvbsxw.m3u8$LR•IPV4•29『线路1』
 TVB新闻,https://3ea9e6-31f5e6.kylintv.tv/live/tvbnews_iphone.m3u8$LR•IPV4•29『线路1』
+TVBS精采台,https://4gtv.158.qzz.io/163189/acd6cbf9-8405-49c0-bf37-f7c620ccc391/$LR•IPV4•29『线路1』
+TVBS精采台,https://iptv.852851.xyz/ch/bb3281a447bf2b92e8649856a3cf47e4/master.m3u8$LR•IPV4•29『线路2』
+TVBS,https://4gtv.158.qzz.io/163189/5c95e227-8109-4d5a-ad31-a5456eeba506/$LR•IPV4•29『线路1』
+TVBS,https://4gtv.158.qzz.io/163189/ac9fc30c-1caf-401e-a373-9a8cc054b527/$LR•IPV4•29『线路2』
+TVBS,https://iptv.852851.xyz/ch/490e01bc4bc49c735fdf421170bb4536/master.m3u8$LR•IPV4•29『线路3』
+TVBS歡樂台,https://4gtv.158.qzz.io/163189/1e0bdf17-436e-40d9-b442-ca3e2bf3d1db/$LR•IPV4•29『线路1』
+TVBS歡樂台,https://iptv.852851.xyz/ch/8e237e2c45602fe3eebb9890fa3ff31c/master.m3u8$LR•IPV4•29『线路2』
+TVBS綜藝台,https://4gtv.158.qzz.io/163189/c51c7491-9544-4c60-8a52-561bb11d4c7f/$LR•IPV4•29『线路1』
+TVBS台劇台,https://4gtv.158.qzz.io/163189/a5943c7d-606d-495c-89c3-17a678a35207/$LR•IPV4•29『线路1』
+TVB Plus,https://iptv.852851.xyz/ch/c5b298dd4959390d55e5028330511be1/master.m3u8$LR•IPV4•29『线路1』
 鳳凰衛視香港台,https://iptv.852851.xyz/ch/1183bed3a5b7e98e94e1ca51f890a1bb/master.m3u8$LR•IPV4•29『线路1』
 鳳凰衛視香港台,https://test.946985.filegear-sg.me/proxy/ba40adf45ca80e66$LR•IPV4•29『线路2』
-TVB Plus,https://iptv.852851.xyz/ch/c5b298dd4959390d55e5028330511be1/master.m3u8$LR•IPV4•29『线路1』
-TVB Plus,https://test.946985.filegear-sg.me/proxy/017a0e2f8f6d4269$LR•IPV4•29『线路2』
-TVBS,https://iptv.852851.xyz/ch/490e01bc4bc49c735fdf421170bb4536/master.m3u8$LR•IPV4•29『线路1』
-TVBS,https://test.946985.filegear-sg.me/proxy/9376eaeb02d189d2$LR•IPV4•29『线路2』
-TVBS歡樂台,https://iptv.852851.xyz/ch/8e237e2c45602fe3eebb9890fa3ff31c/master.m3u8$LR•IPV4•29『线路1』
-TVBS歡樂台,https://test.946985.filegear-sg.me/proxy/84820d3dc03cb8b7$LR•IPV4•29『线路2』
-TVBS精采台,https://iptv.852851.xyz/ch/bb3281a447bf2b92e8649856a3cf47e4/master.m3u8$LR•IPV4•29『线路1』
-TVBS精采台,https://test.946985.filegear-sg.me/proxy/6cece77d92558ddc$LR•IPV4•29『线路2』
+TVB Jade,https://iptv.852851.xyz/ch/6465962c575c09cd87e5fb873dfdb7aa/master.m3u8$LR•IPV4•29『线路1』
 凤凰香港频标,http://m.061899.xyz/mg/fhhk$LR•IPV4•29『线路1』
 经典香港电影,http://k.061899.xyz/k.php?id=xgdy$LR•IPV4•29『线路1』
 香港院线大片-最新,https://live.ottiptv.cc/yy/1354936242$LR•IPV4•29『线路1』
@@ -1550,4 +1554,4 @@ TVBS精采台,https://test.946985.filegear-sg.me/proxy/6cece77d92558ddc$LR•IPV
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260526 18:03,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260526 23:47,https://d.kstore.dev/download/7547/20260401003530.mp4
