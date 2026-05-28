@@ -806,7 +806,6 @@ CCTV17农业农村,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv17hd$LR•IPV
 河南卫视,https://live.264788.xyz/channel/henanweishi?streamid=f7e5ccdb8224cba29c8c4b459e3d7d5e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路23』
 河南卫视,https://live.264788.xyz/channel/henanweishi?streamid=ffc9cbdd1791aa15a6321452d620baff&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路24』
 河南卫视,http://207.56.13.146:81/cdnlive/haws.m3u8$LR•IPV4•29『线路25』
-河南卫视,http://113.96.145.58/tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=946f0f67d2d9bd1a0f461a373eaa9eed&wsTime=1780005245&wsSession=4a249b9989e84b610fd2e7b9-177999160872440&wsIPSercert=f1ed5e80c31ab65580d88c6bbb451005&wsBindIP=2&wsserid=1168295651943468247$LR•IPV4•29『线路26』
 湖北卫视,http://111.221.137.234:44330/tsfile/live/0139_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路1』
 湖北卫视,http://go.bkpcp.top/mg/hubws$LR•IPV4•29『线路2』
 湖北卫视,http://m.061899.xyz/mg/hubws$LR•IPV4•29『线路3』
@@ -1172,7 +1171,6 @@ TVBS歡樂台,https://iptv.852851.xyz/ch/8e237e2c45602fe3eebb9890fa3ff31c/master
 鳳凰衛視香港台,https://test.946985.filegear-sg.me/proxy/ba40adf45ca80e66$LR•IPV4•29『线路1』
 凤凰香港频标,http://m.061899.xyz/mg/fhhk$LR•IPV4•29『线路1』
 经典香港电影,http://k.061899.xyz/k.php?id=xgdy$LR•IPV4•29『线路1』
-香港院线大片-最新,https://live.ottiptv.cc/yy/1354936242$LR•IPV4•29『线路1』
 香港第三台,https://rthkaudio3-lh.akamaihd.net/i/radio3_1@355866/master.m3u8$LR•IPV4•29『线路1』
 香港古典音乐,https://rthkradio1-live.akamaized.net/hls/live/2035313/radio1/master.m3u8?sd=10&rebase=on$LR•IPV4•29『线路1』
 少儿动画,#genre#
@@ -1245,4 +1243,4 @@ TVBS歡樂台,https://iptv.852851.xyz/ch/8e237e2c45602fe3eebb9890fa3ff31c/master
 江西少儿,http://192.151.150.154/live/jxtv6.m3u8$LR•IPV4•29『线路2』
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 灵鹿整合,#genre#
-20260529 04:29,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260529 06:42,https://d.kstore.dev/download/7547/20260401003530.mp4
