@@ -1371,7 +1371,6 @@ TVBS歡樂台,https://4gtv.158.qzz.io/163189/1e0bdf17-436e-40d9-b442-ca3e2bf3d1d
 凤凰香港频标,http://m.061899.xyz/mg/fhhk$LR•IPV4•29『线路1』
 经典香港电影,http://k.061899.xyz/k.php?id=xgdy$LR•IPV4•29『线路1』
 【快看张不疯】带你看香港经典电影,https://www.goodiptv.club/douyu/8413226$LR•IPV4•29『线路1』
-老牌香港明星的最全八卦,https://www.goodiptv.club/douyu/9970047$LR•IPV4•29『线路1』
 香港第三台,https://rthkaudio3-lh.akamaihd.net/i/radio3_1@355866/master.m3u8$LR•IPV4•29『线路1』
 香港古典音乐,https://rthkradio1-live.akamaized.net/hls/live/2035313/radio1/master.m3u8?sd=10&rebase=on$LR•IPV4•29『线路1』
 少儿动画,#genre#
@@ -1434,12 +1433,14 @@ TVBS歡樂台,https://4gtv.158.qzz.io/163189/1e0bdf17-436e-40d9-b442-ca3e2bf3d1d
 广东少儿,http://jellyfin.cyruslee.top:8888/udp/239.77.0.250:5146$LR•IPV4•29『线路12』
 广东少儿,http://www.3344.uk:8888/udp/239.77.0.250:5146$LR•IPV4•29『线路13』
 广东少儿,http://ikuai.cyruslee.top:8888/udp/239.77.0.250:5146$LR•IPV4•29『线路14』
-广东少儿,http://yanshifen.top:8889/udp/239.77.0.250:5146$LR•IPV4•29『线路15』
-广东少儿,http://61.145.188.90:50055/udp/239.77.0.250:5146$LR•IPV4•29『线路16』
-广东少儿,http://38.75.136.137:98/gslb/dsdqpub/gdtvs5.m3u8?auth=testpub$LR•IPV4•29『线路17』
-广东少儿,http://107.150.60.122/live/gdtvs5.m3u8$LR•IPV4•29『线路18』
-广东少儿,http://192.151.150.154/live/gdtvs5.m3u8$LR•IPV4•29『线路19』
-广东少儿,http://198.204.228.26/live/gdtvs5.m3u8$LR•IPV4•29『线路20』
+广东少儿,http://vp.maomizi.cc:9530/udp/239.77.0.250:5146$LR•IPV4•29『线路15』
+广东少儿,http://yanshifen.top:8889/udp/239.77.0.250:5146$LR•IPV4•29『线路16』
+广东少儿,http://www.maomizi.cn:9527/udp/239.77.0.250:5146$LR•IPV4•29『线路17』
+广东少儿,http://61.145.188.90:50055/udp/239.77.0.250:5146$LR•IPV4•29『线路18』
+广东少儿,http://38.75.136.137:98/gslb/dsdqpub/gdtvs5.m3u8?auth=testpub$LR•IPV4•29『线路19』
+广东少儿,http://107.150.60.122/live/gdtvs5.m3u8$LR•IPV4•29『线路20』
+广东少儿,http://192.151.150.154/live/gdtvs5.m3u8$LR•IPV4•29『线路21』
+广东少儿,http://198.204.228.26/live/gdtvs5.m3u8$LR•IPV4•29『线路22』
 重庆少儿,http://38.75.136.137:98/gslb/dsdqpub/cqse.m3u8?auth=testpub$LR•IPV4•29『线路1』
 福建少儿,https://live.264788.xyz/channel/fujianshaoer?streamid=98ccc174671e43f0e307e3445e59e2b5&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路1』
 福建少儿,https://live.264788.xyz/channel/fujianshaoer?streamid=e835a9456b847a72e1a0b8d64b585300&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路2』
@@ -1447,4 +1448,4 @@ TVBS歡樂台,https://4gtv.158.qzz.io/163189/1e0bdf17-436e-40d9-b442-ca3e2bf3d1d
 江西少儿,http://192.151.150.154/live/jxtv6.m3u8$LR•IPV4•29『线路2』
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 灵鹿整合,#genre#
-20260612 04:26,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260612 06:50,https://d.kstore.dev/download/7547/20260401003530.mp4
