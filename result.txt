@@ -162,8 +162,8 @@ CCTV4,https://iptv.catvod.com/live.php?id=CCTV4&line=5$LR•IPV4•29『线路54
 CCTV4,https://iptv.catvod.com/live.php?id=CCTV4&line=9$LR•IPV4•29『线路55』
 CCTV4,https://iptv.catvod.com/live.php?id=CCTV4&line=13$LR•IPV4•29『线路56』
 CCTV4,https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1781744400-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-92501d72a2d32f61242446edd86de0b9&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c$LR•IPV4•29『线路57』
-CCTV5,https://live12.szyac.com/live/85042987.m3u8$LR•IPV4•29『线路1』
-CCTV5,https://live.666666.zip/stream/85042987.m3u8$LR•IPV4•29『线路2』
+CCTV5,https://live.wxinxi.com/live/25816724_sb2maw7iluj1ghr92sk5siud28tpimx0.m3u8$LR•IPV4•29『线路1』
+CCTV5,https://live.666666.zip/stream/25816724_sb2maw7iluj1ghr92sk5siud28tpimx0.m3u8$LR•IPV4•29『线路2』
 CCTV5,http://111.221.137.234:44330/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路3』
 CCTV5,http://111.221.137.234:44330/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路4』
 CCTV5,http://111.29.9.33:6610/000000001000/1000000001000004794/index.m3u8?channel-id=bestzb&Contentid=1000000001000004794&livemode=1&stbId=3$LR•IPV4•29『线路5』
@@ -1566,4 +1566,4 @@ TVBS台劇台,https://4gtv.158.qzz.io/163189/a5943c7d-606d-495c-89c3-17a678a3520
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260617 19:04,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260617 23:43,https://d.kstore.dev/download/7547/20260401003530.mp4
