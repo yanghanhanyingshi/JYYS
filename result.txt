@@ -1589,4 +1589,4 @@ TVBS新闻,http://jnzq.ohoyee.com:9080/live/332123-tvbsxw.m3u8$LR•IPV4•29『
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260627 03:55,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260627 06:16,https://d.kstore.dev/download/7547/20260401003530.mp4
