@@ -1475,6 +1475,13 @@ TVB PLUS B,http://www.kaniptv.cn/ua3.php?etoken=4VKy30X3HnmOESxxd2f%2BYZhGLmNZ6i
 凤凰香港台,http://www.kaniptv.cn/ua3.php?etoken=tHKwEoB5X1ueKklwGeyCUGY0y4iXTvnZkXE8d9zDHkbJQYNc9PuChAXifjBlH89GLybiiEfzfHWjvJQy2%2BOdspUxke8IqPDYE8Loe2n77SNxc0PSi0n1Y9eAKL%2B6Seej5a1JTElXsJlmmWqpFbO0OTgtSgVOehhBK7kEOvmM6DdXriRz8gQDtWbBiZI%2B5BO%2Fi%2Ftd2rqjp7kVkKeXCf%2F6W%2B3XgaZRj46tpGNyrzCLFnGcVH%2FG%2BFgxX3LDFbbL1Y1onf%2FG%2BZ79cSI58BXOisgy2HfVR59wZjNRl9pamhOqXn0sdGRnem2Kn9PsMwXln4sA5pIsM3EfcBo%2Bl8rRhwUsYg%3D%3D$LR•IPV4•29『线路1』
 TVB星河台,http://www.kaniptv.cn/ua3.php?etoken=FkzfR%2BO6I%2BqYmM0NVOdMFvcFQeGbIggtmmuiKKnGfZP3B1m8ncchh%2FyYZIRoXaYhzuT2qUw2MVVOjX8coQGDCsO9Ytd2Po5BCJsiRvsLo6DyuDaci0y4j%2BKqRC%2FkL%2BN7G8gyG6QFJ1ty5zl7P7Fc4r19%2BmV%2F4ZJ7OOHU5%2FKH%2F%2BSshFT1ZsdhbqnjsrvCpyYU52yRtSsoU8xdIe8ynHYlS1I8T4BQzDhiAPEUAm118x6nNZYmWNT3iiPZJds5KZdTltIbgohDRgthIBXfgzUBb%2FcG26GAMaeLGJyOF8vsYykMAGfSETYlyuaOd7Q8TuXyIYX33XFKvXNXr8taVslLYg%3D%3D$LR•IPV4•29『线路1』
 TVBS新闻,http://jnzq.ohoyee.com:9080/live/332123-tvbsxw.m3u8$LR•IPV4•29『线路1』
+TVBS精采台,http://4gtv.cnlive.club/channel/49d50255/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
+TVBS新聞,http://4gtv.cnlive.club/channel/n1ea96b20/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
+TVBS新聞,http://iptv.4666888.xyz/iptv2A.php?id=43$LR•IPV4•29『线路2』
+TVBS,http://4gtv.cnlive.club/channel/58f128b2/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
+TVBS歡樂台,http://4gtv.cnlive.club/channel/498f035d/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
+TVBS綜藝台,http://4gtv.cnlive.club/channel/49d6d25d/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
+TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 TVB黃金華劇,http://iptv.4666888.xyz/iptv2A.php?id=34$LR•IPV4•29『线路1』
 TVB翡翠(馬來),http://iptv.4666888.xyz/iptv2A.php?id=28$LR•IPV4•29『线路1』
 TVB明珠,http://iptv.4666888.xyz/iptv2A.php?id=29$LR•IPV4•29『线路1』
@@ -1484,7 +1491,6 @@ TVB-金曲,http://iptv.4666888.xyz/iptv2A.php?id=57$LR•IPV4•29『线路1』
 RTHK31,http://iptv.4666888.xyz/iptv2A.php?id=23$LR•IPV4•29『线路1』
 TVB娛樂新聞,http://iptv.4666888.xyz/iptv2A.php?id=36$LR•IPV4•29『线路1』
 TVB翡翠劇集,http://iptv.4666888.xyz/iptv2A.php?id=33$LR•IPV4•29『线路1』
-TVBS新聞,http://iptv.4666888.xyz/iptv2A.php?id=43$LR•IPV4•29『线路1』
 TVBS精采,http://iptv.4666888.xyz/iptv2A.php?id=47$LR•IPV4•29『线路1』
 凤凰香港频标,http://m.061899.xyz/mg/fhhk$LR•IPV4•29『线路1』
 经典香港电影,http://k.061899.xyz/k.php?id=xgdy$LR•IPV4•29『线路1』
@@ -1600,4 +1606,4 @@ TVBS精采,http://iptv.4666888.xyz/iptv2A.php?id=47$LR•IPV4•29『线路1』
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260628 17:16,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260628 21:55,https://d.kstore.dev/download/7547/20260401003530.mp4
