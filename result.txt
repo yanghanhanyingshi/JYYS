@@ -1474,7 +1474,7 @@ TVB PLUS B,http://www.kaniptv.cn/ua3.php?etoken=4VKy30X3HnmOESxxd2f%2BYZhGLmNZ6i
 有线新闻台,http://www.kaniptv.cn/ua3.php?etoken=BjrldXVRj7MU7pfnjpn9QevM%2F%2BAnG%2F3C6BKcrgYf5f%2BAssEsk6OJn5ZIvLXK7gVEvpDNNCMEjMyHgXmEHD9fdhQItlJGmVUBXWtqnAhgrtLF%2FV73vSFyEIRtMDzGVYBYlriSKWfZ%2BsWqHpfCv2kruiQZK5Y6iLWAV9oJJRUfMtXd5e%2BO6zzKftARQMxAZ4fWycbR%2FOgIrV7wR7maSCprx2P%2Bg9FqcEwHYFEkagmP9t4hskyZ3uzPn3ABLZX72qS0g74tii%2Fly%2FtPl412ox5FxFikJMLAlb59odW6yduIVTBbx9OSvTXtj7XUzX719%2FKloRaYiIFb6FbUg1wbERfJog%3D%3D$LR•IPV4•29『线路1』
 凤凰香港台,http://www.kaniptv.cn/ua3.php?etoken=tHKwEoB5X1ueKklwGeyCUGY0y4iXTvnZkXE8d9zDHkbJQYNc9PuChAXifjBlH89GLybiiEfzfHWjvJQy2%2BOdspUxke8IqPDYE8Loe2n77SNxc0PSi0n1Y9eAKL%2B6Seej5a1JTElXsJlmmWqpFbO0OTgtSgVOehhBK7kEOvmM6DdXriRz8gQDtWbBiZI%2B5BO%2Fi%2Ftd2rqjp7kVkKeXCf%2F6W%2B3XgaZRj46tpGNyrzCLFnGcVH%2FG%2BFgxX3LDFbbL1Y1onf%2FG%2BZ79cSI58BXOisgy2HfVR59wZjNRl9pamhOqXn0sdGRnem2Kn9PsMwXln4sA5pIsM3EfcBo%2Bl8rRhwUsYg%3D%3D$LR•IPV4•29『线路1』
 TVB星河台,http://www.kaniptv.cn/ua3.php?etoken=FkzfR%2BO6I%2BqYmM0NVOdMFvcFQeGbIggtmmuiKKnGfZP3B1m8ncchh%2FyYZIRoXaYhzuT2qUw2MVVOjX8coQGDCsO9Ytd2Po5BCJsiRvsLo6DyuDaci0y4j%2BKqRC%2FkL%2BN7G8gyG6QFJ1ty5zl7P7Fc4r19%2BmV%2F4ZJ7OOHU5%2FKH%2F%2BSshFT1ZsdhbqnjsrvCpyYU52yRtSsoU8xdIe8ynHYlS1I8T4BQzDhiAPEUAm118x6nNZYmWNT3iiPZJds5KZdTltIbgohDRgthIBXfgzUBb%2FcG26GAMaeLGJyOF8vsYykMAGfSETYlyuaOd7Q8TuXyIYX33XFKvXNXr8taVslLYg%3D%3D$LR•IPV4•29『线路1』
-TVBS新闻,http://jnzq.ohoyee.com:9080/live/332123-tvbsxw.m3u8$LR•IPV4•29『线路1』
+TVBS新闻,http://jnzq.ohoyee.com:9080/live/332332-tvbsxw.m3u8$LR•IPV4•29『线路1』
 TVBS精采台,http://4gtv.cnlive.club/channel/49d50255/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 TVBS新聞,http://4gtv.cnlive.club/channel/n1ea96b20/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 TVBS新聞,http://iptv.4666888.xyz/iptv2A.php?id=43$LR•IPV4•29『线路2』
@@ -1606,4 +1606,4 @@ TVBS精采,http://iptv.4666888.xyz/iptv2A.php?id=47$LR•IPV4•29『线路1』
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260629 06:04,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260629 12:19,https://d.kstore.dev/download/7547/20260401003530.mp4
