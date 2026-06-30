@@ -171,7 +171,7 @@ CCTV4,https://iptv.catvod.com/live.php?id=CCTV4&line=5$LR•IPV4•29『线路60
 CCTV4,https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1782781200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-8f3fded490fbc1fa1f73e42c502cfae9&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c$LR•IPV4•29『线路61』
 CCTV4,https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1782809100-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-77fe908f5cc9f1fdc94b3e4d62d5e702&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c$LR•IPV4•29『线路62』
 CCTV5,https://live.666666.zip/stream/20233432.m3u8$LR•IPV4•29『线路1』
-CCTV5,https://live06.zuqiu106.com/live/20233432.m3u8$LR•IPV4•29『线路2』
+CCTV5,https://live.666666.zip/cctv/5.m3u8$LR•IPV4•29『线路2』
 CCTV5,http://82.156.243.185:36888/av3a/cctv5n.m3u8$LR•IPV4•29『线路3』
 CCTV5,http://111.221.137.234:44330/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路4』
 CCTV5,http://111.221.137.234:44330/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路5』
@@ -229,7 +229,7 @@ CCTV5,https://iptv.catvod.com/live.php?id=CCTV5&line=9$LR•IPV4•29『线路56
 CCTV5,https://iptv.catvod.com/live.php?id=CCTV5&line=14$LR•IPV4•29『线路57』
 CCTV5,https://iptv.catvod.com/live.php?id=CCTV5&line=12$LR•IPV4•29『线路58』
 CCTV5+,https://live.666666.zip/stream/79635460.m3u8$LR•IPV4•29『线路1』
-CCTV5+,https://live06.zuqiu106.com/live/79635460.m3u8$LR•IPV4•29『线路2』
+CCTV5+,https://live.666666.zip/cctv/5p.m3u8$LR•IPV4•29『线路2』
 CCTV5+,http://82.156.243.185:36888/av3a/cctv5pn.m3u8$LR•IPV4•29『线路3』
 CCTV5+,http://111.29.9.33:6610/000000001000/1000000001000020505/index.m3u8?channel-id=bestzb&Contentid=1000000001000020505&livemode=1&stbId=3$LR•IPV4•29『线路4』
 CCTV5+,http://120.87.19.109:80/PLTV/88888973/224/3221225705/10000100000000060000000000334542_0.smil/01.m3u8?fmt=ts2hls,744,01.m3u8&accountinfo=qL9TLkIYsZmx/OPSOG6mNAvyKOCScAe4hrX9Vo6puxGXw3qZ5Pmje9vqMpXjLeht0QDDT6IKU9j92Y9VVzXnz1yKE+1kYZFvmxPE4nzwhgPZiAWXB3ChbgmJ6Zgz9HlE:20200814173311,END&GuardEncType=8601$LR•IPV4•29『线路5』
@@ -1608,4 +1608,4 @@ TVBS精采,http://iptv.4666888.xyz/iptv2A.php?id=47$LR•IPV4•29『线路1』
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260630 06:11,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260630 11:59,https://d.kstore.dev/download/7547/20260401003530.mp4
