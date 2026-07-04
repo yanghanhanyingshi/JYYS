@@ -1419,8 +1419,7 @@ Dj钟仔-全粤语Electro风格港台情歌对碰吴雨霏vs关心妍DJ串烧,ht
 TVB plus备,https://vdm6-hw.nbgdsygs.com/live/h6-2.flv$LR•IPV4•29『线路1』
 翡翠台,http://o11.163189.xyz/stream/tvb/fct/$LR•IPV4•29『线路1』
 翡翠台,https://cdn10.163189.xyz/163189/fct/$LR•IPV4•29『线路2』
-翡翠台,http://push.cdn1.hls123.de:8080/streams/ef5addc0849/index.m3u8$LR•IPV4•29『线路3』
-翡翠台,http://111.221.137.234:44330/tsfile/live/0141_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路4』
+翡翠台,http://111.221.137.234:44330/tsfile/live/0141_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路3』
 翡翠台广电,http://cdn6.163189.xyz/163189/fct$LR•IPV4•29『线路1』
 翡翠台4K,http://o11.163189.xyz/stream/tvb/fct4k/$LR•IPV4•29『线路1』
 无线新闻台,http://cdn6.163189.xyz/163189/wxxw$LR•IPV4•29『线路1』
@@ -1428,16 +1427,13 @@ TVB PLUS,http://o11.163189.xyz/stream/tvb/tvbp/$LR•IPV4•29『线路1』
 TVB PLUS,https://cdn10.163189.xyz/163189/tvbp/$LR•IPV4•29『线路2』
 明珠台,http://o11.163189.xyz/stream/tvb/mzt/$LR•IPV4•29『线路1』
 明珠台,https://cdn10.163189.xyz/163189/mzt/$LR•IPV4•29『线路2』
-明珠台,http://push.cdn1.hls123.de:8080/streams/89a8p45a15e/index.m3u8$LR•IPV4•29『线路3』
-明珠台,http://111.221.137.234:44330/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路4』
+明珠台,http://111.221.137.234:44330/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路3』
 RTHK 31,http://cdn.163189.xyz/163189/rthk31$LR•IPV4•29『线路1』
 RTHK 32,http://cdn.163189.xyz/163189/rthk32$LR•IPV4•29『线路1』
 凤凰香港,http://cdn6.163189.xyz/163189/fhhk$LR•IPV4•29『线路1』
-凤凰香港,http://push.cdn1.hls123.de:8080/streams/898y722sqjr/index.m3u8$LR•IPV4•29『线路2』
-凤凰香港,http://feilong123.vip/409990236/hktv.php?id=2$LR•IPV4•29『线路3』
-凤凰香港,http://k.061899.xyz/k.php?id=fhhk$LR•IPV4•29『线路4』
+凤凰香港,http://feilong123.vip/409990236/hktv.php?id=2$LR•IPV4•29『线路2』
+凤凰香港,http://k.061899.xyz/k.php?id=fhhk$LR•IPV4•29『线路3』
 华丽翡翠台,http://cdn6.163189.xyz/163189/jade$LR•IPV4•29『线路1』
-华丽翡翠台,http://push.cdn1.hls123.de:8080/streams/n6dnsi33w2e/index.m3u8$LR•IPV4•29『线路2』
 翡翠一台(TVB1),http://cdn6.163189.xyz/163189/tvb1$LR•IPV4•29『线路1』
 TVBJ,http://cdn6.163189.xyz/163189/j1$LR•IPV4•29『线路1』
 TVB翡翠剧集台,http://cdn6.163189.xyz/163189/tvbd$LR•IPV4•29『线路1』
@@ -1445,7 +1441,6 @@ TVB亚洲武侠,http://cdn6.163189.xyz/163189/yzwx$LR•IPV4•29『线路1』
 TVB星河,http://cdn6.163189.xyz/163189/tvbxh$LR•IPV4•29『线路1』
 TVB星河,http://o11.163189.xyz/stream/live/tvbxh/$LR•IPV4•29『线路2』
 TVB星河,https://cdn10.163189.xyz/163189/xinghe/$LR•IPV4•29『线路3』
-TVB星河,http://push.cdn1.hls123.de:8080/streams/hbiwgswysds/index.m3u8$LR•IPV4•29『线路4』
 香港C+,http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/index.m3u8$LR•IPV4•29『线路1』
 香港32台,https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream2/streamPlaylist.m3u8$LR•IPV4•29『线路1』
 香港33台,https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream03/streamPlaylist.m3u8$LR•IPV4•29『线路1』
@@ -1454,8 +1449,6 @@ TVB星河,http://push.cdn1.hls123.de:8080/streams/hbiwgswysds/index.m3u8$LR•IP
 TVB星河3,http://php.jdshipin.com/TVOD/iptv.php?id=xinghe$LR•IPV4•29『线路1』
 TVBJ1,https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8$LR•IPV4•29『线路1』
 TVBJ1,http://iptv.4666888.xyz/iptv2A.php?id=26$LR•IPV4•29『线路2』
-TVB Plus,http://push.cdn1.hls123.de:8080/streams/gw8n98gubb4/index.m3u8$LR•IPV4•29『线路1』
-无线新闻,http://push.cdn1.hls123.de:8080/streams/n66wwnx3l7i/index.m3u8$LR•IPV4•29『线路1』
 翡翠台1,https://rtmp.play.live.tieba.com/live/FC-jeT4nLMVrUuYYF1zrjAOgphyDowTHE2GMxjLxPqIlRQMJDhcbFPAiSIzDGwPF77NfidpWnLiDqicTmg8mV7ichVA.flv$LR•IPV4•29『线路1』
 翡翠台2,https://flv-play.clouda.com/live/fc-0StF0ynwlSa7hrv7OF4easlc5FZmZpEjC6AeAaCOogpDCWWipXDZFKTn9DvV3WQiAHjYtcE6ZqmDFmnvRAARmtRA.flv$LR•IPV4•29『线路1』
 无线新闻1,https://rtmp.play.live.tieba.com/live//WX-XTncUyverrEAumydD9rS3sSHJA0JA8ufjCwh6JJtemBozIX1d3zr5ItgD7PuFTwAXCKEmeqeVnwpQFD2g3PEGDgF.flv$LR•IPV4•29『线路1』
@@ -1597,4 +1590,4 @@ TVBS精采,http://iptv.4666888.xyz/iptv2A.php?id=47$LR•IPV4•29『线路1』
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260704 06:07,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260704 11:31,https://d.kstore.dev/download/7547/20260401003530.mp4
