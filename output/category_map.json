@@ -1,0 +1,677 @@
+{
+  "categories": [
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonweishizhibo.txt&%E5%8D%AB%E8%A7%86%E7%9B%B4%E6%92%AD",
+      "卫视直播"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonkawayi.txt&%E5%8D%A1%E5%93%87%E4%BC%8A",
+      "卡哇伊"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonmihu.txt&%E5%92%AA%E7%8B%90",
+      "咪狐"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonhuahudie.txt&%E8%8A%B1%E8%9D%B4%E8%9D%B6",
+      "花蝴蝶"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonmitao.txt&%E8%9C%9C%E6%A1%83",
+      "蜜桃"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonfanjiashequ.txt&%E7%95%AA%E8%8C%84%E7%A4%BE%E5%8C%BA",
+      "番茄社区"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonLOVE.txt&LOVE",
+      "LOVE"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonxiaodaji.txt&%E5%B0%8F%E5%A6%B2%E5%B7%B1",
+      "小妲己"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=json77zhibo.txt&77%E7%9B%B4%E6%92%AD",
+      "77直播"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonyiyi.txt&%E4%BE%9D%E4%BE%9D",
+      "依依"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonrichu.txt&%E6%97%A5%E5%87%BA",
+      "日出"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsoncaihong.txt&%E5%BD%A9%E8%99%B9",
+      "彩虹"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonjiujiu.txt&%E4%B9%85%E4%B9%85",
+      "久久"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonyami.txt&%E4%BA%9A%E7%B1%B3",
+      "亚米"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsondielian.txt&%E8%9D%B6%E6%81%8B",
+      "蝶恋"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonyeyaoji.txt&%E5%A4%9C%E5%A6%96%E5%A7%AC",
+      "夜妖姬"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsontaolu.txt&%E5%A5%97%E8%B7%AF",
+      "套路"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonyinghua.txt&%E6%A8%B1%E8%8A%B1",
+      "樱花"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonxiangse.txt&%E4%BA%AB%E8%89%B2",
+      "享色"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonhonglangman.txt&%E7%BA%A2%E6%B5%AA%E6%BC%AB",
+      "红浪漫"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonjinyu.txt&%E9%87%91%E9%B1%BC",
+      "金鱼"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsontaohua.txt&%E6%A1%83%E8%8A%B1",
+      "桃花"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonhuafang.txt&%E8%8A%B1%E6%88%BF",
+      "花房"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonxiaoxiannu.txt&%E5%B0%8F%E4%BB%99%E5%A5%B3",
+      "小仙女"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonshijuexiu.txt&%E8%A7%86%E8%A7%89%E7%A7%80",
+      "视觉秀"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonxiaotianshi.txt&%E5%B0%8F%E5%A4%A9%E4%BD%BF",
+      "小天使"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonyizhibo.txt&%E4%B8%80%E7%9B%B4%E6%92%AD",
+      "一直播"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsoncaiyun.txt&%E5%BD%A9%E4%BA%91",
+      "彩云"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonanyu.txt&%E6%9A%97%E8%AF%AD",
+      "暗语"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonmimi.txt&%E5%92%AA%E5%92%AA",
+      "咪咪"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonjiaomei.txt&%E5%A8%87%E5%AA%9A",
+      "娇媚"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonhuanggua.txt&%E9%BB%84%E7%93%9C",
+      "黄瓜"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonsequ.txt&%E8%89%B2%E8%B6%A3",
+      "色趣"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonnuomi.txt&%E7%B3%AF%E7%B1%B3",
+      "糯米"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonxiaomifeng.txt&%E5%B0%8F%E8%9C%9C%E8%9C%82",
+      "小蜜蜂"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonxiaohongmao.txt&%E5%B0%8F%E7%BA%A2%E5%B8%BD",
+      "小红帽"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsontaohuayun.txt&%E6%A1%83%E8%8A%B1%E8%BF%90",
+      "桃花运"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonkugua.txt&%E8%8B%A6%E7%93%9C",
+      "苦瓜"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonaiaini.txt&%E7%88%B1%E7%88%B1%E4%BD%A0",
+      "爱爱你"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonyinghuayui.txt&%E6%A8%B1%E8%8A%B1%E9%9B%A8i",
+      "樱花雨i"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonpanta.txt&%E7%9B%98%E4%BB%96",
+      "盘他"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonyese.txt&%E5%A4%9C%E8%89%B2",
+      "夜色"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonhudie.txt&%E8%9D%B4%E8%9D%B6",
+      "蝴蝶"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonxiaotianxian.txt&%E5%B0%8F%E5%A4%A9%E4%BB%99",
+      "小天仙"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonxingqu.txt&%E6%9D%8F%E8%B6%A3",
+      "杏趣"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonxiaohuaidan.txt&%E5%B0%8F%E5%9D%8F%E8%9B%8B",
+      "小坏蛋"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonpiaoxue.txt&%E9%A3%98%E9%9B%AA",
+      "飘雪"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonyingtao.txt&%E6%A8%B1%E6%A1%83",
+      "樱桃"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonaosika.txt&%E5%A5%A5%E6%96%AF%E5%8D%A1",
+      "奥斯卡"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonkaluli.txt&%E5%8D%A1%E8%B7%AF%E9%87%8C",
+      "卡路里"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonhonggaoliang.txt&%E7%BA%A2%E9%AB%98%E7%B2%B1",
+      "红高粱"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonfubao.txt&%E4%BB%98%E5%AE%9D",
+      "付宝"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonxiaohuangshu.txt&%E5%B0%8F%E9%BB%84%E4%B9%A6",
+      "小黄书"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonersao.txt&%E4%BA%8C%E5%AB%82",
+      "二嫂"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonhuaguoshan.txt&%E8%8A%B1%E6%9E%9C%E5%B1%B1",
+      "花果山"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonyunlu.txt&%E4%BA%91%E9%B9%BF",
+      "云鹿"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonboluo.txt&%E8%8F%A0%E8%90%9D",
+      "菠萝"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonxingbaobei.txt&%E6%98%9F%E5%AE%9D%E8%B4%9D",
+      "星宝贝"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonyeyan.txt&%E5%A4%9C%E8%89%B3",
+      "夜艳"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonqixiannus.txt&%E4%B8%83%E4%BB%99%E5%A5%B3s",
+      "七仙女s"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonyelaixiang.txt&%E5%A4%9C%E6%9D%A5%E9%A6%99",
+      "夜来香"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonailing.txt&%E7%88%B1%E9%9B%B6",
+      "爱零"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonshibajin.txt&%E5%8D%81%E5%85%AB%E7%A6%81",
+      "十八禁"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonlanguifang.txt&%E5%85%B0%E6%A1%82%E5%9D%8A",
+      "兰桂坊"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonDancelife.txt&Dancelife",
+      "Dancelife"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonxiaomengzhu.txt&%E5%B0%8F%E8%90%8C%E7%8C%AA",
+      "小萌猪"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonhudiefei.txt&%E8%9D%B4%E8%9D%B6%E9%A3%9E",
+      "蝴蝶飞"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonyoumeng.txt&%E5%B9%BD%E6%A2%A6",
+      "幽梦"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonliguiting.txt&%E4%B8%BD%E6%9F%9C%E5%8E%85",
+      "丽柜厅"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonjiaolong.txt&%E8%9B%9F%E9%BE%99",
+      "蛟龙"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonyanruyu.txt&%E9%A2%9C%E5%A6%82%E7%8E%89",
+      "颜如玉"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonchengxiu.txt&%E6%A9%99%E7%A7%80",
+      "橙秀"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonbaoyul.txt&%E8%B1%B9%E5%A8%B1l",
+      "豹娱l"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonxiaohualuo.txt&%E5%B0%8F%E8%8A%B1%E8%9E%BA",
+      "小花螺"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonhuanghou.txt&%E7%9A%87%E5%90%8E",
+      "皇后"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonxinzhilian.txt&%E5%BF%83%E4%B9%8B%E6%81%8B",
+      "心之恋"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonoumeiFEATURED.txt&%E6%AC%A7%E7%BE%8EFEATURED",
+      "欧美FEATURED"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonoumeiFEMALE.txt&%E6%AC%A7%E7%BE%8EFEMALE",
+      "欧美FEMALE"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonoumeiMALE.txt&%E6%AC%A7%E7%BE%8EMALE",
+      "欧美MALE"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonoumeiCOUPLE.txt&%E6%AC%A7%E7%BE%8ECOUPLE",
+      "欧美COUPLE"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonoumeiTRANS.txt&%E6%AC%A7%E7%BE%8ETRANS",
+      "欧美TRANS"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsontaimeil.txt&%E5%8F%B0%E5%A6%B9l",
+      "台妹l"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonailian.txt&%E7%88%B1%E6%81%8B",
+      "爱恋"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=json903yule.txt&903%E5%A8%B1%E4%B9%90",
+      "903娱乐"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonyouwudao.txt&%E5%B0%A4%E7%89%A9%E5%B2%9B",
+      "尤物岛"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsontanke.txt&%E5%9D%A6%E5%85%8B",
+      "坦克"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonhaojiyou.txt&%E5%A5%BD%E5%9F%BA%E5%8F%8B",
+      "好基友"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonyenulang.txt&%E5%A4%9C%E5%A5%B3%E9%83%8E",
+      "夜女郎"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonjiaochuan.txt&%E5%A8%87%E5%96%98",
+      "娇喘"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonmangguopai.txt&%E8%8A%92%E6%9E%9C%E6%B4%BE",
+      "芒果派"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonmeiyan.txt&%E5%AA%9A%E9%A2%9C",
+      "媚颜"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonfengliu.txt&%E9%A3%8E%E6%B5%81",
+      "风流"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonyelu.txt&%E5%A4%9C%E5%BE%8B",
+      "夜律"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonlinglong.txt&%E7%8E%B2%E7%8F%91",
+      "玲珑"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonyuhuo.txt&%E6%B5%B4%E7%81%AB",
+      "浴火"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsoncuiniao.txt&%E7%BF%A0%E9%B8%9F",
+      "翠鸟"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonxingyunxing.txt&%E5%B9%B8%E8%BF%90%E6%98%9F",
+      "幸运星"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsontaxiu.txt&%E5%A5%B9%E7%A7%80",
+      "她秀"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonzhaocaimao.txt&%E6%8B%9B%E8%B4%A2%E7%8C%AB",
+      "招财猫"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonshuangdie.txt&%E5%8F%8C%E7%A2%9F",
+      "双碟"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsontangguo.txt&%E7%B3%96%E6%9E%9C",
+      "糖果"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonmemeda.txt&%E4%B9%88%E4%B9%88%E5%93%92",
+      "么么哒"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonxiaoxinggan.txt&%E5%B0%8F%E6%80%A7%E6%84%9F",
+      "小性感"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonxiaomiaochong.txt&%E5%B0%8F%E5%96%B5%E5%AE%A0",
+      "小喵宠"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsontunulang.txt&%E5%85%94%E5%A5%B3%E9%83%8E",
+      "兔女郎"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonshuimeiren.txt&%E7%9D%A1%E7%BE%8E%E4%BA%BA",
+      "睡美人"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonjinbei.txt&%E9%87%91%E5%91%97",
+      "金呗"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonmeixi.txt&%E7%BE%8E%E5%A4%95",
+      "美夕"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonxiaoyao.txt&%E5%B0%8F%E5%A6%96",
+      "小妖"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonyuezhibo.txt&%E7%BA%A6%E7%9B%B4%E6%92%AD",
+      "约直播"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonhuaxianzi.txt&%E8%8A%B1%E4%BB%99%E5%AD%90",
+      "花仙子"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonhongzhuang.txt&%E7%BA%A2%E5%A6%86",
+      "红妆"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonniuniu.txt&%E5%A6%9E%E5%A6%9E",
+      "妞妞"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonyanhou.txt&%E8%89%B3%E5%90%8E",
+      "艳后"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonmoon.txt&moon",
+      "moon"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonlanmao.txt&%E8%93%9D%E7%8C%AB",
+      "蓝猫"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonmeirenzhuang.txt&%E7%BE%8E%E4%BA%BA%E5%A6%86",
+      "美人妆"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonruxiang.txt&%E5%85%A5%E5%B7%B7",
+      "入巷"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonchijiunan.txt&%E6%8C%81%E4%B9%85%E7%94%B7",
+      "持久男"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonqingxin.txt&%E5%80%BE%E5%BF%83",
+      "倾心"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonxiaojingling.txt&%E5%B0%8F%E7%B2%BE%E7%81%B5",
+      "小精灵"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonouyu.txt&%E5%81%B6%E9%81%87",
+      "偶遇"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonhuihui.txt&%E7%81%B0%E7%81%B0",
+      "灰灰"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonmaotouying.txt&%E7%8C%AB%E5%A4%B4%E9%B9%B0",
+      "猫头鹰"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonxihuanni.txt&%E5%96%9C%E6%AC%A2%E4%BD%A0",
+      "喜欢你"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonyechun.txt&%E5%A4%9C%E7%BA%AF",
+      "夜纯"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonxingbo.txt&%E6%9D%8F%E6%92%AD",
+      "杏播"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonmingliu.txt&%E5%90%8D%E6%B5%81",
+      "名流"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonxiaolajiao.txt&%E5%B0%8F%E8%BE%A3%E6%A4%92",
+      "小辣椒"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonwenxiangshe.txt&%E8%9A%8A%E9%A6%99%E7%A4%BE",
+      "蚊香社"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonqianshou.txt&%E7%89%B5%E6%89%8B",
+      "牵手"
+    ],
+    [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonqingqu.txt&%E6%83%85%E8%B6%A3",
+      "情趣"
+    ]
+  ],
+  "json_map": {
+    "卫视直播": "jsonweishizhibo.txt",
+    "卡哇伊": "jsonkawayi.txt",
+    "咪狐": "jsonmihu.txt",
+    "花蝴蝶": "jsonhuahudie.txt",
+    "蜜桃": "jsonmitao.txt",
+    "番茄社区": "jsonfanjiashequ.txt",
+    "LOVE": "jsonLOVE.txt",
+    "小妲己": "jsonxiaodaji.txt",
+    "77直播": "json77zhibo.txt",
+    "依依": "jsonyiyi.txt",
+    "日出": "jsonrichu.txt",
+    "彩虹": "jsoncaihong.txt",
+    "久久": "jsonjiujiu.txt",
+    "亚米": "jsonyami.txt",
+    "蝶恋": "jsondielian.txt",
+    "夜妖姬": "jsonyeyaoji.txt",
+    "套路": "jsontaolu.txt",
+    "樱花": "jsonyinghua.txt",
+    "享色": "jsonxiangse.txt",
+    "红浪漫": "jsonhonglangman.txt",
+    "金鱼": "jsonjinyu.txt",
+    "桃花": "jsontaohua.txt",
+    "花房": "jsonhuafang.txt",
+    "小仙女": "jsonxiaoxiannu.txt",
+    "视觉秀": "jsonshijuexiu.txt",
+    "小天使": "jsonxiaotianshi.txt",
+    "一直播": "jsonyizhibo.txt",
+    "彩云": "jsoncaiyun.txt",
+    "暗语": "jsonanyu.txt",
+    "咪咪": "jsonmimi.txt",
+    "娇媚": "jsonjiaomei.txt",
+    "黄瓜": "jsonhuanggua.txt",
+    "色趣": "jsonsequ.txt",
+    "糯米": "jsonnuomi.txt",
+    "小蜜蜂": "jsonxiaomifeng.txt",
+    "小红帽": "jsonxiaohongmao.txt",
+    "桃花运": "jsontaohuayun.txt",
+    "苦瓜": "jsonkugua.txt",
+    "爱爱你": "jsonaiaini.txt",
+    "樱花雨i": "jsonyinghuayui.txt",
+    "盘他": "jsonpanta.txt",
+    "夜色": "jsonyese.txt",
+    "蝴蝶": "jsonhudie.txt",
+    "小天仙": "jsonxiaotianxian.txt",
+    "杏趣": "jsonxingqu.txt",
+    "小坏蛋": "jsonxiaohuaidan.txt",
+    "飘雪": "jsonpiaoxue.txt",
+    "樱桃": "jsonyingtao.txt",
+    "奥斯卡": "jsonaosika.txt",
+    "卡路里": "jsonkaluli.txt",
+    "红高粱": "jsonhonggaoliang.txt",
+    "付宝": "jsonfubao.txt",
+    "小黄书": "jsonxiaohuangshu.txt",
+    "二嫂": "jsonersao.txt",
+    "花果山": "jsonhuaguoshan.txt",
+    "云鹿": "jsonyunlu.txt",
+    "菠萝": "jsonboluo.txt",
+    "星宝贝": "jsonxingbaobei.txt",
+    "夜艳": "jsonyeyan.txt",
+    "七仙女s": "jsonqixiannus.txt",
+    "夜来香": "jsonyelaixiang.txt",
+    "爱零": "jsonailing.txt",
+    "十八禁": "jsonshibajin.txt",
+    "兰桂坊": "jsonlanguifang.txt",
+    "Dancelife": "jsonDancelife.txt",
+    "小萌猪": "jsonxiaomengzhu.txt",
+    "蝴蝶飞": "jsonhudiefei.txt",
+    "幽梦": "jsonyoumeng.txt",
+    "丽柜厅": "jsonliguiting.txt",
+    "蛟龙": "jsonjiaolong.txt",
+    "颜如玉": "jsonyanruyu.txt",
+    "橙秀": "jsonchengxiu.txt",
+    "豹娱l": "jsonbaoyul.txt",
+    "小花螺": "jsonxiaohualuo.txt",
+    "皇后": "jsonhuanghou.txt",
+    "心之恋": "jsonxinzhilian.txt",
+    "欧美FEATURED": "jsonoumeiFEATURED.txt",
+    "欧美FEMALE": "jsonoumeiFEMALE.txt",
+    "欧美MALE": "jsonoumeiMALE.txt",
+    "欧美COUPLE": "jsonoumeiCOUPLE.txt",
+    "欧美TRANS": "jsonoumeiTRANS.txt",
+    "台妹l": "jsontaimeil.txt",
+    "爱恋": "jsonailian.txt",
+    "903娱乐": "json903yule.txt",
+    "尤物岛": "jsonyouwudao.txt",
+    "坦克": "jsontanke.txt",
+    "好基友": "jsonhaojiyou.txt",
+    "夜女郎": "jsonyenulang.txt",
+    "娇喘": "jsonjiaochuan.txt",
+    "芒果派": "jsonmangguopai.txt",
+    "媚颜": "jsonmeiyan.txt",
+    "风流": "jsonfengliu.txt",
+    "夜律": "jsonyelu.txt",
+    "玲珑": "jsonlinglong.txt",
+    "浴火": "jsonyuhuo.txt",
+    "翠鸟": "jsoncuiniao.txt",
+    "幸运星": "jsonxingyunxing.txt",
+    "她秀": "jsontaxiu.txt",
+    "招财猫": "jsonzhaocaimao.txt",
+    "双碟": "jsonshuangdie.txt",
+    "糖果": "jsontangguo.txt",
+    "么么哒": "jsonmemeda.txt",
+    "小性感": "jsonxiaoxinggan.txt",
+    "小喵宠": "jsonxiaomiaochong.txt",
+    "兔女郎": "jsontunulang.txt",
+    "睡美人": "jsonshuimeiren.txt",
+    "金呗": "jsonjinbei.txt",
+    "美夕": "jsonmeixi.txt",
+    "小妖": "jsonxiaoyao.txt",
+    "约直播": "jsonyuezhibo.txt",
+    "花仙子": "jsonhuaxianzi.txt",
+    "红妆": "jsonhongzhuang.txt",
+    "妞妞": "jsonniuniu.txt",
+    "艳后": "jsonyanhou.txt",
+    "moon": "jsonmoon.txt",
+    "蓝猫": "jsonlanmao.txt",
+    "美人妆": "jsonmeirenzhuang.txt",
+    "入巷": "jsonruxiang.txt",
+    "持久男": "jsonchijiunan.txt",
+    "倾心": "jsonqingxin.txt",
+    "小精灵": "jsonxiaojingling.txt",
+    "偶遇": "jsonouyu.txt",
+    "灰灰": "jsonhuihui.txt",
+    "猫头鹰": "jsonmaotouying.txt",
+    "喜欢你": "jsonxihuanni.txt",
+    "夜纯": "jsonyechun.txt",
+    "杏播": "jsonxingbo.txt",
+    "名流": "jsonmingliu.txt",
+    "小辣椒": "jsonxiaolajiao.txt",
+    "蚊香社": "jsonwenxiangshe.txt",
+    "牵手": "jsonqianshou.txt",
+    "情趣": "jsonqingqu.txt"
+  },
+  "results": {
+    "卫视直播": 35,
+    "情趣": 152,
+    "牵手": 14,
+    "名流": 1,
+    "欧美TRANS": 54,
+    "欧美FEATURED": 28,
+    "欧美FEMALE": 29,
+    "欧美MALE": 76,
+    "欧美COUPLE": 79
+  }
+}
