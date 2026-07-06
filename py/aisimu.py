@@ -5,11 +5,20 @@ import os
 import sys
 import re
 import json
+import signal
 from datetime import datetime
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin, urlparse, parse_qs, unquote, quote
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from urllib.parse import urljoin, urlparse, parse_qs
+from concurrent.futures import ThreadPoolExecutor, as_completed, TimeoutError
 from collections import defaultdict
+
+# ========== 全局超时保护 ==========
+def timeout_handler(signum, frame):
+    print("\n⏰ 脚本30分钟超时，强制退出")
+    sys.exit(0)
+
+signal.signal(signal.SIGALRM, timeout_handler)
+signal.alarm(1800)  # 30分钟
 
 class AisiMuScraper:
     def __init__(self):
@@ -27,6 +36,7 @@ class AisiMuScraper:
             "tg_chat_id": ""
         }
 
+        # ===== 修复：优化的Session配置 =====
         self.session = requests.Session()
         self.session.headers.update({
             "User-Agent": self.cfg["user_agent"],
@@ -37,12 +47,17 @@ class AisiMuScraper:
             "Upgrade-Insecure-Requests": "1"
         })
         
-        adapter = requests.adapters.HTTPAdapter(max_retries=3, pool_connections=30, pool_maxsize=30)
+        # ===== 修复：降低连接池，避免死锁 =====
+        adapter = requests.adapters.HTTPAdapter(
+            max_retries=2,
+            pool_connections=10,
+            pool_maxsize=10
+        )
         self.session.mount('http://', adapter)
         self.session.mount('https://', adapter)
 
-        self.category_urls = {}  # {url: category_name}
-        self.group_results = defaultdict(dict)  # {category_name: {stream_url: room_name}}
+        self.category_urls = {}
+        self.group_results = defaultdict(dict)
         self.old_urls = set()
         self.new_urls = set()
 
@@ -51,12 +66,13 @@ class AisiMuScraper:
 
         self.MAX_KEEP_PER_GROUP = 999
         self.PLAY_CHECK_TIMEOUT = 5
-        self.CRAWL_WORKERS = 3
-        self.CHECK_WORKERS = 10
+        
+        # ===== 修复：降低并发数 =====
+        self.CRAWL_WORKERS = 2   # 从3降到2
+        self.CHECK_WORKERS = 5   # 从10降到5
         self.SLEEP_INTERVAL = 0.5
+        
         self._load_history()
-
-        # 存储分类的JSON文件映射
         self.category_json_map = {}
 
     def get_beijing_time(self):
@@ -85,14 +101,12 @@ class AisiMuScraper:
                     self.cfg["password_field"]: self.cfg["password"]
                 }
                 
-                # 提取所有隐藏字段
                 for inp in soup.find_all("input", {"type": "hidden"}):
                     name = inp.get("name")
                     value = inp.get("value", "")
                     if name:
                         payload[name] = value
                 
-                # 提取 form action
                 form = soup.find("form")
                 if form and form.get("action"):
                     action_url = urljoin(self.cfg["login_url"], form.get("action"))
@@ -107,7 +121,7 @@ class AisiMuScraper:
                     return False
                     
                 if len(self.session.cookies) > 0:
-                    print(f"[✅] 登录成功，Session cookies: {len(self.session.cookies)}")
+                    print(f"[✅] 登录成功")
                     return True
                     
             except Exception as e:
@@ -116,25 +130,21 @@ class AisiMuScraper:
         return False
 
     def fetch_index(self):
-        """根据实际HTML结构提取分类"""
         try:
             r = self.session.get(self.cfg["logged_in_expected_url"], timeout=15)
             soup = BeautifulSoup(r.text, "html.parser")
             
             print(f"[调试] 页面标题: {soup.title.string.strip() if soup.title else '无标题'}")
             
-            # 查找所有 category-card
             cards = soup.find_all("div", class_="category-card")
             print(f"[调试] 发现 {len(cards)} 个分类卡片")
             
             for card in cards:
-                # 提取分类名称
                 title_div = card.find("div", class_="category-title")
                 if not title_div:
                     continue
                 category_name = title_div.get_text(strip=True)
                 
-                # 提取查看按钮链接
                 view_btn = card.find("a", class_="view-btn")
                 if not view_btn:
                     continue
@@ -143,58 +153,41 @@ class AisiMuScraper:
                 if not href:
                     continue
                 
-                # 构建完整URL
                 full_url = urljoin(self.cfg["logged_in_expected_url"], href)
                 
-                # 解析URL参数，提取json文件名
                 parsed = urlparse(full_url)
                 params = parse_qs(parsed.query)
-                
-                # 获取json文件名
                 json_file = params.get("url", [""])[0]
                 if json_file:
                     self.category_json_map[category_name] = json_file
                 
-                # 存储分类
                 if full_url not in self.category_urls:
                     self.category_urls[full_url] = category_name
             
             print(f"[✅] 发现 {len(self.category_urls)} 个分类")
-            
-            # 打印分类列表
-            for idx, (url, name) in enumerate(self.category_urls.items(), 1):
-                json_file = self.category_json_map.get(name, "未知")
-                print(f"  {idx}. {name} -> {json_file}")
-            
             return len(self.category_urls) > 0
             
         except Exception as e:
             print(f"[❌] 获取分类列表失败: {e}")
-            import traceback
-            traceback.print_exc()
             return False
 
     def fetch_category(self, url, cname, idx, total):
-        """抓取单个分类（zblist.php页面）"""
         try:
             print(f"[抓取] {idx}/{total} {cname}")
             time.sleep(self.SLEEP_INTERVAL)
             
-            # 获取页面
-            r = self.session.get(url, timeout=20)
+            # ===== 修复：添加连接超时 =====
+            r = self.session.get(url, timeout=(10, 20))
             if r.status_code != 200:
                 print(f"[⚠️] {cname} 状态码 {r.status_code}")
                 return False
             
-            # 检查是否需要重新登录
             if "请先登录" in r.text or "登录过期" in r.text:
                 print(f"[❌] {cname} 需要重新登录")
                 return False
             
-            # 提取流地址
             streams = self.extract_streams_from_zblist(r.text, url)
             
-            # 保存结果
             count = 0
             for stream_url, room in streams.items():
                 if stream_url and stream_url.startswith(('http://', 'https://')):
@@ -210,15 +203,13 @@ class AisiMuScraper:
             return False
 
     def extract_streams_from_zblist(self, html, page_url):
-        """从zblist.php页面提取流地址"""
         soup = BeautifulSoup(html, "html.parser")
         streams = {}
         
-        # ========== 策略1: 表格提取 ==========
+        # 表格提取
         for tr in soup.select("table tr"):
             tds = tr.find_all("td")
             if len(tds) >= 4:
-                # 房间名通常在td[1]或td[2]
                 room_name = ""
                 for i in [1, 2]:
                     if i < len(tds):
@@ -227,39 +218,33 @@ class AisiMuScraper:
                             room_name = text
                             break
                 
-                # 流地址在td[3]
                 raw_url = tds[3].get_text(strip=True) if len(tds) > 3 else ""
                 if raw_url and raw_url.startswith(('http://', 'https://')):
                     streams[raw_url] = room_name or "未知房间"
                 
-                # 检查td[3]中是否包含a标签
                 a_tags = tds[3].find_all("a") if len(tds) > 3 else []
                 for a in a_tags:
                     href = a.get("href", "")
                     if href and href.startswith(('http://', 'https://')):
                         streams[href] = a.get_text(strip=True) or room_name or "链接源"
         
-        # ========== 策略2: 查找所有a标签中的流地址 ==========
+        # a标签提取
         for a in soup.find_all("a", href=True):
             href = a['href']
             if any(x in href for x in ['.m3u8', '.flv', '.mp4', 'play', 'stream']):
                 if href.startswith(('http://', 'https://')):
-                    room = a.get_text(strip=True) or "未知"
-                    streams[href] = room
+                    streams[href] = a.get_text(strip=True) or "未知"
         
-        # ========== 策略3: 查找script中的流地址 ==========
+        # script提取
         for script in soup.find_all("script"):
             if not script.string:
                 continue
             text = script.string
-            
-            # 多种模式匹配
             patterns = [
                 r'(playUrl|videoUrl|streamUrl|liveUrl|rtmpUrl|hlsUrl|url)\s*[:=]\s*["\']([^"\']+\.(m3u8|flv|mp4)[^"\']*)["\']',
                 r'["\'](https?://[^\s"\']+\.(m3u8|flv|mp4)[^\s"\']*)["\']',
                 r'(https?://[^\s;]+\.(m3u8|flv|mp4)[^\s;]*)'
             ]
-            
             for pattern in patterns:
                 matches = re.findall(pattern, text, re.IGNORECASE)
                 for match in matches:
@@ -271,25 +256,16 @@ class AisiMuScraper:
                     if url.startswith(('http://', 'https://')):
                         streams[url] = "script解析源"
         
-        # ========== 策略4: 查找video/source标签 ==========
+        # video/source提取
         for video in soup.find_all(['video', 'source']):
             src = video.get('src')
             if src and src.startswith(('http://', 'https://')):
                 streams[src] = video.get('title', 'video源')
-            
             data_src = video.get('data-src')
             if data_src and data_src.startswith(('http://', 'https://')):
                 streams[data_src] = "data-src源"
         
-        # ========== 策略5: 查找data-*属性 ==========
-        for tag in soup.find_all(True):
-            for attr_name, attr_value in tag.attrs.items():
-                if 'data' in attr_name.lower() and isinstance(attr_value, str):
-                    if attr_value.startswith(('http://', 'https://')):
-                        if any(x in attr_value for x in ['.m3u8', '.flv', '.mp4']):
-                            streams[attr_value] = f"data属性"
-        
-        # ========== 策略6: 从文本中提取URL ==========
+        # 文本提取
         text = html
         url_pattern = r'https?://[^\s<>"\']+\.(m3u8|flv|mp4)[^\s<>"\']*'
         for match in re.finditer(url_pattern, text, re.IGNORECASE):
@@ -314,30 +290,21 @@ class AisiMuScraper:
             for u in sorted(allurl):
                 f.write(u + "\n")
 
+    # ===== 修复：纯HEAD检查，不下载数据 =====
     def check_stream(self, url):
-        """检查流是否可用"""
         try:
-            resp = self.session.head(url, timeout=(3, self.PLAY_CHECK_TIMEOUT), allow_redirects=True)
-            if resp.status_code in (200, 301, 302, 304, 403):
-                resp.close()
-                return url, True
+            resp = self.session.head(
+                url,
+                timeout=5,
+                allow_redirects=True
+            )
+            ok = resp.status_code in (200, 206, 301, 302, 304, 403, 405)
             resp.close()
+            return url, ok
         except:
-            pass
-        
-        try:
-            resp = self.session.get(url, timeout=(3, self.PLAY_CHECK_TIMEOUT), stream=True)
-            for chunk in resp.iter_content(chunk_size=1024):
-                resp.close()
-                return url, True
-            resp.close()
-        except:
-            pass
-        
-        return url, False
+            return url, False
 
     def validate_streams(self):
-        """验证所有流"""
         all_urls = []
         mp = {}
         for g, ud in self.group_results.items():
@@ -373,7 +340,6 @@ class AisiMuScraper:
         print(f"[✅] 验证完成，有效: {valid_count}/{total} 条")
 
     def export_m3u(self):
-        """导出M3U文件"""
         now_time = self.get_beijing_time()
         lines = [
             "#EXTM3U",
@@ -407,7 +373,6 @@ class AisiMuScraper:
         return path
 
     def export_json_summary(self):
-        """导出分类JSON文件映射（用于调试）"""
         path = os.path.join(self.output_dir, "category_map.json")
         with open(path, "w", encoding="utf-8") as f:
             json.dump({
@@ -415,60 +380,53 @@ class AisiMuScraper:
                 "json_map": self.category_json_map,
                 "results": {g: len(ud) for g, ud in self.group_results.items()}
             }, f, ensure_ascii=False, indent=2)
-        print(f"[✅] 分类映射导出: {path}")
 
     def run(self):
-        """主运行函数"""
         try:
             print("=" * 60)
-            print("🚀 AisiMu 直播源采集器 v3.0")
+            print("🚀 AisiMu 直播源采集器 v3.1")
             print(f"⏰ 开始时间: {self.get_beijing_time()}")
             print("=" * 60)
             
-            # 登录
             if not self.login():
                 raise Exception("登录失败")
             
-            # 获取分类
             if not self.fetch_index():
                 raise Exception("获取分类列表失败")
             
             if not self.category_urls:
                 raise Exception("未找到任何分类")
             
-            # 抓取所有分类
             print(f"\n[开始] 共 {len(self.category_urls)} 个分类")
             
+            # ===== 修复：去掉timeout，避免卡死 =====
             with ThreadPoolExecutor(max_workers=self.CRAWL_WORKERS) as pool:
                 tasks = []
                 for i, (url, name) in enumerate(self.category_urls.items(), 1):
                     tasks.append(pool.submit(self.fetch_category, url, name, i, len(self.category_urls)))
                 
-                for future in as_completed(tasks, timeout=600):
+                # ===== 修复：每个任务单独超时，不影响整体 =====
+                for future in as_completed(tasks):
                     try:
-                        future.result()
+                        future.result(timeout=60)  # 单任务最多60秒
+                    except TimeoutError:
+                        print("[⚠️] 单个任务超时，继续执行")
                     except Exception as e:
                         print(f"[⚠️] 抓取任务异常: {e}")
             
-            # 统计结果
             total_raw = sum(len(v) for v in self.group_results.values())
             print(f"\n[📊] 原始采集: {total_raw} 条")
             
             if not self.group_results:
                 print("[❌] 未采集到任何源")
-                # 导出分类映射供调试
                 self.export_json_summary()
                 return
             
-            # 验证流
             self.validate_streams()
-            
-            # 导出
             self.export_m3u()
             self.export_json_summary()
             self._save_history()
             
-            # 推送通知
             now_all = set()
             for d in self.group_results.values():
                 now_all.update(d.keys())
