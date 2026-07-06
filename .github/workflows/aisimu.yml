@@ -2,7 +2,6 @@ name: Aisimu自动采集更新
 
 permissions:
   contents: write
-  actions: write
 
 on:
   schedule:
@@ -29,7 +28,7 @@ jobs:
         fetch-depth: 0
         persist-credentials: true
 
-    - name: 清理旧运行记录（可选）
+    - name: 清理旧运行记录
       uses: Mattraks/delete-workflow-runs@v2
       with:
         token: ${{ github.token }}
@@ -47,20 +46,18 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests beautifulsoup4
 
-    - name: 执行Aisimu采集脚本
-      run: python py/aisimu.py   # ← 修改这里，指向 py 子目录下的脚本
+    - name: 执行采集脚本
+      run: python py/aisimu.py
 
-    - name: 提交并推送更新（修复版）
+    - name: 提交并推送更新
       run: |
         git config --global user.name "GitHub Actions Bot"
         git config --global user.email "actions@github.com"
-        git fetch origin main
-        git checkout main
-        git merge origin/main --no-edit || true
+        git pull --rebase origin main || true
         git add output/
         if [ -n "$(git status --porcelain)" ]; then
           git commit -m "Auto update aisimu m3u [skip ci]"
           git push origin main
         else
-          echo "✅ 无文件变更，跳过提交"
+          echo "✅ 无变更，跳过提交"
         fi
