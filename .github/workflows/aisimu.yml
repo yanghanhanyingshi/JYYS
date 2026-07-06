@@ -10,7 +10,6 @@ on:
 
 env:
   TZ: Asia/Shanghai
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -19,16 +18,15 @@ concurrency:
 jobs:
   run-spider:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 30
 
     steps:
-    - name: 拉取仓库代码
+    - name: 拉取代码
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
-        persist-credentials: true
 
-    - name: 清理旧运行记录
+    - name: 清理旧记录
       uses: Mattraks/delete-workflow-runs@v2
       with:
         token: ${{ github.token }}
@@ -36,67 +34,29 @@ jobs:
         retain_days: 1
         keep_minimum_runs: 3
 
-    - name: 配置Python环境
+    - name: 配置Python
       uses: actions/setup-python@v5
       with:
         python-version: "3.11"
 
     - name: 安装依赖
       run: |
-        python -m pip install --upgrade pip
         pip install requests beautifulsoup4
 
-    - name: 执行采集脚本
+    - name: 执行采集
       run: python py/aisimu.py
-      timeout-minutes: 25  # 添加超时保护
+      timeout-minutes: 25
 
-    - name: 提交并推送更新（修复版）
+    - name: 提交更新
       run: |
-        git config --global user.name "GitHub Actions Bot"
-        git config --global user.email "actions@github.com"
-        
-        # 设置环境变量避免交互
-        export GIT_ASKPASS=/bin/echo
-        export GIT_TERMINAL_PROMPT=0
-        
-        # 拉取最新代码
-        git fetch origin main
-        git checkout main || git checkout -b main
-        git reset --hard origin/main || true
-        
-        # 添加output目录
-        git add output/ || true
-        
-        # 检查是否有变更
+        git config user.name "GitHub Actions Bot"
+        git config user.email "actions@github.com"
+        git pull --rebase origin main || true
+        git add output/
         if git diff --staged --quiet; then
-          echo "✅ 无文件变更，跳过提交"
+          echo "✅ 无变更"
           exit 0
         fi
-        
-        # 提交变更
-        git commit -m "Auto update aisimu m3u [skip ci]" || echo "提交失败，跳过"
-        
-        # 推送（重试3次）
-        for i in 1 2 3; do
-          echo "尝试推送 $i/3..."
-          if git push origin main; then
-            echo "✅ 推送成功"
-            exit 0
-          fi
-          sleep 5
-          git pull --rebase origin main || true
-        done
-        
-        echo "❌ 推送失败"
-        exit 1
-      timeout-minutes: 5  # 添加超时保护
-
-    - name: 强制提交（备用方案）
-      if: failure()
-      run: |
-        git config --global user.name "GitHub Actions Bot"
-        git config --global user.email "actions@github.com"
-        git add output/ || true
-        git commit -m "Auto update aisimu m3u [skip ci]" || echo "无变更"
-        git push origin main --force || echo "强制推送失败"
-      timeout-minutes: 3
+        git commit -m "Auto update aisimu m3u [skip ci]"
+        git push origin main
+      timeout-minutes: 5
