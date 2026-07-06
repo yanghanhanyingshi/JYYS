@@ -1,0 +1,40 @@
+name: Live Sniffer Auto Run
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # 每1小时运行一次
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          pip install playwright
+          playwright install
+
+      - name: Run Sniffer
+        env:
+          AISIMU_USER: ${{ secrets.AISIMU_USER }}
+          AISIMU_PASS: ${{ secrets.AISIMU_PASS }}
+        run: |
+          python v5_sniffer.py
+
+      - name: Commit results
+        run: |
+          git config --global user.name "bot"
+          git config --global user.email "bot@github.com"
+
+          git add streams.txt || true
+          git commit -m "auto update streams" || echo "no changes"
+          git push || true
