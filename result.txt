@@ -1389,7 +1389,7 @@ TVBJ1,http://154.222.29.54/本群大佬-jr.php?id=TVBJ1West&token=65ba04e27c1eeb
 TVBJ1,http://154.222.29.54/本群大佬-jr.php?id=TVBJ1US&token=65ba04e27c1eebd8$LR•IPV4•29『线路5』
 TVBJ1,http://154.222.29.54/本群大佬-jr.php?id=195&token=65ba04e27c1eebd8$LR•IPV4•29『线路6』
 翡翠台,https://cdn6.cc.cd/163189/fct$LR•IPV4•29『线路1』
-翡翠台,http://119.32.12.73:2905/rtp/225.1.101.45:7523$LR•IPV4•29『线路2』
+翡翠台,http://119.32.12.110:2905/rtp/225.1.101.45:7523$LR•IPV4•29『线路2』
 翡翠台,http://111.221.137.203:4455/tsfile/live/1008_1.m3u8$LR•IPV4•29『线路3』
 翡翠台,http://gd.wsd.gd.cn:1698/hls/92/index.m3u8$LR•IPV4•29『线路4』
 翡翠台,http://116.77.239.26:44300/tsfile/live/0141_1.m3u8$LR•IPV4•29『线路5』
@@ -1658,4 +1658,4 @@ TVB翡翠台（新加坡）,http://154.222.29.54/本群大佬-jr.php?id=tvbjades
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260710 22:35,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260711 00:59,https://d.kstore.dev/download/7547/20260401003530.mp4
