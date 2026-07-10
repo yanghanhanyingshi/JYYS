@@ -1512,16 +1512,25 @@ TVBS精采,http://iptv.4666888.xyz/iptv2A.php?id=47$LR•IPV4•29『线路1』
 TVB星河3,http://php.jdshipin.com/TVOD/iptv.php?id=xinghe$LR•IPV4•29『线路1』
 TVBS新闻,http://jnzq.ohoyee.com:9080/live/332332-tvbsxw.m3u8$LR•IPV4•29『线路1』
 TVBS精采台,http://4gtv.cnlive.club/channel/49d50255/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
-TVBS精采台,http://154.222.29.54/本群大佬-jr.php?id=tvbse&token=65ba04e27c1eebd8$LR•IPV4•29『线路2』
-TVBS精采台,http://154.222.29.54/本群大佬-jr.php?id=TVBSJingCaiTai&token=65ba04e27c1eebd8$LR•IPV4•29『线路3』
-TVBS精采台,http://154.222.29.54/本群大佬-jr.php?id=TVBSJCT&token=65ba04e27c1eebd8$LR•IPV4•29『线路4』
-TVBS精采台,http://154.222.29.54/本群大佬-jr.php?id=tvbse&token=65ba04e27c1eebd8$LR•IPV4•29『线路5』
-TVBS精采台,http://154.222.29.54/本群大佬-jr.php?id=TVBSJingCaiTai&token=65ba04e27c1eebd8$LR•IPV4•29『线路6』
-TVBS精采台,http://154.222.29.54/本群大佬-jr.php?id=TVBSJCT&token=65ba04e27c1eebd8$LR•IPV4•29『线路7』
+TVBS精采台,http://00123.168ro.top:44345/4gtv-4gtv067/index.m3u8?token=NV6Zy9OZuTcA6gMQDkqK1jtEtKVyVeaFyS1UY9gnyInSmVNBVNifIN8utLLz3I9N&proxy=true$LR•IPV4•29『线路2』
+TVBS精采台,http://00123.168ro.top:44345/li-4gtv-4gtv067/index.m3u8?token=NV6Zy9OZuTcA6gMQDkqK1jtEtKVyVeaFyS1UY9gnyInSmVNBVNifIN8utLLz3I9N&proxy=true$LR•IPV4•29『线路3』
+TVBS精采台,http://154.222.29.54/本群大佬-jr.php?id=tvbse&token=65ba04e27c1eebd8$LR•IPV4•29『线路4』
+TVBS精采台,http://154.222.29.54/本群大佬-jr.php?id=TVBSJingCaiTai&token=65ba04e27c1eebd8$LR•IPV4•29『线路5』
+TVBS精采台,http://154.222.29.54/本群大佬-jr.php?id=TVBSJCT&token=65ba04e27c1eebd8$LR•IPV4•29『线路6』
+TVBS精采台,http://154.222.29.54/本群大佬-jr.php?id=tvbse&token=65ba04e27c1eebd8$LR•IPV4•29『线路7』
+TVBS精采台,http://154.222.29.54/本群大佬-jr.php?id=TVBSJingCaiTai&token=65ba04e27c1eebd8$LR•IPV4•29『线路8』
+TVBS精采台,http://154.222.29.54/本群大佬-jr.php?id=TVBSJCT&token=65ba04e27c1eebd8$LR•IPV4•29『线路9』
 TVBS,http://4gtv.cnlive.club/channel/58f128b2/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 TVBS歡樂台,http://4gtv.cnlive.club/channel/498f035d/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
+TVBS歡樂台,http://00123.168ro.top:44345/4gtv-4gtv068/index.m3u8?token=NV6Zy9OZuTcA6gMQDkqK1jtEtKVyVeaFyS1UY9gnyInSmVNBVNifIN8utLLz3I9N&proxy=true$LR•IPV4•29『线路2』
+TVBS歡樂台,http://00123.168ro.top:44345/li-4gtv-4gtv068/index.m3u8?token=NV6Zy9OZuTcA6gMQDkqK1jtEtKVyVeaFyS1UY9gnyInSmVNBVNifIN8utLLz3I9N&proxy=true$LR•IPV4•29『线路3』
 TVBS綜藝台,http://4gtv.cnlive.club/channel/49d6d25d/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
+TVBS綜藝台,http://00123.168ro.top:44345/4gtv-live087/index.m3u8?token=NV6Zy9OZuTcA6gMQDkqK1jtEtKVyVeaFyS1UY9gnyInSmVNBVNifIN8utLLz3I9N&proxy=true$LR•IPV4•29『线路2』
 TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
+TVBS台劇台,http://00123.168ro.top:44345/4gtv-live088/index.m3u8?token=NV6Zy9OZuTcA6gMQDkqK1jtEtKVyVeaFyS1UY9gnyInSmVNBVNifIN8utLLz3I9N&proxy=true$LR•IPV4•29『线路2』
+TVBS HD,http://00123.168ro.top:44345/4gtv-4gtv073/index.m3u8?token=NV6Zy9OZuTcA6gMQDkqK1jtEtKVyVeaFyS1UY9gnyInSmVNBVNifIN8utLLz3I9N&proxy=true$LR•IPV4•29『线路1』
+TVBS HD,http://00123.168ro.top:44345/li-4gtv-4gtv073/index.m3u8?token=NV6Zy9OZuTcA6gMQDkqK1jtEtKVyVeaFyS1UY9gnyInSmVNBVNifIN8utLLz3I9N&proxy=true$LR•IPV4•29『线路2』
+TVBS新聞台,http://00123.168ro.top:44345/li-4gtv-4gtv072/index.m3u8?token=NV6Zy9OZuTcA6gMQDkqK1jtEtKVyVeaFyS1UY9gnyInSmVNBVNifIN8utLLz3I9N&proxy=true$LR•IPV4•29『线路1』
 翡翠台(美加·东岸时区),http://154.222.29.54/本群大佬-jr.php?id=TVBJEAST&token=65ba04e27c1eebd8$LR•IPV4•29『线路1』
 翡翠台(美加·西岸时区),http://154.222.29.54/本群大佬-jr.php?id=TVBJWEST&token=65ba04e27c1eebd8$LR•IPV4•29『线路1』
 翡翠台(欧·新时区),http://154.222.29.54/本群大佬-jr.php?id=TVBJAUS&token=65ba04e27c1eebd8$LR•IPV4•29『线路1』
@@ -1705,4 +1714,4 @@ TVB翡翠台（新加坡）,http://154.222.29.54/本群大佬-jr.php?id=tvbjades
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260710 06:25,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260710 11:40,https://d.kstore.dev/download/7547/20260401003530.mp4
