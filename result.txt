@@ -1537,4 +1537,4 @@ TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=178263988583
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260715 21:50,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260716 00:25,https://d.kstore.dev/download/7547/20260401003530.mp4
