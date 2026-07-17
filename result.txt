@@ -160,7 +160,7 @@ CCTV4,https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8
 CCTV5,https://live.666666.zip/stream/20233432.m3u8$LR•IPV4•29『线路1』
 CCTV5,https://live.666666.zip/cctv/5.m3u8$LR•IPV4•29『线路2』
 CCTV5,http://82.156.243.185:36888/av3a/cctv5n.m3u8$LR•IPV4•29『线路3』
-CCTV5,http://public-live.qdbroadcast.com/live/cx_479511.flv$LR•IPV4•29『线路4』
+CCTV5,http://www.kaniptv.cn/uadl.php?etoken=iyEQ66JaaNGKUbO7ZsFv0NfZAG8oH1bmAFvNcoyYgUWfUE7xA%2BPbZ%2Bl3lAzvWj%2FGtrg2NNltZlAw%2FhlcJomkFVAzB7zQu9Bfi%2FoAk%2FWcJiI4uPVwqQJgyCFn8QmmodRk7EjYY9u4jzuaMgC8Nx%2B0WwSy5wkRlKhp1FI%2BbuvyLmMj5%2Fl7UQA6AeI3q1niYQMO%2Fze%2Bx1vzTbcE9PoYTduEbe14lkk47UPln4e9ZB7OzeXJzeYTK%2FuQjsBTPRbB7QClRFZ29Lx5ZneqYgSIQxkXe0TSEbPAJJulrs34S1gbnee1ZLkAwnGHSHZZVNAfNSqbLJiFAurI4Na8w%2BQz%2BJgpAQ%3D%3D$LR•IPV4•29『线路4』
 CCTV5,http://111.221.137.234:44330/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路5』
 CCTV5,http://111.221.137.234:44330/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路6』
 CCTV5,http://111.29.9.33:6610/000000001000/1000000001000004794/index.m3u8?channel-id=bestzb&Contentid=1000000001000004794&livemode=1&stbId=3$LR•IPV4•29『线路7』
@@ -1370,7 +1370,7 @@ RTHK31,http://iptv.4666888.xyz/iptv2A.php?id=23$LR•IPV4•29『线路2』
 RTHK32,https://fast.hidns.vip/163189/rthk32$LR•IPV4•29『线路1』
 凤凰香港,https://cdn6.cc.cd/163189/fhhk$LR•IPV4•29『线路1』
 凤凰香港,http://feilong123.vip/409990236/hktv.php?id=2$LR•IPV4•29『线路2』
-凤凰香港,http://b.xszhibo.dingtoo.com/live/P2o4LqHlyXtxM7Tx7AQ3yE6rQckZpcjN2v4jsrrKpQ4DiCq3jCgQjDfeOvnZBw5.flv$LR•IPV4•29『线路3』
+凤凰香港,http://www.kaniptv.cn/uadl.php?etoken=TnG2NuGjulXo8nW0ZWHsoNfvWHGhXbOp5jvBNayByR3RwBfFDEhXNmTS5SIgkKzz%2BsNXRsoNAlBtYv8XWAFfpU7A%2FkBfKVJozfv7IFLYpuIg2mJvKafyaORgVd9%2Fst1OwxBUNiKKBYeqKrEPw1cZaMaXMzXG7pHlrHGUmjz6srYDtRAYKlLhcpyypYiVVI1fn15xdc0A9UBaM%2FgrtJ%2BpNgu10uoHihwM8BvW9KwLt4guxsxVMKkbNGLJCUhyuHMUr4UUYimyy8VAAoeNl3R12tOBEFGuI%2FW%2FdZAok5xDNhTTWxKB0gl3BOffM9LPkh4DdEya8JYiAxbY9gkUjxz3Tg%3D%3D$LR•IPV4•29『线路3』
 凤凰香港,http://k.061899.xyz/k.php?id=fhhk$LR•IPV4•29『线路4』
 TVB1,https://cdn6.cc.cd/163189/tvb1$LR•IPV4•29『线路1』
 TVB1,http://iptv.4666888.xyz/iptv2A.php?id=25$LR•IPV4•29『线路2』
@@ -1383,7 +1383,7 @@ TVBJ1,https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2
 翡翠台,http://gd.wsd.gd.cn:1698/hls/92/index.m3u8$LR•IPV4•29『线路4』
 翡翠台,http://116.77.239.26:44300/tsfile/live/0141_1.m3u8$LR•IPV4•29『线路5』
 翡翠台,http://everydaytv.top/live/ggiptv/jade/playlist.m3u8$LR•IPV4•29『线路6』
-翡翠台,http://b.xszhibo.dingtoo.com/live/wwlbRYvz7ZJIO3Vp3qUG07qium3d8AH2t1zh0ulNZ1g7E6nELdG38pFEB8XCRd.flv$LR•IPV4•29『线路7』
+翡翠台,http://www.kaniptv.cn/uadl.php?etoken=TyzWwmQsya3KU5N%2FAcWgGDofyS1xcXmy014%2BMNiaelYimwL1%2BVxtsPGui6Zji1jQqM3Ljy%2Biy6InIjlVSK5BFaX92PnFsH38qiuYu1XFKoyrYoo1vKvuRIVa4H5blx7evfeIExDClkIyz%2BHX5Ix9q1NLiBPY19GbxdUFvv4C738YsvmMFxcjC3ZW7M%2B51RkWHnOcnBYidgkK2Hxrw6lIWBhmt1QILPSfvC6ZqtLXCuNx7RDPnYECzpyxjDNU3t50YtOKd8QltCo5kAgeH87TL4aMXZOFlFtJKjq8RYJZyzs7ODWRGcBuiPwzXUTIXTRH%2BjYCM%2FtX7e8SaNpWfKFsQA%3D%3D$LR•IPV4•29『线路7』
 翡翠台,http://111.221.137.234:44330/tsfile/live/0141_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路8』
 翡翠台(字幕),https://cdn3.indevs.in/stream/tvb/fct/$LR•IPV4•29『线路1』
 明珠台(字幕),https://cdn3.indevs.in/stream/tvb/mzt/$LR•IPV4•29『线路1』
@@ -1405,7 +1405,7 @@ TVB Plus,https://smt.1678520.xyz/163189/tvbp$LR•IPV4•29『线路1』
 TVB Plus,http://zwg6818.vicp.net:28000/bysid/82$LR•IPV4•29『线路2』
 明珠台,http://119.32.12.73:2905/rtp/225.1.101.139:7523$LR•IPV4•29『线路1』
 明珠台,http://zwg6818.vicp.net:28000/bysid/2.mpeg$LR•IPV4•29『线路2』
-明珠台,https://live-play-2.haoyishu.org/live/cf43ff8eaab8750d33d5e1f2283d727a.flv$LR•IPV4•29『线路3』
+明珠台,http://www.kaniptv.cn/uadl.php?etoken=uDMlWtVkuf6RXWdnVe3JulgRC9Y6yb7TS4I6LW%2FH1m5wVQAZFHbyQcNMBYkkZcd3BBCIIY%2BQrTwZIP%2FJfFqvva4lMM9T4tsbycyzm%2Fr12DIUf327bIUlgC1CxIVMq%2BcZ%2B3HjeSqzkRiGvUy%2BzkqIs7wpoTHHWOfa77ANaIV5ByvRSInZ1XM6ZGcHh3%2FyM%2FMsu6Yfz033gtzbK1nSyRVYi0jvBCyQiip4gHunq2n9nc%2FnuGU7y5x6UdjNXcH%2BNq%2Bwlxdcl3RRcifUsqRMs%2FPuBX8pMpPi7oFs1VlX%2FxQZB6cs%2F95HFvEpk%2FUIHAoO0q8jIIg2%2BqS0ym6NXg1pEM8org%3D%3D$LR•IPV4•29『线路3』
 明珠台,http://111.221.137.234:44330/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路4』
 鳳凰衛視香港台,http://zwg6818.vicp.net:28000/bysid/85$LR•IPV4•29『线路1』
 TVB黃金華劇,http://iptv.4666888.xyz/iptv2A.php?id=34$LR•IPV4•29『线路1』
@@ -1425,16 +1425,16 @@ TVBS精采,http://iptv.4666888.xyz/iptv2A.php?id=47$LR•IPV4•29『线路1』
 香港35台,https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream02/streamPlaylist.m3u8$LR•IPV4•29『线路1』
 TVB星河3,http://php.jdshipin.com/TVOD/iptv.php?id=xinghe$LR•IPV4•29『线路1』
 TVBS新闻,http://jnzq.ohoyee.com:9080/live/332332-tvbsxw.m3u8$LR•IPV4•29『线路1』
-TVBS新闻,https://live-play-2.haoyishu.org/live/keUdt5l3EwaMtFTfQyZvX7vmLpPdXySDcv4bmRiBiIFs7j9ezNgGJjNaBzkYvy.flv$LR•IPV4•29『线路2』
+TVBS新闻,http://www.kaniptv.cn/uadl.php?etoken=7TRr%2BWczbLgZ4XTHBEZ9Frr5SwP01H7mOfKbnj2TuNaxcdU2ByY2TdRYmUIrpd8cei7k%2F3fdP8mHXwS3IzhR7%2BX8KJgj7meafxXIc4NIGRMF9SdShruPrtdL7g2Z6QsTBCJF5mmnumaToRfTjHyJFQe%2FPohlqhaAe3KLDimWL3mgcyZ2O39ZO00xSTQ4wbh2cWaRT9jgCNIKPsmBdMWfPoxR842vkMZFeNAC1h%2FK4DQlJOonqcvSNj%2B3MwsolW64cvg9iSzjLBbUPL3ESpFlDGd8WmHyU8rYTcYdSPKoGs7Enjlafs7brfqLlatGRTOp2Y%2BGNEWJUnhcpHdXTAgtwA%3D%3D$LR•IPV4•29『线路2』
 TVBS精采台,http://4gtv.cnlive.club/channel/49d50255/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 TVBS,http://4gtv.cnlive.club/channel/58f128b2/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
-TVBS,https://live-play-2.haoyishu.org/live/pbFjyBB6xHbgZLjEShgw8G8UBMqgmLRD427IPvok2q4XcIlckFzMjMTlk1U39BX5.flv$LR•IPV4•29『线路2』
+TVBS,http://www.kaniptv.cn/uadl.php?etoken=wgd28Me6AjCknyDYyliu74kANSXKgd1p1hPzYm4a17rNgHnWxCMh9ncyFixDpHWkzItL%2BjgkfHRzBMNZYQCx6SE6cUbzTYTN1yYPbTKpsPWq%2FsYyCjT8QEznEiZDvrNwE71dpFQvq524L%2B51gLj8jP5WHcymFtLaKE8V2e8foA207y4m1ROJSU8jqUVydgwMqQmrVv9n0l0a7gCa73mQ4%2FsSXMsjEaaTOWsuvjMbpLUbWw%2B6peMPpYflU05mXHHBe5RmB00jsOircSqHijlFKi0tDfEBsxKD8703k2%2BJOPb3oKaYzGHYXWdBfv1K0mSQ1fz%2Bpk9IMlxkQaa13FGg0Q%3D%3D$LR•IPV4•29『线路2』
 TVBS歡樂台,http://4gtv.cnlive.club/channel/498f035d/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 TVBS綜藝台,http://4gtv.cnlive.club/channel/49d6d25d/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
-TVBPlus,http://b.xszhibo.dingtoo.com/live/yVI6fgS8qoJdAdxoDVhqdb2NzfUcaYsXWN1HAh4JxfOYSHv5nYbrkyp1Xk1j1Om.flv$LR•IPV4•29『线路1』
-无线新闻,http://b.xszhibo.dingtoo.com/live/aggEURxB5rUDNt9BibxWRfOAxPc0smDRQ7gh2gc3lids4EtaurSDu1DrIzomE.flv$LR•IPV4•29『线路1』
-TVB 星河,http://b.xszhibo.dingtoo.com/live/z5KKV4G8BMq9X0EiFk4xhFbg46dLXaSNFWpszYWAhZkGM6Xu4wXabHqInU6P.flv$LR•IPV4•29『线路1』
+TVBPlus,http://www.kaniptv.cn/uadl.php?etoken=lpoujPoIEpiXb6mSeBTFIYsrYCy6qafmwrzMb%2BcZrYhowGx6ZFHv5TcHBGseefZ%2BIV1H8lOEWSH%2FfFYby3HBbxPszwCBFTpbl7DrABoVLUMvS9LfxGiJTsd2p5xe9ARZW3DNCeqODH25gt2oQPTMZPqeLiZvQUv08AOld2fcYgfZY9YZ4iLnN%2BOmJGnc5SZ%2FRCv8rHB2n01bN93wKOirx4lVKqa3gCxnUT3EMQX1QdnqH9JrsfAF2S%2FUFkjPvXje9x4W5YdBL9%2B0Kum8Rud5hbjX1i2p%2FPDuKDFJ7cfj0NLrdmDg7NizHzCtDXaFwKTy5qy6nbTZANTB0akP6h3YxQ%3D%3D$LR•IPV4•29『线路1』
+无线新闻,http://www.kaniptv.cn/uadl.php?etoken=09mifIFf028KDTPOvrTq3OHYyN273rL%2BBsFsh1zSGlvtc2Ew9rqiRBm0QEq%2FHkjpLNWV7gAhlQQSHfCQtvEzEcap3BaqgcD62RcP3tGNHPcV%2FB8SXGRmdMBmgCAPYDcaNcxL12BP4Lqq%2BUXEmXF7embT5HZNlAMTFWaC4FxEWQbTNue22GaFdIkjQG1L7V6MUPxTjJR3HVm0b0FJfxtrdSSIbOV72d0cmdUyRURBkAXTpheMxOtK6g6iTwASE9ZqNfSW39LfIapHjTf02Pu3pu5fqUB7Z61zbzlrL3hh0JBYYjg%2FKRAfu2STkwPjqY44Sf2us77%2F%2BxHdVgr2Li01Nw%3D%3D$LR•IPV4•29『线路1』
+TVB 星河,http://www.kaniptv.cn/uadl.php?etoken=6yNnTi1PRlHftXv4EmKMnnSLgNyegNoBGkT8tjTWKeBatA42cv4Ac0AR7hI4%2Fal3Dt3DPa4wgm0GdyUxEjQMbGY5AEjUaI8dUUv397mGsOIdNT7sh7K2QmFOLXWhoaHhjonkZzQbb1TWXq3I1IfSpSAb0FbeLrfocdnMN09xVKdDNB%2FDLYKi4yjzKBPWYrgGN6NR1wq9BoeLt4sx8julLwZZ%2FBxcXLdwYSjy3EgmY2AdOkG6xU0lim0V5OUXD4GWVk%2FA4luR%2BPC0a8ShQRWK9l8p6RVF%2Fwf1F5adYMvTwwPIia5mbeJA3l7F5qc0RmSWMShYfnU0AMie3XJf4X0x8w%3D%3D$LR•IPV4•29『线路1』
 凤凰香港频标,http://m.061899.xyz/mg/fhhk$LR•IPV4•29『线路1』
 经典香港电影,http://k.061899.xyz/k.php?id=xgdy$LR•IPV4•29『线路1』
 经典香港电影,http://mg.cttv.vip/625703337$LR•IPV4•29『线路2』
@@ -1545,4 +1545,4 @@ TVB 星河,http://b.xszhibo.dingtoo.com/live/z5KKV4G8BMq9X0EiFk4xhFbg46dLXaSNFWp
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260717 21:46,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260718 00:17,https://d.kstore.dev/download/7547/20260401003530.mp4
