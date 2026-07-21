@@ -5,6 +5,10 @@
       "卫视直播"
     ],
     [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonyingke.txt&%E6%98%A0%E5%AE%A2",
+      "映客"
+    ],
+    [
       "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonkawayi.txt&%E5%8D%A1%E5%93%87%E4%BC%8A",
       "卡哇伊"
     ],
@@ -531,6 +535,7 @@
   ],
   "json_map": {
     "卫视直播": "jsonweishizhibo.txt",
+    "映客": "jsonyingke.txt",
     "卡哇伊": "jsonkawayi.txt",
     "咪狐": "jsonmihu.txt",
     "花蝴蝶": "jsonhuahudie.txt",
@@ -664,15 +669,16 @@
     "情趣": "jsonqingqu.txt"
   },
   "results": {
-    "情趣": 141,
-    "牵手": 29,
-    "蚊香社": 8,
-    "小辣椒": 2,
     "卫视直播": 35,
-    "欧美TRANS": 61,
-    "欧美FEATURED": 44,
-    "欧美FEMALE": 30,
-    "欧美MALE": 78,
-    "欧美COUPLE": 75
+    "情趣": 155,
+    "小性感": 2,
+    "牵手": 26,
+    "蚊香社": 6,
+    "星宝贝": 2,
+    "欧美TRANS": 48,
+    "欧美FEATURED": 18,
+    "欧美FEMALE": 28,
+    "欧美MALE": 68,
+    "欧美COUPLE": 78
   }
 }
