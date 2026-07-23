@@ -105,6 +105,7 @@ CCTV3,https://live.264788.xyz/channel/cctv3?streamid=d0473114041b533ea069452f29f
 CCTV3,https://live.264788.xyz/channel/cctv3?streamid=b56bf50c19821aafefca9f20761908e2&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路32』
 CCTV3,http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV-3$LR•IPV4•29『线路33』
 CCTV3,http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV3$LR•IPV4•29『线路34』
+CCTV3,http://125.42.151.217:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4•29『线路35』
 CCTV4,http://cfss.cc/cdn/dy/CCTV4...flv$LR•IPV4•29『线路1』
 CCTV4,http://111.221.137.234:44330/tsfile/live/0004_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路2』
 CCTV4,http://111.29.9.33:6610/000000001000/1000000002000031664/index.m3u8?channel-id=bestzb&Contentid=1000000002000031664&livemode=1&stbId=3$LR•IPV4•29『线路3』
@@ -172,6 +173,7 @@ CCTV4,http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%
 CCTV4,http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV4/4$LR•IPV4•29『线路65』
 CCTV4,http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV4/5$LR•IPV4•29『线路66』
 CCTV4,https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1784847600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-50d4bf2b9853effeed8effeb597abcf7&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c$LR•IPV4•29『线路67』
+CCTV4,https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1784880000-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-7f7770e5bd7ec72016097da5204feca0&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c$LR•IPV4•29『线路68』
 CCTV5,https://live.666666.zip/stream/20233432.m3u8$LR•IPV4•29『线路1』
 CCTV5,https://live.666666.zip/cctv/5.m3u8$LR•IPV4•29『线路2』
 CCTV5,http://82.156.243.185:36888/av3a/cctv5n.m3u8$LR•IPV4•29『线路3』
@@ -272,6 +274,7 @@ CCTV6,https://live.264788.xyz/channel/cctv6?streamid=594ab401db67c9a1a87d9419543
 CCTV6,http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV-6$LR•IPV4•29『线路33』
 CCTV6,http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV6$LR•IPV4•29『线路34』
 CCTV6,http://198.204.240.250:82/live/cctv6.m3u8$LR•IPV4•29『线路35』
+CCTV6,http://125.42.151.217:9901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4•29『线路36』
 CCTV7,http://111.221.137.234:44330/tsfile/live/0007_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路1』
 CCTV7,http://111.29.9.33:6610/000000001000/1000000001000017218/index.m3u8?channel-id=bestzb&Contentid=1000000001000017218&livemode=1&stbId=3$LR•IPV4•29『线路2』
 CCTV7,http://120.87.19.109:80/PLTV/88888973/224/3221225741/10000100000000060000000000334547_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xAe5XcLotFJGdYOwP2bdmzgWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601$LR•IPV4•29『线路3』
@@ -520,6 +523,7 @@ CCTV13,https://live.264788.xyz/channel/cctv13?streamid=4789b08617985dff522a8b350
 CCTV13,http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV-13$LR•IPV4•29『线路37』
 CCTV13,http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV13$LR•IPV4•29『线路38』
 CCTV13,http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/CCTV13/2$LR•IPV4•29『线路39』
+CCTV13,http://125.42.151.217:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4•29『线路40』
 CCTV14,http://111.221.137.234:44330/tsfile/live/0014_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路1』
 CCTV14,http://go.bkpcp.top/mg/cctv14$LR•IPV4•29『线路2』
 CCTV14,http://m.061899.xyz/mg/cctv14$LR•IPV4•29『线路3』
@@ -543,6 +547,7 @@ CCTV14,https://live.264788.xyz/channel/cctv14?streamid=f0870d5670f7b591427c91bcb
 CCTV14,https://live.264788.xyz/channel/cctv14?streamid=8f369d689a4dd78055143e69e32ce6d8&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路21』
 CCTV14,https://live.264788.xyz/channel/cctv14?streamid=62f8056147d37ab75d0da292d40c0418&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路22』
 CCTV14,http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV-14$LR•IPV4•29『线路23』
+CCTV14,http://125.42.151.217:9901/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4•29『线路24』
 CCTV15,http://111.221.137.234:44330/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路1』
 CCTV15,http://111.29.9.33:6610/000000001000/1000000002000008163/index.m3u8?channel-id=bestzb&Contentid=1000000002000008163&livemode=1&stbId=3$LR•IPV4•29『线路2』
 CCTV15,http://120.87.19.109:80/PLTV/88888973/224/3221225756/10000100000000060000000000334620_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xpcuHQDY70OMGYO2iva08mgWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601$LR•IPV4•29『线路3』
@@ -687,6 +692,8 @@ CCTV17,http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F
 天津卫视,http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86/2$LR•IPV4•29『线路26』
 天津卫视,http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86/3$LR•IPV4•29『线路27』
 天津卫视,http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86/4$LR•IPV4•29『线路28』
+天津卫视,http://125.42.151.217:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4•29『线路29』
+天津卫视,http://125.42.151.53:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4•29『线路30』
 河北卫视,http://111.29.9.33:6610/000000001000/1000000002000017118/index.m3u8?channel-id=bestzb&Contentid=1000000002000017118&livemode=1&stbId=3$LR•IPV4•29『线路1』
 河北卫视,http://120.87.19.109:80/PLTV/88888973/224/3221225672/10000100000000060000000000331498_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xFACtHIE0oOjFeUJRrFROpwWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601$LR•IPV4•29『线路2』
 河北卫视,http://120.87.19.109:80/PLTV/88888973/224/3221226622/10000100000000060000000001621395_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xh3aXm/MoQR7jifa79e4rnAWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601$LR•IPV4•29『线路3』
@@ -878,6 +885,7 @@ CCTV17,http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F
 东方卫视,https://live.264788.xyz/channel/dongfangweishi4k?streamid=b8c707e2ca95b85511f6c50c9638128b&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路35』
 东方卫视,http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86%E6%97%B6%E7%A7%BB%E4%B8%93%E7%94%A8%28%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86%29$LR•IPV4•29『线路36』
 东方卫视,http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86$LR•IPV4•29『线路37』
+东方卫视,http://125.42.151.217:9901/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4•29『线路38』
 江苏卫视,http://111.221.137.234:44330/tsfile/live/0135_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路1』
 江苏卫视,http://111.29.9.33:6610/000000001000/1000000001000001828/index.m3u8?channel-id=bestzb&Contentid=1000000001000001828&livemode=1&stbId=3$LR•IPV4•29『线路2』
 江苏卫视,http://120.87.19.109:80/PLTV/88888973/224/3221225685/10000100000000060000000000333755_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3x8gF4mryrhqsqlbIuteHHNQWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601$LR•IPV4•29『线路3』
@@ -1069,7 +1077,7 @@ CCTV17,http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F
 河南卫视,https://live.264788.xyz/channel/henanweishi?streamid=ffc9cbdd1791aa15a6321452d620baff&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路32』
 河南卫视,http://218.13.148.152:5140/IPTV-%E5%8D%AB%E8%A7%86/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86$LR•IPV4•29『线路33』
 河南卫视,http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86$LR•IPV4•29『线路34』
-河南卫视,http://125.42.151.217:9901/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4•29『线路35』
+河南卫视,http://113.96.145.51/tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=0f4c205f500502b49407ed239906285c&wsTime=1784840577&wsSession=87d305de7e74d4ad3cb28e88-178482637327968&wsIPSercert=f1ed5e80c31ab65580d88c6bbb451005&wsBindIP=2&wsserid=1168295651980168679$LR•IPV4•29『线路35』
 湖北卫视,http://111.221.137.234:44330/tsfile/live/0139_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路1』
 湖北卫视,http://111.29.9.33:6610/000000001000/1000000001000010355/index.m3u8?channel-id=bestzb&Contentid=1000000001000010355&livemode=1&stbId=3$LR•IPV4•29『线路2』
 湖北卫视,http://120.87.19.109:80/PLTV/88888973/224/3221225664/10000100000000060000000000331311_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xw1E+gedfdIrlVObbJn1gIQWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601$LR•IPV4•29『线路3』
@@ -1202,7 +1210,7 @@ CCTV17,http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F
 广东卫视,https://live.264788.xyz/channel/guangdongweishi4k?streamid=277bdd07ffb8e58b78afb1b04ae49cad&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路64』
 广东卫视,http://218.13.148.152:5140/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86$LR•IPV4•29『线路65』
 广东卫视,http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86$LR•IPV4•29『线路66』
-广东卫视,http://125.42.151.217:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4•29『线路67』
+广东卫视,http://125.42.151.53:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4•29『线路67』
 广西卫视,http://111.29.9.33:6610/000000001000/1000000002000019837/index.m3u8?channel-id=bestzb&Contentid=1000000002000019837&livemode=1&stbId=3$LR•IPV4•29『线路1』
 广西卫视,http://120.87.19.109:80/PLTV/88888973/224/3221225675/10000100000000060000000000332978_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xhrOmcPk9sH9FX/hd6m3omgWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601$LR•IPV4•29『线路2』
 广西卫视,http://120.87.19.109:80/PLTV/88888973/224/3221226355/10000100000000060000000001481217_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xEVPi1oYRiQCfdkbphB8r9gWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601$LR•IPV4•29『线路3』
@@ -1651,4 +1659,4 @@ TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=178263988583
 深圳少儿,http://218.13.148.152:5140/IPTV-%E6%B7%B1%E5%9C%B3%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B7%B1%E5%9C%B3%E5%B0%91%E5%84%BF%E9%A2%91%E9%81%93$LR•IPV4•29『线路2』
 深圳少儿,http://8.134.175.232:4022/IPTV-%E5%B9%BF%E4%B8%9C%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B7%B1%E5%9C%B3%E5%B0%91%E5%84%BF$LR•IPV4•29『线路3』
 灵鹿整合,#genre#
-20260724 00:38,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260724 03:23,https://d.kstore.dev/download/7547/20260401003530.mp4
