@@ -1690,4 +1690,4 @@ TVBSAsia,http://www.kaniptv.cn/uadl.php?etoken=Dy9vU1LuI2KTtGb2w0be%2BA01X%2FFYq
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 深圳少儿,http://218.13.148.152:5140/IPTV-%E6%B7%B1%E5%9C%B3%E7%94%B5%E8%A7%86%E5%8F%B0/%E6%B7%B1%E5%9C%B3%E5%B0%91%E5%84%BF%E9%A2%91%E9%81%93$LR•IPV4•29『线路2』
 灵鹿整合,#genre#
-20260726 03:12,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260726 05:58,https://d.kstore.dev/download/7547/20260401003530.mp4
