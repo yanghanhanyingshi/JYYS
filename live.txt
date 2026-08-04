@@ -1267,6 +1267,7 @@ TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=178263988583
 经典香港电影,http://k.061899.xyz/k.php?id=xgdy$LR•IPV4•29『线路1』
 经典香港电影,https://live.chinacert.cftest5.cn/cnmg/live/625703337$LR•IPV4•29『线路2』
 【快看张不疯】带你看香港经典电影,https://www.goodiptv.club/douyu/8413226$LR•IPV4•29『线路1』
+老牌香港明星的最全八卦,https://www.goodiptv.club/douyu/9970047$LR•IPV4•29『线路1』
 香港院线大片-最新,https://www.goodiptv.club/yy/1354936242$LR•IPV4•29『线路1』
 香港第三台,https://rthkaudio3-lh.akamaihd.net/i/radio3_1@355866/master.m3u8$LR•IPV4•29『线路1』
 香港古典音乐,https://rthkradio1-live.akamaized.net/hls/live/2035313/radio1/master.m3u8?sd=10&rebase=on$LR•IPV4•29『线路1』
@@ -1312,6 +1313,7 @@ TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=178263988583
 哈哈炫动,https://live.264788.xyz/channel/hahaxuandong?streamid=c55a3d1bf2300814cb8fafabd059fb47&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路6』
 哈哈炫动,https://live.264788.xyz/channel/hahaxuandong?streamid=0dcc11256eb6013f27057b21e14e5cc2&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路7』
 哈哈炫动,http://plzysm.cn:5140/%E5%B0%91%E5%84%BF%E6%95%99%E8%82%B2/%E5%93%88%E5%93%88%E7%82%AB%E5%8A%A8$LR•IPV4•29『线路8』
+哈哈炫动,http://www.kooca.cn:5140/%E5%B0%91%E5%84%BF%E9%A2%91%E9%81%93/%E5%93%88%E5%93%88%E7%82%AB%E5%8A%A8$LR•IPV4•29『线路9』
 嘉佳卡通,http://k.061899.xyz/k.php?id=jjkt$LR•IPV4•29『线路1』
 嘉佳卡通,https://live.chinacert.cftest5.cn/cnmg/live/614952364$LR•IPV4•29『线路2』
 嘉佳卡通,http://38.75.136.137:98/gslb/dsdqpub/gdjjkt.m3u8?auth=testpub$LR•IPV4•29『线路3』
@@ -1351,4 +1353,4 @@ TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=178263988583
 甘肃少儿,http://plzysm.cn:5140/%E7%94%98%E8%82%83%E6%9C%AC%E5%9C%B0/%E7%94%98%E8%82%83%E5%B0%91%E5%84%BF$LR•IPV4•29『线路1』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260804 22:23,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260805 00:55,https://d.kstore.dev/download/7547/20260401003530.mp4
