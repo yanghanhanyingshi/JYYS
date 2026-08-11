@@ -253,6 +253,10 @@
       "十八禁"
     ],
     [
+      "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonlanguifang.txt&%E5%85%B0%E6%A1%82%E5%9D%8A",
+      "兰桂坊"
+    ],
+    [
       "http://zhibo.aisimu.cn/zhubo/zblist.php?url=jsonDancelife.txt&Dancelife",
       "Dancelife"
     ],
@@ -589,6 +593,7 @@
     "夜来香": "jsonyelaixiang.txt",
     "爱零": "jsonailing.txt",
     "十八禁": "jsonshibajin.txt",
+    "兰桂坊": "jsonlanguifang.txt",
     "Dancelife": "jsonDancelife.txt",
     "小萌猪": "jsonxiaomengzhu.txt",
     "蝴蝶飞": "jsonhudiefei.txt",
@@ -659,15 +664,14 @@
     "情趣": "jsonqingqu.txt"
   },
   "results": {
+    "情趣": 120,
+    "蚊香社": 8,
+    "牵手": 32,
     "卫视直播": 35,
-    "情趣": 145,
-    "牵手": 26,
-    "蚊香社": 4,
-    "名流": 4,
-    "欧美TRANS": 52,
-    "欧美FEATURED": 30,
+    "欧美TRANS": 49,
+    "欧美FEATURED": 26,
     "欧美FEMALE": 29,
-    "欧美MALE": 56,
-    "欧美COUPLE": 74
+    "欧美MALE": 58,
+    "欧美COUPLE": 76
   }
 }
