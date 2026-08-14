@@ -1621,8 +1621,7 @@ TVB-金曲,http://iptv.4666888.xyz/iptv2A.php?id=57$LR•IPV4•29『线路1』
 TVB娛樂新聞,http://iptv.4666888.xyz/iptv2A.php?id=36$LR•IPV4•29『线路1』
 TVB翡翠劇集,http://iptv.4666888.xyz/iptv2A.php?id=33$LR•IPV4•29『线路1』
 TVBS新聞,http://iptv.4666888.xyz/iptv2A.php?id=43$LR•IPV4•29『线路1』
-TVBS新聞,https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8$LR•IPV4•29『线路2』
-TVBS新聞,http://4gtv.cnlive.club/channel/n1ea96b20/index.m3u8?q=1782639885837$LR•IPV4•29『线路3』
+TVBS新聞,http://4gtv.cnlive.club/channel/n1ea96b20/index.m3u8?q=1782639885837$LR•IPV4•29『线路2』
 TVBS精采,http://iptv.4666888.xyz/iptv2A.php?id=47$LR•IPV4•29『线路1』
 香港C+,http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/index.m3u8$LR•IPV4•29『线路1』
 香港32台,https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream2/streamPlaylist.m3u8$LR•IPV4•29『线路1』
@@ -1763,4 +1762,4 @@ TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=178263988583
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260814 18:06,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260814 21:13,https://d.kstore.dev/download/7547/20260401003530.mp4
