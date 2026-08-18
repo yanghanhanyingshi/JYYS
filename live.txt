@@ -946,6 +946,7 @@ CCTV17农业农村,http://115.29.208.41:23002/live/1616.m3u8$LR•IPV4•29『�
 湖北卫视,https://live.264788.xyz/channel/hubeiweishi?streamid=501fea86d3931580a92805df154b7002&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路23』
 湖北卫视,https://live.264788.xyz/channel/hubeiweishi?streamid=3178da013d951c658209016c1fb875ad&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路24』
 湖北卫视,http://115.29.208.41:23002/live/1417_7500.m3u8$LR•IPV4•29『线路25』
+湖北卫视,http://115.29.208.41:23002/live/1250.m3u8$LR•IPV4•29『线路26』
 湖南卫视,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8$LR•IPV4•29『线路1』
 湖南卫视,http://go.bkpcp.top/mg/hunws$LR•IPV4•29『线路2』
 湖南卫视,http://m.061899.xyz/mg/hunws$LR•IPV4•29『线路3』
@@ -972,6 +973,9 @@ CCTV17农业农村,http://115.29.208.41:23002/live/1616.m3u8$LR•IPV4•29『�
 湖南卫视,https://live.264788.xyz/channel/hunanweishi?streamid=0828c5c3517aef9c72343736b2d9d1f9&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路24』
 湖南卫视,https://live.264788.xyz/channel/hunanweishi4k?streamid=e7f9a38ccce9109f57a4f4e2e2218351&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路25』
 湖南卫视,https://live.264788.xyz/channel/hunanweishi4k?streamid=1d2cff60e497ead8198445a199d19583&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路26』
+湖南卫视,http://115.29.208.41:23002/live/4016.m3u8$LR•IPV4•29『线路27』
+湖南卫视,http://115.29.208.41:23002/live/1203.m3u8$LR•IPV4•29『线路28』
+湖南卫视,http://115.29.208.41:23002/live/1408.m3u8$LR•IPV4•29『线路29』
 广东卫视,http://go.bkpcp.top/mg/gdws$LR•IPV4•29『线路1』
 广东卫视,http://119.29.142.81:4022/udp/239.77.0.84:5146$LR•IPV4•29『线路2』
 广东卫视,http://lsa.familyds.com:8188/udp/239.77.0.84:5146$LR•IPV4•29『线路3』
@@ -1043,6 +1047,8 @@ CCTV17农业农村,http://115.29.208.41:23002/live/1616.m3u8$LR•IPV4•29『�
 广西卫视,https://live.264788.xyz/channel/guangxiweishi?streamid=c620467e4de0c1a41b2e213a2d9d4bd1&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路22』
 广西卫视,https://live.264788.xyz/channel/guangxiweishi?streamid=a81b4873dad06cc9b37747c2fc479284&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路23』
 广西卫视,https://live.264788.xyz/channel/guangxiweishi?streamid=b8d44e8c47f0c0688b1e68b8e2c00b91&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路24』
+广西卫视,http://115.29.208.41:23002/live/1444_7500.m3u8$LR•IPV4•29『线路25』
+广西卫视,http://115.29.208.41:23002/live/1209.m3u8$LR•IPV4•29『线路26』
 重庆卫视,http://go.bkpcp.top/mg/cqws$LR•IPV4•29『线路1』
 重庆卫视,http://m.061899.xyz/mg/cqws$LR•IPV4•29『线路2』
 重庆卫视,http://k.061899.xyz/k.php?id=cqws$LR•IPV4•29『线路3』
@@ -1067,6 +1073,8 @@ CCTV17农业农村,http://115.29.208.41:23002/live/1616.m3u8$LR•IPV4•29『�
 重庆卫视,https://live.264788.xyz/channel/chongqingweishi?streamid=2bd433d1c200217fe52bc28425ce5a29&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路22』
 重庆卫视,https://live.264788.xyz/channel/chongqingweishi?streamid=686f6f7a1575884e5faa8bc3db4f3e9e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路23』
 重庆卫视,https://live.264788.xyz/channel/chongqingweishi?streamid=0d606a0ff89dc49b8efb489237c11095&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路24』
+重庆卫视,http://115.29.208.41:23002/live/1425.m3u8$LR•IPV4•29『线路25』
+重庆卫视,http://115.29.208.41:23002/live/1237.m3u8$LR•IPV4•29『线路26』
 四川卫视,http://go.bkpcp.top/mg/scws$LR•IPV4•29『线路1』
 四川卫视,http://m.061899.xyz/mg/scws$LR•IPV4•29『线路2』
 四川卫视,http://k.061899.xyz/k.php?id=scws$LR•IPV4•29『线路3』
@@ -1089,6 +1097,9 @@ CCTV17农业农村,http://115.29.208.41:23002/live/1616.m3u8$LR•IPV4•29『�
 四川卫视,https://live.264788.xyz/channel/sichuanweishi?streamid=ee4e9252618099b2505fd3875394a5ba&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路20』
 四川卫视,https://live.264788.xyz/channel/sichuanweishi4k?streamid=21be5901ee81559c827dc84e46f26452&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路21』
 四川卫视,https://live.264788.xyz/channel/sichuanweishi4k?streamid=401bf692a1a8b91298f26077d53316d6&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$LR•IPV4•29『线路22』
+四川卫视,http://115.29.208.41:23002/live/4018.m3u8$LR•IPV4•29『线路23』
+四川卫视,http://115.29.208.41:23002/live/1210.m3u8$LR•IPV4•29『线路24』
+四川卫视,http://115.29.208.41:23002/live/1424.m3u8$LR•IPV4•29『线路25』
 贵州卫视,http://go.bkpcp.top/mg/gzws$LR•IPV4•29『线路1』
 贵州卫视,http://m.061899.xyz/mg/gzws$LR•IPV4•29『线路2』
 贵州卫视,http://k.061899.xyz/k.php?id=gzws$LR•IPV4•29『线路3』
@@ -1280,6 +1291,7 @@ TVBS新闻,https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8$L
 TVBS精采台,http://4gtv.cnlive.club/channel/49d50255/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 TVBS,http://4gtv.cnlive.club/channel/58f128b2/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 TVBS歡樂台,http://4gtv.cnlive.club/channel/498f035d/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
+TVBS綜藝台,http://4gtv.cnlive.club/channel/49d6d25d/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 明珠台,http://115.29.208.41:23002/live/1351_7500.m3u8$LR•IPV4•29『线路1』
 明珠台,http://115.29.208.41:23002/live/1304.m3u8$LR•IPV4•29『线路2』
@@ -1375,4 +1387,4 @@ TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=178263988583
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260818 20:52,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260818 23:34,https://d.kstore.dev/download/7547/20260401003530.mp4
