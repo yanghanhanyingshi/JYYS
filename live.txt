@@ -458,16 +458,15 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 吉林卫视,http://j.s.bkpcp.top/jj/jlws$LR•IPV4•29『线路4』
 吉林卫视,http://cdn6.bkpcp.top/tl/tuiliu.php?id=jlws$LR•IPV4•29『线路5』
 吉林卫视,http://116.147.111.62:7788/947472500$LR•IPV4•29『线路6』
-吉林卫视,http://www.ikerobot.com:1234/947472500$LR•IPV4•29『线路7』
-吉林卫视,http://p.08top.top:8088/947472500$LR•IPV4•29『线路8』
-吉林卫视,http://mg.cttv.vip/947472500$LR•IPV4•29『线路9』
-吉林卫视,http://38.75.136.137:98/gslb/dsdqpub/jlwshd.m3u8?auth=testpub$LR•IPV4•29『线路10』
-吉林卫视,http://120.76.248.139/live/bfgd/4200000097.m3u8$LR•IPV4•29『线路11』
-吉林卫视,http://107.150.60.122/live/jlwshd.m3u8$LR•IPV4•29『线路12』
-吉林卫视,http://192.151.150.154/live/jlwshd.m3u8$LR•IPV4•29『线路13』
-吉林卫视,http://198.204.228.26/live/jlwshd.m3u8$LR•IPV4•29『线路14』
-吉林卫视,http://bztv.tvbus.cc:8081/cdnlive/jlws.m3u8$LR•IPV4•29『线路15』
-吉林卫视,http://by4.nty.tv189.cn/live/tm-ysjlws-4000k.m3u8$LR•IPV4•29『线路16』
+吉林卫视,http://p.08top.top:8088/947472500$LR•IPV4•29『线路7』
+吉林卫视,http://mg.cttv.vip/947472500$LR•IPV4•29『线路8』
+吉林卫视,http://38.75.136.137:98/gslb/dsdqpub/jlwshd.m3u8?auth=testpub$LR•IPV4•29『线路9』
+吉林卫视,http://120.76.248.139/live/bfgd/4200000097.m3u8$LR•IPV4•29『线路10』
+吉林卫视,http://107.150.60.122/live/jlwshd.m3u8$LR•IPV4•29『线路11』
+吉林卫视,http://192.151.150.154/live/jlwshd.m3u8$LR•IPV4•29『线路12』
+吉林卫视,http://198.204.228.26/live/jlwshd.m3u8$LR•IPV4•29『线路13』
+吉林卫视,http://bztv.tvbus.cc:8081/cdnlive/jlws.m3u8$LR•IPV4•29『线路14』
+吉林卫视,http://by4.nty.tv189.cn/live/tm-ysjlws-4000k.m3u8$LR•IPV4•29『线路15』
 黑龙江卫视,http://go.bkpcp.top/mg/hljws$LR•IPV4•29『线路1』
 黑龙江卫视,http://k.061899.xyz/k.php?id=hljws$LR•IPV4•29『线路2』
 黑龙江卫视,http://j.s.bkpcp.top/jj/hljws$LR•IPV4•29『线路3』
@@ -888,4 +887,4 @@ TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=178263988583
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260819 14:49,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260819 17:37,https://d.kstore.dev/download/7547/20260401003530.mp4
