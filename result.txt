@@ -1073,6 +1073,7 @@ CCTV17,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&playlive=0&a
 香港频道,#genre#
 全粤语港台经典老歌DJ,https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000cs5om8nog65vrmmn2g4g&ratio=720p&line=0$LR•IPV4•29『线路1』
 Dj钟仔-全粤语Electro风格港台情歌对碰吴雨霏vs关心妍DJ串烧,https://mp4.djuu.com/c2/16/2025/0c30fc654c36ebe2.m4a$LR•IPV4•29『线路1』
+DjMcYummy-全粤语Electro音乐纷花游乐场不只爱情港台串烧,https://mp4.djuu.com/c2/16/2026/2813bff6a8388701.m4a$LR•IPV4•29『线路1』
 TVB plus备,https://vdm6-hw.nbgdsygs.com/live/h6-2.flv$LR•IPV4•29『线路1』
 翡翠台4K(字幕),https://cdn3.indevs.in/stream/tvb/fct4k/$LR•IPV4•29『线路1』
 TVB Plus(字幕),https://cdn3.indevs.in/stream/tvb/tvbp/$LR•IPV4•29『线路1』
@@ -1212,4 +1213,4 @@ TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=178263988583
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260819 20:53,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260819 23:34,https://d.kstore.dev/download/7547/20260401003530.mp4
