@@ -748,11 +748,13 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 宁夏卫视,http://by4.nty.tv189.cn/tm-ysnxws-4000k.m3u8$LR•IPV4•29『线路13』
 新疆卫视,http://go.bkpcp.top/mg/xjws$LR•IPV4•29『线路1』
 新疆卫视,http://m.061899.xyz/mg/xjws$LR•IPV4•29『线路2』
-新疆卫视,http://38.75.136.137:98/gslb/dsdqpub/xjws.m3u8?auth=testpub$LR•IPV4•29『线路3』
-新疆卫视,http://107.150.60.122/live/xjws.m3u8$LR•IPV4•29『线路4』
-新疆卫视,http://192.151.150.154/live/xjws.m3u8$LR•IPV4•29『线路5』
-新疆卫视,http://198.204.228.26/live/xjws.m3u8$LR•IPV4•29『线路6』
-新疆卫视,http://bztv.tvbus.cc:8081/cdnlive/xjws.m3u8$LR•IPV4•29『线路7』
+新疆卫视,http://k.061899.xyz/k.php?id=xjws$LR•IPV4•29『线路3』
+新疆卫视,http://38.75.136.137:98/gslb/dsdqpub/xjws.m3u8?auth=testpub$LR•IPV4•29『线路4』
+新疆卫视,http://107.150.60.122/live/xjws.m3u8$LR•IPV4•29『线路5』
+新疆卫视,http://192.151.150.154/live/xjws.m3u8$LR•IPV4•29『线路6』
+新疆卫视,http://198.204.228.26/live/xjws.m3u8$LR•IPV4•29『线路7』
+新疆卫视,http://bztv.tvbus.cc:8081/cdnlive/xjws.m3u8$LR•IPV4•29『线路8』
+新疆卫视,http://by4.nty.tv189.cn/live/tm-dxxjws-4000k.m3u8$LR•IPV4•29『线路9』
 香港频道,#genre#
 Dj钟仔-全粤语Electro风格港台情歌对碰吴雨霏vs关心妍DJ串烧,https://mp4.djuu.com/c2/16/2025/0c30fc654c36ebe2.m4a$LR•IPV4•29『线路1』
 DjMcYummy-全粤语Electro音乐纷花游乐场不只爱情港台串烧,https://mp4.djuu.com/c2/16/2026/2813bff6a8388701.m4a$LR•IPV4•29『线路1』
@@ -797,13 +799,11 @@ TVBS新闻,https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8$L
 TVBS精采台,http://4gtv.cnlive.club/channel/49d50255/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 TVBS,http://4gtv.cnlive.club/channel/58f128b2/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 TVBS歡樂台,http://4gtv.cnlive.club/channel/498f035d/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
-TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 凤凰香港频标,http://m.061899.xyz/mg/fhhk$LR•IPV4•29『线路1』
 经典香港电影,http://k.061899.xyz/k.php?id=xgdy$LR•IPV4•29『线路1』
 经典香港电影,http://116.147.111.62:7788/625703337$LR•IPV4•29『线路2』
 经典香港电影,http://www.ikerobot.com:1234/625703337$LR•IPV4•29『线路3』
 经典香港电影,http://p.08top.top:8088/625703337$LR•IPV4•29『线路4』
-老牌香港明星的最全八卦,https://www.goodiptv.club/douyu/9970047$LR•IPV4•29『线路1』
 香港院线大片-最新,https://www.goodiptv.club/yy/1354936242$LR•IPV4•29『线路1』
 香港第三台,https://rthkaudio3-lh.akamaihd.net/i/radio3_1@355866/master.m3u8$LR•IPV4•29『线路1』
 香港古典音乐,https://rthkradio1-live.akamaized.net/hls/live/2035313/radio1/master.m3u8?sd=10&rebase=on$LR•IPV4•29『线路1』
@@ -850,4 +850,4 @@ TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=178263988583
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260820 02:39,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260820 05:27,https://d.kstore.dev/download/7547/20260401003530.mp4
