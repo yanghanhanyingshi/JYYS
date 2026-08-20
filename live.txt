@@ -480,7 +480,6 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 黑龙江卫视,http://107.150.60.122/live/hljwshd.m3u8$LR•IPV4•29『线路10』
 黑龙江卫视,http://192.151.150.154/live/hljwshd.m3u8$LR•IPV4•29『线路11』
 黑龙江卫视,http://198.204.228.26/live/hljwshd.m3u8$LR•IPV4•29『线路12』
-黑龙江卫视,http://bztv.tvbus.cc:8081/cdnlive/hljws.m3u8$LR•IPV4•29『线路13』
 东方卫视,https://bp-resource-dfl.bestv.cn/148/3/video.m3u8$LR•IPV4•29『线路1』
 东方卫视,http://go.bkpcp.top/mg/dfws$LR•IPV4•29『线路2』
 东方卫视,http://m.061899.xyz/mg/dfws$LR•IPV4•29『线路3』
@@ -498,10 +497,9 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 东方卫视,http://107.150.60.122/live/dfwshd.m3u8$LR•IPV4•29『线路15』
 东方卫视,http://192.151.150.154/live/dfwshd.m3u8$LR•IPV4•29『线路16』
 东方卫视,http://198.204.228.26/live/dfwshd.m3u8$LR•IPV4•29『线路17』
-东方卫视,http://bztv.tvbus.cc:8081/cdnlive/dfws.m3u8$LR•IPV4•29『线路18』
-东方卫视,http://173.208.212.130:8181/720p/dfws.m3u8$LR•IPV4•29『线路19』
-东方卫视,http://112.30.73.119:9901/tsfile/live/1033_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路20』
-东方卫视,http://by4.nty.tv189.cn/live/tm-xpdfws-4000k.m3u8$LR•IPV4•29『线路21』
+东方卫视,http://173.208.212.130:8181/720p/dfws.m3u8$LR•IPV4•29『线路18』
+东方卫视,http://112.30.73.119:9901/tsfile/live/1033_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路19』
+东方卫视,http://by4.nty.tv189.cn/live/tm-xpdfws-4000k.m3u8$LR•IPV4•29『线路20』
 江苏卫视,http://go.bkpcp.top/mg/jsws$LR•IPV4•29『线路1』
 江苏卫视,http://m.061899.xyz/mg/jsws$LR•IPV4•29『线路2』
 江苏卫视,http://k.061899.xyz/k.php?id=jsws$LR•IPV4•29『线路3』
@@ -517,9 +515,8 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 江苏卫视,http://107.150.60.122/live/jswshd.m3u8$LR•IPV4•29『线路13』
 江苏卫视,http://192.151.150.154/live/jswshd.m3u8$LR•IPV4•29『线路14』
 江苏卫视,http://198.204.228.26/live/jswshd.m3u8$LR•IPV4•29『线路15』
-江苏卫视,http://bztv.tvbus.cc:8081/cdnlive/jsws.m3u8$LR•IPV4•29『线路16』
-江苏卫视,http://173.208.212.130:8181/720p/jsws.m3u8$LR•IPV4•29『线路17』
-江苏卫视,http://173.208.212.130:8181/1080p/jsws.m3u8$LR•IPV4•29『线路18』
+江苏卫视,http://173.208.212.130:8181/720p/jsws.m3u8$LR•IPV4•29『线路16』
+江苏卫视,http://173.208.212.130:8181/1080p/jsws.m3u8$LR•IPV4•29『线路17』
 浙江卫视,http://ali-xwl.cztv.com/live/channel4k2160p.m3u8$LR•IPV4•29『线路1』
 浙江卫视,http://go.bkpcp.top/mg/zjws$LR•IPV4•29『线路2』
 浙江卫视,http://m.061899.xyz/mg/zjws$LR•IPV4•29『线路3』
@@ -532,9 +529,8 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 浙江卫视,http://107.150.60.122/live/zjwshd.m3u8$LR•IPV4•29『线路10』
 浙江卫视,http://192.151.150.154/live/zjwshd.m3u8$LR•IPV4•29『线路11』
 浙江卫视,http://198.204.228.26/live/zjwshd.m3u8$LR•IPV4•29『线路12』
-浙江卫视,http://bztv.tvbus.cc:8081/cdnlive/zjws.m3u8$LR•IPV4•29『线路13』
-浙江卫视,http://173.208.212.130:8181/720p/zjws.m3u8$LR•IPV4•29『线路14』
-浙江卫视,http://112.30.73.119:9901/tsfile/live/1032_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路15』
+浙江卫视,http://173.208.212.130:8181/720p/zjws.m3u8$LR•IPV4•29『线路13』
+浙江卫视,http://112.30.73.119:9901/tsfile/live/1032_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路14』
 安徽卫视,http://go.bkpcp.top/mg/ahws$LR•IPV4•29『线路1』
 安徽卫视,http://m.061899.xyz/mg/ahws$LR•IPV4•29『线路2』
 安徽卫视,http://k.061899.xyz/k.php?id=ahws$LR•IPV4•29『线路3』
@@ -545,8 +541,7 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 安徽卫视,http://107.150.60.122/live/ahwshd.m3u8$LR•IPV4•29『线路8』
 安徽卫视,http://192.151.150.154/live/ahwshd.m3u8$LR•IPV4•29『线路9』
 安徽卫视,http://198.204.228.26/live/ahwshd.m3u8$LR•IPV4•29『线路10』
-安徽卫视,http://bztv.tvbus.cc:8081/cdnlive/ahws.m3u8$LR•IPV4•29『线路11』
-安徽卫视,http://173.208.212.130:8181/720p/ahws.m3u8$LR•IPV4•29『线路12』
+安徽卫视,http://173.208.212.130:8181/720p/ahws.m3u8$LR•IPV4•29『线路11』
 江西卫视,http://go.bkpcp.top/mg/jxws$LR•IPV4•29『线路1』
 江西卫视,http://m.061899.xyz/mg/jxws$LR•IPV4•29『线路2』
 江西卫视,http://k.061899.xyz/k.php?id=jxws$LR•IPV4•29『线路3』
@@ -561,9 +556,8 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 江西卫视,http://107.150.60.122/live/jxwshd.m3u8$LR•IPV4•29『线路12』
 江西卫视,http://192.151.150.154/live/jxwshd.m3u8$LR•IPV4•29『线路13』
 江西卫视,http://198.204.228.26/live/jxwshd.m3u8$LR•IPV4•29『线路14』
-江西卫视,http://bztv.tvbus.cc:8081/cdnlive/jxws.m3u8$LR•IPV4•29『线路15』
-江西卫视,http://112.30.73.119:9901/tsfile/live/1038_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路16』
-江西卫视,http://by4.nty.tv189.cn/live/tm-ysjxws-4000k.m3u8$LR•IPV4•29『线路17』
+江西卫视,http://112.30.73.119:9901/tsfile/live/1038_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路15』
+江西卫视,http://by4.nty.tv189.cn/live/tm-ysjxws-4000k.m3u8$LR•IPV4•29『线路16』
 山东卫视,http://go.bkpcp.top/mg/sdws$LR•IPV4•29『线路1』
 山东卫视,http://m.061899.xyz/mg/sdws$LR•IPV4•29『线路2』
 山东卫视,http://k.061899.xyz/k.php?id=sdws$LR•IPV4•29『线路3』
@@ -575,8 +569,7 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 山东卫视,http://107.150.60.122/live/sdwshd.m3u8$LR•IPV4•29『线路9』
 山东卫视,http://192.151.150.154/live/sdwshd.m3u8$LR•IPV4•29『线路10』
 山东卫视,http://198.204.228.26/live/sdwshd.m3u8$LR•IPV4•29『线路11』
-山东卫视,http://bztv.tvbus.cc:8081/cdnlive/sdws.m3u8$LR•IPV4•29『线路12』
-山东卫视,http://173.208.212.130:8181/720p/sdws.m3u8$LR•IPV4•29『线路13』
+山东卫视,http://173.208.212.130:8181/720p/sdws.m3u8$LR•IPV4•29『线路12』
 河南卫视,http://go.bkpcp.top/mg/hnws$LR•IPV4•29『线路1』
 河南卫视,http://m.061899.xyz/mg/hnws$LR•IPV4•29『线路2』
 河南卫视,http://k.061899.xyz/k.php?id=hnws$LR•IPV4•29『线路3』
@@ -591,11 +584,10 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 河南卫视,http://107.150.60.122/live/hawshd.m3u8$LR•IPV4•29『线路12』
 河南卫视,http://192.151.150.154/live/hawshd.m3u8$LR•IPV4•29『线路13』
 河南卫视,http://198.204.228.26/live/hawshd.m3u8$LR•IPV4•29『线路14』
-河南卫视,http://bztv.tvbus.cc:8081/cdnlive/haws.m3u8$LR•IPV4•29『线路15』
-河南卫视,http://173.208.212.130:8181/720p/haws.m3u8$LR•IPV4•29『线路16』
-河南卫视,http://112.30.73.119:9901/tsfile/live/1043_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路17』
-河南卫视,http://112.30.73.119:9901/tsfile/live/1404_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路18』
-河南卫视,http://by4.nty.tv189.cn/live/tm-dxhenanws-4000k.m3u8$LR•IPV4•29『线路19』
+河南卫视,http://173.208.212.130:8181/720p/haws.m3u8$LR•IPV4•29『线路15』
+河南卫视,http://112.30.73.119:9901/tsfile/live/1043_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路16』
+河南卫视,http://112.30.73.119:9901/tsfile/live/1404_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路17』
+河南卫视,http://by4.nty.tv189.cn/live/tm-dxhenanws-4000k.m3u8$LR•IPV4•29『线路18』
 湖北卫视,http://go.bkpcp.top/mg/hubws$LR•IPV4•29『线路1』
 湖北卫视,http://m.061899.xyz/mg/hubws$LR•IPV4•29『线路2』
 湖北卫视,http://k.061899.xyz/k.php?id=hubws$LR•IPV4•29『线路3』
@@ -611,8 +603,7 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 湖北卫视,http://107.150.60.122/live/hbwshd.m3u8$LR•IPV4•29『线路13』
 湖北卫视,http://192.151.150.154/live/hbwshd.m3u8$LR•IPV4•29『线路14』
 湖北卫视,http://198.204.228.26/live/hbwshd.m3u8$LR•IPV4•29『线路15』
-湖北卫视,http://bztv.tvbus.cc:8081/cdnlive/hbws.m3u8$LR•IPV4•29『线路16』
-湖北卫视,http://by4.nty.tv189.cn/live/tm-dxhbws-4000k.m3u8$LR•IPV4•29『线路17』
+湖北卫视,http://by4.nty.tv189.cn/live/tm-dxhbws-4000k.m3u8$LR•IPV4•29『线路16』
 湖南卫视,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8$LR•IPV4•29『线路1』
 湖南卫视,http://go.bkpcp.top/mg/hunws$LR•IPV4•29『线路2』
 湖南卫视,http://m.061899.xyz/mg/hunws$LR•IPV4•29『线路3』
@@ -626,10 +617,9 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 湖南卫视,http://107.150.60.122/live/hnwshd.m3u8$LR•IPV4•29『线路11』
 湖南卫视,http://192.151.150.154/live/hnwshd.m3u8$LR•IPV4•29『线路12』
 湖南卫视,http://198.204.228.26/live/hnwshd.m3u8$LR•IPV4•29『线路13』
-湖南卫视,http://bztv.tvbus.cc:8081/cdnlive/hnws.m3u8$LR•IPV4•29『线路14』
-湖南卫视,http://173.208.212.130:8181/720p/hnws.m3u8$LR•IPV4•29『线路15』
-湖南卫视,http://173.208.212.130:8181/1080p/hnws.m3u8$LR•IPV4•29『线路16』
-湖南卫视,http://by4.nty.tv189.cn/live/tm-yshnws-4000k.m3u8$LR•IPV4•29『线路17』
+湖南卫视,http://173.208.212.130:8181/720p/hnws.m3u8$LR•IPV4•29『线路14』
+湖南卫视,http://173.208.212.130:8181/1080p/hnws.m3u8$LR•IPV4•29『线路15』
+湖南卫视,http://by4.nty.tv189.cn/live/tm-yshnws-4000k.m3u8$LR•IPV4•29『线路16』
 广东卫视,http://go.bkpcp.top/mg/gdws$LR•IPV4•29『线路1』
 广东卫视,http://119.29.142.81:4022/udp/239.77.0.84:5146$LR•IPV4•29『线路2』
 广东卫视,http://lsa.familyds.com:8188/udp/239.77.0.84:5146$LR•IPV4•29『线路3』
@@ -655,11 +645,10 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 广东卫视,http://107.150.60.122/live/gdwshd.m3u8$LR•IPV4•29『线路23』
 广东卫视,http://192.151.150.154/live/gdwshd.m3u8$LR•IPV4•29『线路24』
 广东卫视,http://198.204.228.26/live/gdwshd.m3u8$LR•IPV4•29『线路25』
-广东卫视,http://bztv.tvbus.cc:8081/cdnlive/gdws.m3u8$LR•IPV4•29『线路26』
-广东卫视,http://173.208.212.130:8181/720p/gdws.m3u8$LR•IPV4•29『线路27』
-广东卫视,http://112.30.73.119:9901/tsfile/live/1068_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路28』
-广东卫视,http://112.30.73.119:9901/tsfile/live/1273_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路29』
-广东卫视,http://by4.nty.tv189.cn/live/tm-ysgdws-4000k.m3u8$LR•IPV4•29『线路30』
+广东卫视,http://173.208.212.130:8181/720p/gdws.m3u8$LR•IPV4•29『线路26』
+广东卫视,http://112.30.73.119:9901/tsfile/live/1068_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路27』
+广东卫视,http://112.30.73.119:9901/tsfile/live/1273_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路28』
+广东卫视,http://by4.nty.tv189.cn/live/tm-ysgdws-4000k.m3u8$LR•IPV4•29『线路29』
 广西卫视,http://go.bkpcp.top/mg/gxws$LR•IPV4•29『线路1』
 广西卫视,http://m.061899.xyz/mg/gxws$LR•IPV4•29『线路2』
 广西卫视,http://k.061899.xyz/k.php?id=gxws$LR•IPV4•29『线路3』
@@ -671,9 +660,8 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 广西卫视,http://107.150.60.122/live/gxwshd.m3u8$LR•IPV4•29『线路9』
 广西卫视,http://192.151.150.154/live/gxwshd.m3u8$LR•IPV4•29『线路10』
 广西卫视,http://198.204.228.26/live/gxwshd.m3u8$LR•IPV4•29『线路11』
-广西卫视,http://bztv.tvbus.cc:8081/cdnlive/gxws.m3u8$LR•IPV4•29『线路12』
-广西卫视,http://112.30.73.119:9901/tsfile/live/1044_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路13』
-广西卫视,http://112.30.73.119:9901/tsfile/live/1405_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路14』
+广西卫视,http://112.30.73.119:9901/tsfile/live/1044_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路12』
+广西卫视,http://112.30.73.119:9901/tsfile/live/1405_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路13』
 重庆卫视,http://go.bkpcp.top/mg/cqws$LR•IPV4•29『线路1』
 重庆卫视,http://m.061899.xyz/mg/cqws$LR•IPV4•29『线路2』
 重庆卫视,http://k.061899.xyz/k.php?id=cqws$LR•IPV4•29『线路3』
@@ -689,8 +677,7 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 重庆卫视,http://107.150.60.122/live/cqwshd.m3u8$LR•IPV4•29『线路13』
 重庆卫视,http://192.151.150.154/live/cqwshd.m3u8$LR•IPV4•29『线路14』
 重庆卫视,http://198.204.228.26/live/cqwshd.m3u8$LR•IPV4•29『线路15』
-重庆卫视,http://bztv.tvbus.cc:8081/cdnlive/cqws.m3u8$LR•IPV4•29『线路16』
-重庆卫视,http://by4.nty.tv189.cn/live/tm-xpcqws-4000k.m3u8$LR•IPV4•29『线路17』
+重庆卫视,http://by4.nty.tv189.cn/live/tm-xpcqws-4000k.m3u8$LR•IPV4•29『线路16』
 四川卫视,http://go.bkpcp.top/mg/scws$LR•IPV4•29『线路1』
 四川卫视,http://m.061899.xyz/mg/scws$LR•IPV4•29『线路2』
 四川卫视,http://k.061899.xyz/k.php?id=scws$LR•IPV4•29『线路3』
@@ -701,8 +688,7 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 四川卫视,http://107.150.60.122/live/scwshd.m3u8$LR•IPV4•29『线路8』
 四川卫视,http://192.151.150.154/live/scwshd.m3u8$LR•IPV4•29『线路9』
 四川卫视,http://198.204.228.26/live/scwshd.m3u8$LR•IPV4•29『线路10』
-四川卫视,http://bztv.tvbus.cc:8081/cdnlive/scws.m3u8$LR•IPV4•29『线路11』
-四川卫视,http://112.30.73.119:9901/tsfile/live/1410_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路12』
+四川卫视,http://112.30.73.119:9901/tsfile/live/1410_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路11』
 贵州卫视,http://go.bkpcp.top/mg/gzws$LR•IPV4•29『线路1』
 贵州卫视,http://m.061899.xyz/mg/gzws$LR•IPV4•29『线路2』
 贵州卫视,http://k.061899.xyz/k.php?id=gzws$LR•IPV4•29『线路3』
@@ -713,7 +699,6 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 贵州卫视,http://107.150.60.122/live/gzwshd.m3u8$LR•IPV4•29『线路8』
 贵州卫视,http://192.151.150.154/live/gzwshd.m3u8$LR•IPV4•29『线路9』
 贵州卫视,http://198.204.228.26/live/gzwshd.m3u8$LR•IPV4•29『线路10』
-贵州卫视,http://bztv.tvbus.cc:8081/cdnlive/gzws.m3u8$LR•IPV4•29『线路11』
 云南卫视,http://go.bkpcp.top/mg/ynws$LR•IPV4•29『线路1』
 云南卫视,http://k.061899.xyz/k.php?id=ynws$LR•IPV4•29『线路2』
 云南卫视,http://j.s.bkpcp.top/jj/ynws$LR•IPV4•29『线路3』
@@ -722,7 +707,6 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 云南卫视,http://107.150.60.122/live/ynwshd.m3u8$LR•IPV4•29『线路6』
 云南卫视,http://192.151.150.154/live/ynwshd.m3u8$LR•IPV4•29『线路7』
 云南卫视,http://198.204.228.26/live/ynwshd.m3u8$LR•IPV4•29『线路8』
-云南卫视,http://bztv.tvbus.cc:8081/cdnlive/ynws.m3u8$LR•IPV4•29『线路9』
 陕西卫视,http://go.bkpcp.top/mg/sxws$LR•IPV4•29『线路1』
 陕西卫视,http://m.061899.xyz/mg/sxws$LR•IPV4•29『线路2』
 陕西卫视,http://k.061899.xyz/k.php?id=sxws$LR•IPV4•29『线路3』
@@ -736,8 +720,7 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 陕西卫视,http://107.150.60.122/live/snwshd.m3u8$LR•IPV4•29『线路11』
 陕西卫视,http://192.151.150.154/live/snwshd.m3u8$LR•IPV4•29『线路12』
 陕西卫视,http://198.204.228.26/live/snwshd.m3u8$LR•IPV4•29『线路13』
-陕西卫视,http://bztv.tvbus.cc:8081/cdnlive/snws.m3u8$LR•IPV4•29『线路14』
-陕西卫视,http://by4.nty.tv189.cn/live/tm-yssxws-4000k.m3u8$LR•IPV4•29『线路15』
+陕西卫视,http://by4.nty.tv189.cn/live/tm-yssxws-4000k.m3u8$LR•IPV4•29『线路14』
 甘肃卫视,http://go.bkpcp.top/mg/gsws$LR•IPV4•29『线路1』
 甘肃卫视,http://m.061899.xyz/mg/gsws$LR•IPV4•29『线路2』
 甘肃卫视,http://k.061899.xyz/k.php?id=gsws$LR•IPV4•29『线路3』
@@ -747,9 +730,8 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 甘肃卫视,http://107.150.60.122/live/gswshd.m3u8$LR•IPV4•29『线路7』
 甘肃卫视,http://192.151.150.154/live/gswshd.m3u8$LR•IPV4•29『线路8』
 甘肃卫视,http://198.204.228.26/live/gswshd.m3u8$LR•IPV4•29『线路9』
-甘肃卫视,http://bztv.tvbus.cc:8081/cdnlive/gsws.m3u8$LR•IPV4•29『线路10』
-甘肃卫视,http://112.30.73.119:9901/tsfile/live/1406_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路11』
-甘肃卫视,http://by4.nty.tv189.cn/tm-dxgsws-4000k.m3u8$LR•IPV4•29『线路12』
+甘肃卫视,http://112.30.73.119:9901/tsfile/live/1406_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路10』
+甘肃卫视,http://by4.nty.tv189.cn/tm-dxgsws-4000k.m3u8$LR•IPV4•29『线路11』
 青海卫视,http://go.bkpcp.top/mg/qhws$LR•IPV4•29『线路1』
 青海卫视,http://m.061899.xyz/mg/qhws$LR•IPV4•29『线路2』
 青海卫视,http://k.061899.xyz/k.php?id=qhws$LR•IPV4•29『线路3』
@@ -763,8 +745,7 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 青海卫视,http://107.150.60.122/live/qhws.m3u8$LR•IPV4•29『线路11』
 青海卫视,http://192.151.150.154/live/qhws.m3u8$LR•IPV4•29『线路12』
 青海卫视,http://198.204.228.26/live/qhws.m3u8$LR•IPV4•29『线路13』
-青海卫视,http://bztv.tvbus.cc:8081/cdnlive/qhws.m3u8$LR•IPV4•29『线路14』
-青海卫视,http://by4.nty.tv189.cn/live/tm-dxqhaiws-4000k.m3u8$LR•IPV4•29『线路15』
+青海卫视,http://by4.nty.tv189.cn/live/tm-dxqhaiws-4000k.m3u8$LR•IPV4•29『线路14』
 宁夏卫视,http://go.bkpcp.top/mg/nxws$LR•IPV4•29『线路1』
 宁夏卫视,http://m.061899.xyz/mg/nxws$LR•IPV4•29『线路2』
 宁夏卫视,http://k.061899.xyz/k.php?id=nxws$LR•IPV4•29『线路3』
@@ -777,8 +758,7 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 宁夏卫视,http://107.150.60.122/live/nxws.m3u8$LR•IPV4•29『线路10』
 宁夏卫视,http://192.151.150.154/live/nxws.m3u8$LR•IPV4•29『线路11』
 宁夏卫视,http://198.204.228.26/live/nxws.m3u8$LR•IPV4•29『线路12』
-宁夏卫视,http://bztv.tvbus.cc:8081/cdnlive/nxws.m3u8$LR•IPV4•29『线路13』
-宁夏卫视,http://by4.nty.tv189.cn/tm-ysnxws-4000k.m3u8$LR•IPV4•29『线路14』
+宁夏卫视,http://by4.nty.tv189.cn/tm-ysnxws-4000k.m3u8$LR•IPV4•29『线路13』
 新疆卫视,http://go.bkpcp.top/mg/xjws$LR•IPV4•29『线路1』
 新疆卫视,http://m.061899.xyz/mg/xjws$LR•IPV4•29『线路2』
 新疆卫视,http://k.061899.xyz/k.php?id=xjws$LR•IPV4•29『线路3』
@@ -786,8 +766,7 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 新疆卫视,http://107.150.60.122/live/xjws.m3u8$LR•IPV4•29『线路5』
 新疆卫视,http://192.151.150.154/live/xjws.m3u8$LR•IPV4•29『线路6』
 新疆卫视,http://198.204.228.26/live/xjws.m3u8$LR•IPV4•29『线路7』
-新疆卫视,http://bztv.tvbus.cc:8081/cdnlive/xjws.m3u8$LR•IPV4•29『线路8』
-新疆卫视,http://by4.nty.tv189.cn/live/tm-dxxjws-4000k.m3u8$LR•IPV4•29『线路9』
+新疆卫视,http://by4.nty.tv189.cn/live/tm-dxxjws-4000k.m3u8$LR•IPV4•29『线路8』
 香港频道,#genre#
 Dj钟仔-全粤语Electro风格港台情歌对碰吴雨霏vs关心妍DJ串烧,https://mp4.djuu.com/c2/16/2025/0c30fc654c36ebe2.m4a$LR•IPV4•29『线路1』
 DjMcYummy-全粤语Electro音乐纷花游乐场不只爱情港台串烧,https://mp4.djuu.com/c2/16/2026/2813bff6a8388701.m4a$LR•IPV4•29『线路1』
@@ -832,7 +811,7 @@ TVB星河3,http://php.jdshipin.com/TVOD/iptv.php?id=xinghe$LR•IPV4•29『线�
 TVBS新闻,https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8$LR•IPV4•29『线路1』
 TVBS精采台,http://4gtv.cnlive.club/channel/49d50255/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 TVBS,http://4gtv.cnlive.club/channel/58f128b2/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
-TVBS綜藝台,http://4gtv.cnlive.club/channel/49d6d25d/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
+TVBS歡樂台,http://4gtv.cnlive.club/channel/498f035d/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 凤凰香港频标,http://m.061899.xyz/mg/fhhk$LR•IPV4•29『线路1』
 经典香港电影,http://k.061899.xyz/k.php?id=xgdy$LR•IPV4•29『线路1』
@@ -841,6 +820,7 @@ TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=178263988583
 经典香港电影,http://p.08top.top:8088/625703337$LR•IPV4•29『线路4』
 经典香港电影,http://mg.cttv.vip/625703337$LR•IPV4•29『线路5』
 【快看张不疯】带你看香港经典电影,https://www.goodiptv.club/douyu/8413226$LR•IPV4•29『线路1』
+老牌香港明星的最全八卦,https://www.goodiptv.club/douyu/9970047$LR•IPV4•29『线路1』
 香港院线大片-最新,https://www.goodiptv.club/yy/1354936242$LR•IPV4•29『线路1』
 香港第三台,https://rthkaudio3-lh.akamaihd.net/i/radio3_1@355866/master.m3u8$LR•IPV4•29『线路1』
 香港古典音乐,https://rthkradio1-live.akamaized.net/hls/live/2035313/radio1/master.m3u8?sd=10&rebase=on$LR•IPV4•29『线路1』
@@ -889,4 +869,4 @@ TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=178263988583
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260820 20:55,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260820 23:36,https://d.kstore.dev/download/7547/20260401003530.mp4
