@@ -834,7 +834,6 @@ TVBS精采台,http://4gtv.cnlive.club/channel/49d50255/index.m3u8?q=178263988583
 TVBS,http://4gtv.cnlive.club/channel/58f128b2/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 TVBS歡樂台,http://4gtv.cnlive.club/channel/498f035d/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 TVBS綜藝台,http://4gtv.cnlive.club/channel/49d6d25d/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
-TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 凤凰香港频标,http://m.061899.xyz/mg/fhhk$LR•IPV4•29『线路1』
 经典香港电影,http://k.061899.xyz/k.php?id=xgdy$LR•IPV4•29『线路1』
 经典香港电影,http://116.147.111.62:7788/625703337$LR•IPV4•29『线路2』
@@ -842,7 +841,6 @@ TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=178263988583
 经典香港电影,http://p.08top.top:8088/625703337$LR•IPV4•29『线路4』
 经典香港电影,http://mg.cttv.vip/625703337$LR•IPV4•29『线路5』
 【快看张不疯】带你看香港经典电影,https://www.goodiptv.club/douyu/8413226$LR•IPV4•29『线路1』
-老牌香港明星的最全八卦,https://www.goodiptv.club/douyu/9970047$LR•IPV4•29『线路1』
 香港院线大片-最新,https://www.goodiptv.club/yy/1354936242$LR•IPV4•29『线路1』
 香港第三台,https://rthkaudio3-lh.akamaihd.net/i/radio3_1@355866/master.m3u8$LR•IPV4•29『线路1』
 香港古典音乐,https://rthkradio1-live.akamaized.net/hls/live/2035313/radio1/master.m3u8?sd=10&rebase=on$LR•IPV4•29『线路1』
@@ -855,10 +853,11 @@ TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=178263988583
 优漫卡通,http://116.147.111.62:7788/626064703$LR•IPV4•29『线路1』
 优漫卡通,http://www.ikerobot.com:1234/626064703$LR•IPV4•29『线路2』
 优漫卡通,http://p.08top.top:8088/626064703$LR•IPV4•29『线路3』
-优漫卡通,http://38.75.136.137:98/gslb/dsdqpub/ymkt.m3u8?auth=testpub$LR•IPV4•29『线路4』
-优漫卡通,http://107.150.60.122/live/ymkt.m3u8$LR•IPV4•29『线路5』
-优漫卡通,http://192.151.150.154/live/ymkt.m3u8$LR•IPV4•29『线路6』
-优漫卡通,http://198.204.228.26/live/ymkt.m3u8$LR•IPV4•29『线路7』
+优漫卡通,http://mg.cttv.vip/626064703$LR•IPV4•29『线路4』
+优漫卡通,http://38.75.136.137:98/gslb/dsdqpub/ymkt.m3u8?auth=testpub$LR•IPV4•29『线路5』
+优漫卡通,http://107.150.60.122/live/ymkt.m3u8$LR•IPV4•29『线路6』
+优漫卡通,http://192.151.150.154/live/ymkt.m3u8$LR•IPV4•29『线路7』
+优漫卡通,http://198.204.228.26/live/ymkt.m3u8$LR•IPV4•29『线路8』
 哈哈炫动,http://38.75.136.137:98/gslb/dsdqpub/xdkthd.m3u8?auth=testpub$LR•IPV4•29『线路1』
 嘉佳卡通,http://k.061899.xyz/k.php?id=jjkt$LR•IPV4•29『线路1』
 嘉佳卡通,http://116.147.111.62:7788/614952364$LR•IPV4•29『线路2』
@@ -890,4 +889,4 @@ TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=178263988583
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260821 11:52,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260821 14:52,https://d.kstore.dev/download/7547/20260401003530.mp4
