@@ -836,10 +836,7 @@ TVBS新闻,https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8$L
 TVBS精采台,http://4gtv.cnlive.club/channel/49d50255/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 TVBS,http://4gtv.cnlive.club/channel/58f128b2/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 TVBS歡樂台,http://4gtv.cnlive.club/channel/498f035d/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
-TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
-TVBPlus,http://play.wenxiang.cn/live/5ec77f27f37babab48d60b879fde862a.flv$LR•IPV4•29『线路1』
-黄金翡翠台,https://play.wenxiang.cn/live/0389d29514f0290d6c774eb18f0d604a.flv$LR•IPV4•29『线路1』
-港台电视31,http://play.wenxiang.cn/live/0f4b100c9ed81fdd547ba0a1a20dea49.flv$LR•IPV4•29『线路1』
+TVBS綜藝台,http://4gtv.cnlive.club/channel/49d6d25d/index.m3u8?q=1782639885837$LR•IPV4•29『线路1』
 港台电视32,http://play.wenxiang.cn/live/1c84d2c289c82f92f588aaa566858174.flv$LR•IPV4•29『线路1』
 无线新闻,https://ktpremium.world/live/LT1976F/A9177/492389.ts$LR•IPV4•29『线路1』
 凤凰香港频标,http://m.061899.xyz/mg/fhhk$LR•IPV4•29『线路1』
@@ -898,4 +895,4 @@ TVBPlus,http://play.wenxiang.cn/live/5ec77f27f37babab48d60b879fde862a.flv$LR•I
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260822 02:40,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260822 05:27,https://d.kstore.dev/download/7547/20260401003530.mp4
