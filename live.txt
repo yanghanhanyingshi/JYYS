@@ -579,8 +579,9 @@ TVBJ1,https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2
 翡翠台,http://gd.wsd.gd.cn:1698/hls/92/index.m3u8$LR•IPV4•29『线路2』
 翡翠台,http://211.97.63.3:3443/hls/541/index.m3u8$LR•IPV4•29『线路3』
 翡翠台,http://everydaytv.top/live/ggiptv/jade/playlist.m3u8$LR•IPV4•29『线路4』
-翡翠台,http://49.232.143.177:80/pyxg/hmy.php?id=翡翠台_1&key=***$LR•IPV4•29『线路5』
-翡翠台,http://49.232.143.177:80/pyxg/hmy.php?id=翡翠台備&key=***$LR•IPV4•29『线路6』
+翡翠台,http://play.wenxiang.cn/live/e240363d284b6f41fcb7136eef507ef6.flv$LR•IPV4•29『线路5』
+翡翠台,http://49.232.143.177:80/pyxg/hmy.php?id=翡翠台_1&key=***$LR•IPV4•29『线路6』
+翡翠台,http://49.232.143.177:80/pyxg/hmy.php?id=翡翠台備&key=***$LR•IPV4•29『线路7』
 翡翠台(字幕),https://cdn3.indevs.in/stream/tvb/fct/$LR•IPV4•29『线路1』
 明珠台(字幕),https://cdn3.indevs.in/stream/tvb/mzt/$LR•IPV4•29『线路1』
 无线新闻台,https://cdn6.cc.cd/163189/wxxw$LR•IPV4•29『线路1』
@@ -626,7 +627,6 @@ TVBS備,http://49.232.143.177:80/pyxg/hmy.php?id=TVBS備&key=***$LR•IPV4•29�
 经典香港电影,http://chen.ccwu.cc:1234/625703337$LR•IPV4•29『线路2』
 经典香港电影,http://2280.eu.org:1234/625703337$LR•IPV4•29『线路3』
 【快看张不疯】带你看香港经典电影,https://www.goodiptv.club/douyu/8413226$LR•IPV4•29『线路1』
-老牌香港明星的最全八卦,https://www.goodiptv.club/douyu/9970047$LR•IPV4•29『线路1』
 香港院线大片-最新,https://www.goodiptv.club/yy/1354936242$LR•IPV4•29『线路1』
 香港第三台,https://rthkaudio3-lh.akamaihd.net/i/radio3_1@355866/master.m3u8$LR•IPV4•29『线路1』
 香港古典音乐,https://rthkradio1-live.akamaized.net/hls/live/2035313/radio1/master.m3u8?sd=10&rebase=on$LR•IPV4•29『线路1』
@@ -672,4 +672,4 @@ TVBS備,http://49.232.143.177:80/pyxg/hmy.php?id=TVBS備&key=***$LR•IPV4•29�
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260901 04:42,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260901 08:27,https://d.kstore.dev/download/7547/20260401003530.mp4
