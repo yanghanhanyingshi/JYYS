@@ -571,7 +571,6 @@ TVB Plus(字幕),https://cdn3.indevs.in/stream/tvb/tvbp/$LR•IPV4•29『线路
 RTHK31,https://fast.hidns.vip/163189/rthk31$LR•IPV4•29『线路1』
 RTHK32,https://fast.hidns.vip/163189/rthk32$LR•IPV4•29『线路1』
 凤凰香港,https://cdn6.cc.cd/163189/fhhk$LR•IPV4•29『线路1』
-凤凰香港,http://bobohome.ignorelist.com:20247/fengshows?id=3.m3u8$LR•IPV4•29『线路2』
 TVB1,https://cdn6.cc.cd/163189/tvb1$LR•IPV4•29『线路1』
 TVBJ1,https://cdn6.cc.cd/163189/j1$LR•IPV4•29『线路1』
 TVBJ1,https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8$LR•IPV4•29『线路2』
@@ -579,6 +578,7 @@ TVBJ1,https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2
 翡翠台,http://gd.wsd.gd.cn:1698/hls/92/index.m3u8$LR•IPV4•29『线路2』
 翡翠台,http://211.97.63.3:3443/hls/541/index.m3u8$LR•IPV4•29『线路3』
 翡翠台,http://everydaytv.top/live/ggiptv/jade/playlist.m3u8$LR•IPV4•29『线路4』
+翡翠台,http://play.wenxiang.cn/live/e240363d284b6f41fcb7136eef507ef6.flv$LR•IPV4•29『线路5』
 翡翠台(字幕),https://cdn3.indevs.in/stream/tvb/fct/$LR•IPV4•29『线路1』
 明珠台(字幕),https://cdn3.indevs.in/stream/tvb/mzt/$LR•IPV4•29『线路1』
 无线新闻台,https://cdn6.cc.cd/163189/wxxw$LR•IPV4•29『线路1』
@@ -591,7 +591,6 @@ TVB星河,https://cdn6.cc.cd/163189/tvbxh$LR•IPV4•29『线路1』
 TVB星河,https://10.fast.hidns.vip/163189/xinghe/$LR•IPV4•29『线路2』
 TVB星河,https://cdn3.indevs.in/stream/live/tvbxh/$LR•IPV4•29『线路3』
 华丽翡翠台(硬字幕),https://cdn6.cc.cd/163189/jade$LR•IPV4•29『线路1』
-华丽翡翠台(新加坡),https://cdn3.indevs.in/stream/live/jade/$LR•IPV4•29『线路1』
 翡翠台(WebVTT字幕),https://10.fast.hidns.vip/163189/fct/$LR•IPV4•29『线路1』
 明珠台(WebVTT字幕),https://10.fast.hidns.vip/163189/mzt/$LR•IPV4•29『线路1』
 TVB Plus(WebVTT字幕),https://10.fast.hidns.vip/163189/tvbp/$LR•IPV4•29『线路1』
@@ -624,14 +623,11 @@ TVBPlus,http://play.wenxiang.cn/live/5ec77f27f37babab48d60b879fde862a.flv$LR•I
 卡酷少儿,http://38.75.136.137:98/gslb/dsdqpub/btvkk.m3u8?auth=testpub$LR•IPV4•29『线路1』
 卡酷少儿,http://107.150.60.122/live/btvkk.m3u8$LR•IPV4•29『线路2』
 卡酷少儿,http://192.151.150.154/live/btvkk.m3u8$LR•IPV4•29『线路3』
-卡酷少儿,http://198.204.228.26/live/btvkk.m3u8$LR•IPV4•29『线路4』
 优漫卡通,http://smartzhu.cn:1234/626064703$LR•IPV4•29『线路1』
 优漫卡通,http://chen.ccwu.cc:1234/626064703$LR•IPV4•29『线路2』
 优漫卡通,http://2280.eu.org:1234/626064703$LR•IPV4•29『线路3』
 优漫卡通,http://38.75.136.137:98/gslb/dsdqpub/ymkt.m3u8?auth=testpub$LR•IPV4•29『线路4』
 优漫卡通,http://107.150.60.122/live/ymkt.m3u8$LR•IPV4•29『线路5』
-优漫卡通,http://192.151.150.154/live/ymkt.m3u8$LR•IPV4•29『线路6』
-优漫卡通,http://198.204.228.26/live/ymkt.m3u8$LR•IPV4•29『线路7』
 哈哈炫动,http://38.75.136.137:98/gslb/dsdqpub/xdkthd.m3u8?auth=testpub$LR•IPV4•29『线路1』
 嘉佳卡通,http://smartzhu.cn:1234/614952364$LR•IPV4•29『线路1』
 嘉佳卡通,http://chen.ccwu.cc:1234/614952364$LR•IPV4•29『线路2』
@@ -639,7 +635,6 @@ TVBPlus,http://play.wenxiang.cn/live/5ec77f27f37babab48d60b879fde862a.flv$LR•I
 嘉佳卡通,http://38.75.136.137:98/gslb/dsdqpub/gdjjkt.m3u8?auth=testpub$LR•IPV4•29『线路4』
 嘉佳卡通,http://107.150.60.122/live/gdjjkt.m3u8$LR•IPV4•29『线路5』
 嘉佳卡通,http://192.151.150.154/live/gdjjkt.m3u8$LR•IPV4•29『线路6』
-嘉佳卡通,http://198.204.228.26/live/gdjjkt.m3u8$LR•IPV4•29『线路7』
 广东少儿,http://119.29.142.81:4022/udp/239.77.0.250:5146$LR•IPV4•29『线路1』
 广东少儿,http://hongzhijiaoyu.net:8188/udp/239.77.0.250:5146$LR•IPV4•29『线路2』
 广东少儿,http://lsa.familyds.com:8188/udp/239.77.0.250:5146$LR•IPV4•29『线路3』
@@ -654,12 +649,8 @@ TVBPlus,http://play.wenxiang.cn/live/5ec77f27f37babab48d60b879fde862a.flv$LR•I
 广东少儿,http://61.145.188.90:50055/udp/239.77.0.250:5146$LR•IPV4•29『线路12』
 广东少儿,http://38.75.136.137:98/gslb/dsdqpub/gdtvs5.m3u8?auth=testpub$LR•IPV4•29『线路13』
 广东少儿,http://107.150.60.122/live/gdtvs5.m3u8$LR•IPV4•29『线路14』
-广东少儿,http://192.151.150.154/live/gdtvs5.m3u8$LR•IPV4•29『线路15』
-广东少儿,http://198.204.228.26/live/gdtvs5.m3u8$LR•IPV4•29『线路16』
 重庆少儿,http://38.75.136.137:98/gslb/dsdqpub/cqse.m3u8?auth=testpub$LR•IPV4•29『线路1』
 江西少儿,http://107.150.60.122/live/jxtv6.m3u8$LR•IPV4•29『线路1』
-江西少儿,http://192.151.150.154/live/jxtv6.m3u8$LR•IPV4•29『线路2』
-江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260902 18:55,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260903 00:15,https://d.kstore.dev/download/7547/20260401003530.mp4
