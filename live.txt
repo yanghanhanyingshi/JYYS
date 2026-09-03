@@ -461,25 +461,22 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 广东卫视,http://www.yahao.host:4022/udp/239.77.0.84:5146$LR•IPV4•29『线路4』
 广东卫视,http://www.syy3.top:3861/udp/239.77.0.84:5146$LR•IPV4•29『线路5』
 广东卫视,http://lbyjlt.vv5678.cn:8880/udp/239.77.0.84:5146$LR•IPV4•29『线路6』
-广东卫视,http://plex.cyruslee.top:8888/udp/239.77.0.84:5146$LR•IPV4•29『线路7』
-广东卫视,http://jellyfin.cyruslee.top:8888/udp/239.77.0.84:5146$LR•IPV4•29『线路8』
-广东卫视,http://www.3344.uk:8888/udp/239.77.0.84:5146$LR•IPV4•29『线路9』
-广东卫视,http://ikuai.cyruslee.top:8888/udp/239.77.0.84:5146$LR•IPV4•29『线路10』
-广东卫视,http://yanshifen.top:8889/udp/239.77.0.84:5146$LR•IPV4•29『线路11』
-广东卫视,http://61.145.188.90:50055/udp/239.77.0.84:5146$LR•IPV4•29『线路12』
-广东卫视,http://smartzhu.cn:1234/608831231$LR•IPV4•29『线路13』
-广东卫视,http://chen.ccwu.cc:1234/608831231$LR•IPV4•29『线路14』
-广东卫视,http://2280.eu.org:1234/608831231$LR•IPV4•29『线路15』
-广东卫视,http://38.75.136.137:98/gslb/dsdqpub/gdwshd.m3u8?auth=testpub$LR•IPV4•29『线路16』
-广东卫视,http://120.76.248.139/live/bfgd/4200000092.m3u8$LR•IPV4•29『线路17』
-广东卫视,http://107.150.60.122/live/gdwshd.m3u8$LR•IPV4•29『线路18』
-广东卫视,http://192.151.150.154/live/gdwshd.m3u8$LR•IPV4•29『线路19』
-广东卫视,http://198.204.228.26/live/gdwshd.m3u8$LR•IPV4•29『线路20』
-广东卫视,http://bztv.tvbus.cc:8081/cdnlive/gdws.m3u8$LR•IPV4•29『线路21』
-广东卫视,http://173.208.212.130:8181/720p/gdws.m3u8$LR•IPV4•29『线路22』
-广东卫视,http://112.30.73.119:9901/tsfile/live/1068_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路23』
-广东卫视,http://112.30.73.119:9901/tsfile/live/1273_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路24』
-广东卫视,http://by4.nty.tv189.cn/live/tm-ysgdws-4000k.m3u8$LR•IPV4•29『线路25』
+广东卫视,http://www.3344.uk:8888/udp/239.77.0.84:5146$LR•IPV4•29『线路7』
+广东卫视,http://yanshifen.top:8889/udp/239.77.0.84:5146$LR•IPV4•29『线路8』
+广东卫视,http://61.145.188.90:50055/udp/239.77.0.84:5146$LR•IPV4•29『线路9』
+广东卫视,http://smartzhu.cn:1234/608831231$LR•IPV4•29『线路10』
+广东卫视,http://chen.ccwu.cc:1234/608831231$LR•IPV4•29『线路11』
+广东卫视,http://2280.eu.org:1234/608831231$LR•IPV4•29『线路12』
+广东卫视,http://38.75.136.137:98/gslb/dsdqpub/gdwshd.m3u8?auth=testpub$LR•IPV4•29『线路13』
+广东卫视,http://120.76.248.139/live/bfgd/4200000092.m3u8$LR•IPV4•29『线路14』
+广东卫视,http://107.150.60.122/live/gdwshd.m3u8$LR•IPV4•29『线路15』
+广东卫视,http://192.151.150.154/live/gdwshd.m3u8$LR•IPV4•29『线路16』
+广东卫视,http://198.204.228.26/live/gdwshd.m3u8$LR•IPV4•29『线路17』
+广东卫视,http://bztv.tvbus.cc:8081/cdnlive/gdws.m3u8$LR•IPV4•29『线路18』
+广东卫视,http://173.208.212.130:8181/720p/gdws.m3u8$LR•IPV4•29『线路19』
+广东卫视,http://112.30.73.119:9901/tsfile/live/1068_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路20』
+广东卫视,http://112.30.73.119:9901/tsfile/live/1273_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路21』
+广东卫视,http://by4.nty.tv189.cn/live/tm-ysgdws-4000k.m3u8$LR•IPV4•29『线路22』
 广西卫视,http://38.75.136.137:98/gslb/dsdqpub/gxwshd.m3u8?auth=testpub$LR•IPV4•29『线路1』
 广西卫视,http://38.75.136.137:98/gslb/dsdqca/gxwshd.m3u8?auth=test20251009$LR•IPV4•29『线路2』
 广西卫视,http://120.76.248.139/live/bfgd/4200000116.m3u8$LR•IPV4•29『线路3』
@@ -662,4 +659,4 @@ TVBPlus,http://play.wenxiang.cn/live/5ec77f27f37babab48d60b879fde862a.flv$LR•I
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260903 11:41,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260903 18:54,https://d.kstore.dev/download/7547/20260401003530.mp4
