@@ -697,16 +697,15 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 陕西卫视,http://m.061899.xyz/mg/sxws$LR•IPV4•29『线路2』
 陕西卫视,http://k.061899.xyz/k.php?id=sxws$LR•IPV4•29『线路3』
 陕西卫视,http://j.s.bkpcp.top/jj/sxws$LR•IPV4•29『线路4』
-陕西卫视,http://mg.cttv.vip/738910838$LR•IPV4•29『线路5』
-陕西卫视,http://chen.ccwu.cc:1234/738910838$LR•IPV4•29『线路6』
-陕西卫视,http://2280.eu.org:1234/738910838$LR•IPV4•29『线路7』
-陕西卫视,http://38.75.136.137:98/gslb/dsdqpub/snwshd.m3u8?auth=testpub$LR•IPV4•29『线路8』
-陕西卫视,http://120.76.248.139/live/bfgd/4200000512.m3u8$LR•IPV4•29『线路9』
-陕西卫视,http://107.150.60.122/live/snwshd.m3u8$LR•IPV4•29『线路10』
-陕西卫视,http://192.151.150.154/live/snwshd.m3u8$LR•IPV4•29『线路11』
-陕西卫视,http://198.204.228.26/live/snwshd.m3u8$LR•IPV4•29『线路12』
-陕西卫视,http://bztv.tvbus.cc:8081/cdnlive/snws.m3u8$LR•IPV4•29『线路13』
-陕西卫视,http://by4.nty.tv189.cn/live/tm-yssxws-4000k.m3u8$LR•IPV4•29『线路14』
+陕西卫视,http://chen.ccwu.cc:1234/738910838$LR•IPV4•29『线路5』
+陕西卫视,http://2280.eu.org:1234/738910838$LR•IPV4•29『线路6』
+陕西卫视,http://38.75.136.137:98/gslb/dsdqpub/snwshd.m3u8?auth=testpub$LR•IPV4•29『线路7』
+陕西卫视,http://120.76.248.139/live/bfgd/4200000512.m3u8$LR•IPV4•29『线路8』
+陕西卫视,http://107.150.60.122/live/snwshd.m3u8$LR•IPV4•29『线路9』
+陕西卫视,http://192.151.150.154/live/snwshd.m3u8$LR•IPV4•29『线路10』
+陕西卫视,http://198.204.228.26/live/snwshd.m3u8$LR•IPV4•29『线路11』
+陕西卫视,http://bztv.tvbus.cc:8081/cdnlive/snws.m3u8$LR•IPV4•29『线路12』
+陕西卫视,http://by4.nty.tv189.cn/live/tm-yssxws-4000k.m3u8$LR•IPV4•29『线路13』
 甘肃卫视,http://go.bkpcp.top/mg/gsws$LR•IPV4•29『线路1』
 甘肃卫视,http://m.061899.xyz/mg/gsws$LR•IPV4•29『线路2』
 甘肃卫视,http://k.061899.xyz/k.php?id=gsws$LR•IPV4•29『线路3』
@@ -724,15 +723,14 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 青海卫视,http://k.061899.xyz/k.php?id=qhws$LR•IPV4•29『线路3』
 青海卫视,http://j.s.bkpcp.top/jj/qhws$LR•IPV4•29『线路4』
 青海卫视,http://cdn6.bkpcp.top/tl/tuiliu.php?id=qhws$LR•IPV4•29『线路5』
-青海卫视,http://mg.cttv.vip/947472506$LR•IPV4•29『线路6』
-青海卫视,http://chen.ccwu.cc:1234/947472506$LR•IPV4•29『线路7』
-青海卫视,http://2280.eu.org:1234/947472506$LR•IPV4•29『线路8』
-青海卫视,http://38.75.136.137:98/gslb/dsdqpub/qhws.m3u8?auth=testpub$LR•IPV4•29『线路9』
-青海卫视,http://107.150.60.122/live/qhws.m3u8$LR•IPV4•29『线路10』
-青海卫视,http://192.151.150.154/live/qhws.m3u8$LR•IPV4•29『线路11』
-青海卫视,http://198.204.228.26/live/qhws.m3u8$LR•IPV4•29『线路12』
-青海卫视,http://bztv.tvbus.cc:8081/cdnlive/qhws.m3u8$LR•IPV4•29『线路13』
-青海卫视,http://by4.nty.tv189.cn/live/tm-dxqhaiws-4000k.m3u8$LR•IPV4•29『线路14』
+青海卫视,http://chen.ccwu.cc:1234/947472506$LR•IPV4•29『线路6』
+青海卫视,http://2280.eu.org:1234/947472506$LR•IPV4•29『线路7』
+青海卫视,http://38.75.136.137:98/gslb/dsdqpub/qhws.m3u8?auth=testpub$LR•IPV4•29『线路8』
+青海卫视,http://107.150.60.122/live/qhws.m3u8$LR•IPV4•29『线路9』
+青海卫视,http://192.151.150.154/live/qhws.m3u8$LR•IPV4•29『线路10』
+青海卫视,http://198.204.228.26/live/qhws.m3u8$LR•IPV4•29『线路11』
+青海卫视,http://bztv.tvbus.cc:8081/cdnlive/qhws.m3u8$LR•IPV4•29『线路12』
+青海卫视,http://by4.nty.tv189.cn/live/tm-dxqhaiws-4000k.m3u8$LR•IPV4•29『线路13』
 宁夏卫视,http://go.bkpcp.top/mg/nxws$LR•IPV4•29『线路1』
 宁夏卫视,http://m.061899.xyz/mg/nxws$LR•IPV4•29『线路2』
 宁夏卫视,http://k.061899.xyz/k.php?id=nxws$LR•IPV4•29『线路3』
@@ -808,7 +806,6 @@ TVBPlus,http://play.wenxiang.cn/live/5ec77f27f37babab48d60b879fde862a.flv$LR•I
 经典香港电影,http://chen.ccwu.cc:1234/625703337$LR•IPV4•29『线路3』
 经典香港电影,http://2280.eu.org:1234/625703337$LR•IPV4•29『线路4』
 【快看张不疯】带你看香港经典电影,https://www.goodiptv.club/douyu/8413226$LR•IPV4•29『线路1』
-老牌香港明星的最全八卦,https://www.goodiptv.club/douyu/9970047$LR•IPV4•29『线路1』
 香港院线大片-最新,https://www.goodiptv.club/yy/1354936242$LR•IPV4•29『线路1』
 香港第三台,https://rthkaudio3-lh.akamaihd.net/i/radio3_1@355866/master.m3u8$LR•IPV4•29『线路1』
 香港古典音乐,https://rthkradio1-live.akamaized.net/hls/live/2035313/radio1/master.m3u8?sd=10&rebase=on$LR•IPV4•29『线路1』
@@ -855,4 +852,4 @@ TVBPlus,http://play.wenxiang.cn/live/5ec77f27f37babab48d60b879fde862a.flv$LR•I
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260908 11:49,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260908 18:54,https://d.kstore.dev/download/7547/20260401003530.mp4
