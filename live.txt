@@ -333,19 +333,20 @@ CCTV17农业农村,http://112.30.73.119:9901/tsfile/live/1421_1.m3u8?key=txiptv&
 黑龙江卫视,http://192.151.150.154/live/hljwshd.m3u8$LR•IPV4•29『线路6』
 黑龙江卫视,http://198.204.228.26/live/hljwshd.m3u8$LR•IPV4•29『线路7』
 黑龙江卫视,http://bztv.tvbus.cc:8081/cdnlive/hljws.m3u8$LR•IPV4•29『线路8』
-东方卫视,http://mg.cttv.vip/651632648$LR•IPV4•29『线路1』
-东方卫视,http://2280.eu.org:1234/651632648$LR•IPV4•29『线路2』
-东方卫视,http://38.75.136.137:98/gslb/dsdqpub/dfwshd.m3u8?auth=testpub$LR•IPV4•29『线路3』
-东方卫视,http://38.75.136.137:98/gslb/dsdqbv/dfwshd.m3u8?auth=test20251009$LR•IPV4•29『线路4』
-东方卫视,http://38.75.136.137:98/gslb/dsdqca/dfwshd.m3u8?auth=test20251009$LR•IPV4•29『线路5』
-东方卫视,http://120.76.248.139/live/bfgd/4200000093.m3u8$LR•IPV4•29『线路6』
-东方卫视,http://107.150.60.122/live/dfwshd.m3u8$LR•IPV4•29『线路7』
-东方卫视,http://192.151.150.154/live/dfwshd.m3u8$LR•IPV4•29『线路8』
-东方卫视,http://198.204.228.26/live/dfwshd.m3u8$LR•IPV4•29『线路9』
-东方卫视,http://bztv.tvbus.cc:8081/cdnlive/dfws.m3u8$LR•IPV4•29『线路10』
-东方卫视,http://173.208.212.130:8181/720p/dfws.m3u8$LR•IPV4•29『线路11』
-东方卫视,http://112.30.73.119:9901/tsfile/live/1033_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路12』
-东方卫视,http://by4.nty.tv189.cn/live/tm-xpdfws-4000k.m3u8$LR•IPV4•29『线路13』
+东方卫视,https://bp-resource-dfl.bestv.cn/148/3/video.m3u8$LR•IPV4•29『线路1』
+东方卫视,http://mg.cttv.vip/651632648$LR•IPV4•29『线路2』
+东方卫视,http://2280.eu.org:1234/651632648$LR•IPV4•29『线路3』
+东方卫视,http://38.75.136.137:98/gslb/dsdqpub/dfwshd.m3u8?auth=testpub$LR•IPV4•29『线路4』
+东方卫视,http://38.75.136.137:98/gslb/dsdqbv/dfwshd.m3u8?auth=test20251009$LR•IPV4•29『线路5』
+东方卫视,http://38.75.136.137:98/gslb/dsdqca/dfwshd.m3u8?auth=test20251009$LR•IPV4•29『线路6』
+东方卫视,http://120.76.248.139/live/bfgd/4200000093.m3u8$LR•IPV4•29『线路7』
+东方卫视,http://107.150.60.122/live/dfwshd.m3u8$LR•IPV4•29『线路8』
+东方卫视,http://192.151.150.154/live/dfwshd.m3u8$LR•IPV4•29『线路9』
+东方卫视,http://198.204.228.26/live/dfwshd.m3u8$LR•IPV4•29『线路10』
+东方卫视,http://bztv.tvbus.cc:8081/cdnlive/dfws.m3u8$LR•IPV4•29『线路11』
+东方卫视,http://173.208.212.130:8181/720p/dfws.m3u8$LR•IPV4•29『线路12』
+东方卫视,http://112.30.73.119:9901/tsfile/live/1033_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•29『线路13』
+东方卫视,http://by4.nty.tv189.cn/live/tm-xpdfws-4000k.m3u8$LR•IPV4•29『线路14』
 江苏卫视,http://mg.cttv.vip/623899368$LR•IPV4•29『线路1』
 江苏卫视,http://2280.eu.org:1234/623899368$LR•IPV4•29『线路2』
 江苏卫视,http://38.75.136.137:98/gslb/dsdqpub/jswshd.m3u8?auth=testpub$LR•IPV4•29『线路3』
@@ -618,4 +619,4 @@ TVBPlus,http://play.wenxiang.cn/live/5ec77f27f37babab48d60b879fde862a.flv$LR•I
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20260917 00:28,https://d.kstore.dev/download/7547/20260401003530.mp4
+20260917 05:03,https://d.kstore.dev/download/7547/20260401003530.mp4
