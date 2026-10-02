@@ -470,7 +470,6 @@ TVB Plus(字幕),https://cdn3.indevs.in/stream/tvb/tvbp/$LR•IPV4•29『线路
 RTHK31,https://fast.hidns.vip/163189/rthk31$LR•IPV4•29『线路1』
 RTHK32,https://fast.hidns.vip/163189/rthk32$LR•IPV4•29『线路1』
 凤凰香港,https://cdn6.cc.cd/163189/fhhk$LR•IPV4•29『线路1』
-凤凰香港,http://bobohome.ignorelist.com:20247/fengshows?id=3.m3u8$LR•IPV4•29『线路2』
 TVB1,https://cdn6.cc.cd/163189/tvb1$LR•IPV4•29『线路1』
 TVBJ1,https://cdn6.cc.cd/163189/j1$LR•IPV4•29『线路1』
 TVBJ1,https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8$LR•IPV4•29『线路2』
@@ -534,4 +533,4 @@ TVBS新闻台,http://173.208.234.146/live/tvbsnews.m3u8$LR•IPV4•29『线路1
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20261003 01:39,https://d.kstore.dev/download/7547/20260401003530.mp4
+20261003 05:59,https://d.kstore.dev/download/7547/20260401003530.mp4
