@@ -1130,14 +1130,15 @@ DJVinCent-全粤语Electro港台女声唱K必点粤听粤过瘾DJ串烧,https://
 TVB plus备,https://vdm6-hw.nbgdsygs.com/live/h6-2.flv$LR•IPV4•29『线路1』
 翡翠台4K(字幕),https://cdn3.indevs.in/stream/tvb/fct4k/$LR•IPV4•29『线路1』
 翡翠台,https://cdn6.cc.cd/163189/fct$LR•IPV4•29『线路1』
-翡翠台,http://gd.wsd.gd.cn:1698/hls/92/index.m3u8$LR•IPV4•29『线路2』
-翡翠台,http://211.97.63.3:3443/hls/541/index.m3u8$LR•IPV4•29『线路3』
-翡翠台,http://183.239.248.218:8181/tsfile/live/1049_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4•29『线路4』
+翡翠台,http://128.14.206.166/pull-f5.flive.douyincdn.com/live/jade.flv$LR•IPV4•29『线路2』
+翡翠台,http://gd.wsd.gd.cn:1698/hls/92/index.m3u8$LR•IPV4•29『线路3』
+翡翠台,http://211.97.63.3:3443/hls/541/index.m3u8$LR•IPV4•29『线路4』
 翡翠台,http://218.13.139.26:9901/tsfile/live/1079_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4•29『线路5』
 翡翠台(字幕),https://cdn3.indevs.in/stream/tvb/fct/$LR•IPV4•29『线路1』
 明珠台(字幕),https://cdn3.indevs.in/stream/tvb/mzt/$LR•IPV4•29『线路1』
 无线新闻台,https://cdn6.cc.cd/163189/wxxwt$LR•IPV4•29『线路1』
 无线新闻台,https://cdn6.cc.cd/163189/wxxw$LR•IPV4•29『线路2』
+无线新闻台,http://128.14.206.166/pull-f5.flive.douyincdn.com/live/wxxw.flv$LR•IPV4•29『线路3』
 TVB Plus(字幕),https://cdn3.indevs.in/stream/tvb/tvbp/$LR•IPV4•29『线路1』
 RTHK31,https://fast.hidns.vip/163189/rthk31$LR•IPV4•29『线路1』
 RTHK31,http://iptv.4666888.xyz/iptv2A.php?id=23$LR•IPV4•29『线路2』
@@ -1179,7 +1180,6 @@ TVBS新闻,https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8$L
 香港34台,https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream02/streamPlaylist.m3u8$LR•IPV4•29『线路1』
 香港35台,https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream02/streamPlaylist.m3u8$LR•IPV4•29『线路1』
 TVB星河3,http://php.jdshipin.com/TVOD/iptv.php?id=xinghe$LR•IPV4•29『线路1』
-TVBS新闻台,http://173.208.234.146/live/tvbsnews.m3u8$LR•IPV4•29『线路1』
 凤凰香港频标,http://m.061899.xyz/mg/fhhk$LR•IPV4•29『线路1』
 经典香港电影,http://k.061899.xyz/k.php?id=xgdy$LR•IPV4•29『线路1』
 经典香港电影,http://smartzhu.cn:1234/625703337$LR•IPV4•29『线路2』
@@ -1265,4 +1265,4 @@ TVBS新闻台,http://173.208.234.146/live/tvbsnews.m3u8$LR•IPV4•29『线路1
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20261010 17:35,https://d.kstore.dev/download/7547/20260401003530.mp4
+20261011 01:08,https://d.kstore.dev/download/7547/20260401003530.mp4
