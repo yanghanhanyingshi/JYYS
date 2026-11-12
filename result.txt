@@ -2676,10 +2676,10 @@ TVB星河,https://cdn3.indevs.in/stream/live/tvbxh/$LR•IPV4•29『线路3』
 翡翠台(WebVTT字幕),https://10.fast.hidns.vip/163189/fct/$LR•IPV4•29『线路1』
 明珠台(WebVTT字幕),https://10.fast.hidns.vip/163189/mzt/$LR•IPV4•29『线路1』
 TVB Plus(WebVTT字幕),https://10.fast.hidns.vip/163189/tvbp/$LR•IPV4•29『线路1』
-明珠台,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/mz-mddei9SE4s0zj8HEbn8tBnrtWDU9zjgfHU6JcWXOfwluNR2MDkSZeCXZBOupjnnWB5k1TvFWJChkJbq6.flv$LR•IPV4•29『线路1』
-港台电视31,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/31-xL3VwhqCDNAop22L8HlkpNEX2FCXHmdtNv8V6s4IGzgdj4llUjQ6qllwaEyE4t9EOqOh5IpNfLTmuUuG.flv$LR•IPV4•29『线路1』
-港台电视32,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/32-eWeJ09h6oF4h4tpTcLru0dSFExlH8DGJ7saFGxAbt7SCakQLcvr2hKv2m04oVwlrOxPY1LB4GafCgHd3.flv$LR•IPV4•29『线路1』
-凤凰香港台,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/fhxg-NpmWCJUXg5mHnVx7DxmiyCrNGMICZQrcqzOOFMXXCOY00h8jA0A7ps9jlYE4aRY1lOi6sYSHrLzzBMHv.flv$LR•IPV4•29『线路1』
+明珠台,http://pull-mpeg-hs-cny-f5.douyincdn.com/live/mz-mddei9SE4s0zj8HEbn8tBnrtWDU9zjgfHU6JcWXOfwluNR2MDkSZeCXZBOupjnnWB5k1TvFWJChkJbq6.flv$LR•IPV4•29『线路1』
+港台电视31,http://pull-mpeg-hs-cny-f5.douyincdn.com/live/31-xL3VwhqCDNAop22L8HlkpNEX2FCXHmdtNv8V6s4IGzgdj4llUjQ6qllwaEyE4t9EOqOh5IpNfLTmuUuG.flv$LR•IPV4•29『线路1』
+港台电视32,http://pull-mpeg-hs-cny-f5.douyincdn.com/live/32-eWeJ09h6oF4h4tpTcLru0dSFExlH8DGJ7saFGxAbt7SCakQLcvr2hKv2m04oVwlrOxPY1LB4GafCgHd3.flv$LR•IPV4•29『线路1』
+凤凰香港台,http://pull-mpeg-hs-cny-f5.douyincdn.com/live/fhxg-NpmWCJUXg5mHnVx7DxmiyCrNGMICZQrcqzOOFMXXCOY00h8jA0A7ps9jlYE4aRY1lOi6sYSHrLzzBMHv.flv$LR•IPV4•29『线路1』
 凤凰香港480p,http://ccav.zone.id/php/fh.php?id=3$LR•IPV4•29『线路1』
 TVB翡翠台,http://iptv.4666888.xyz/iptv2A.php?id=24$LR•IPV4•29『线路1』
 TVB无线(台湾),http://iptv.4666888.xyz/iptv2A.php?id=28$LR•IPV4•29『线路1』
@@ -2786,4 +2786,4 @@ TVB星河3,http://php.jdshipin.com/TVOD/iptv.php?id=xinghe$LR•IPV4•29『线�
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20261112 05:47,https://d.kstore.dev/download/7547/20260401003530.mp4
+20261112 14:29,https://d.kstore.dev/download/7547/20260401003530.mp4
