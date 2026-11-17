@@ -2847,9 +2847,7 @@ TVB星河3,http://php.jdshipin.com/TVOD/iptv.php?id=xinghe$LR•IPV4•29『线�
 经典香港电影,http://www.zknowl.com:1234/625703337$LR•IPV4•29『线路8』
 经典香港电影,http://119.29.233.26:1234/625703337$LR•IPV4•29『线路9』
 经典香港电影,http://175.24.134.198:1234/625703337$LR•IPV4•29『线路10』
-【快看张不疯】带你看香港经典电影,http://footyun.top:35455/douyu/8413226$LR•IPV4•29『线路1』
-老牌香港明星的最全八卦,http://footyun.top:35455/douyu/9970047$LR•IPV4•29『线路1』
-香港院线大片-最新,http://footyun.top:35455/yy/1354936242$LR•IPV4•29『线路1』
+香港院线大片-最新,https://live.ottiptv.cc/yy/1354936242$LR•IPV4•29『线路1』
 香港第三台,https://rthkaudio3-lh.akamaihd.net/i/radio3_1@355866/master.m3u8$LR•IPV4•29『线路1』
 香港古典音乐,https://rthkradio1-live.akamaized.net/hls/live/2035313/radio1/master.m3u8?sd=10&rebase=on$LR•IPV4•29『线路1』
 少儿动画,#genre#
@@ -2931,4 +2929,4 @@ TVB星河3,http://php.jdshipin.com/TVOD/iptv.php?id=xinghe$LR•IPV4•29『线�
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20261117 05:47,https://d.kstore.dev/download/7547/20260401003530.mp4
+20261117 15:14,https://d.kstore.dev/download/7547/20260401003530.mp4
