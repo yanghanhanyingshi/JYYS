@@ -107,7 +107,6 @@ CCTV5体育,http://107.150.60.122/live/cctv5hd.m3u8$LR•IPV4•29『线路15』
 CCTV5体育,http://107.150.60.122/live/cctv5p.m3u8$LR•IPV4•29『线路16』
 CCTV5体育,http://192.151.150.154/live/cctv5hd.m3u8$LR•IPV4•29『线路17』
 CCTV5体育,http://192.151.150.154/live/cctv5p.m3u8$LR•IPV4•29『线路18』
-CCTV5体育,http://173.208.212.130:8181/720p/cctv5.m3u8$LR•IPV4•29『线路19』
 CCTV5+体育赛事,http://my1nas.dpdns.org:1234/641886773$LR•IPV4•29『线路1』
 CCTV5+体育赛事,http://xch819.cn:7788/641886773$LR•IPV4•29『线路2』
 CCTV5+体育赛事,https://tv.zhuhongxuan.cn/641886773$LR•IPV4•29『线路3』
@@ -141,10 +140,7 @@ CCTV7国防军事,http://38.75.136.137:98/gslb/dsdqca/sswshd.m3u8?auth=test20251
 CCTV7国防军事,http://120.76.248.139/live/bfgd/4200000127.m3u8$LR•IPV4•29『线路10』
 CCTV7国防军事,http://107.150.60.122/live/cctv7hd.m3u8$LR•IPV4•29『线路11』
 CCTV7国防军事,http://192.151.150.154/live/cctv7hd.m3u8$LR•IPV4•29『线路12』
-CCTV7国防军事,http://198.204.228.26/live/cctv7hd.m3u8$LR•IPV4•29『线路13』
-CCTV7国防军事,http://173.208.212.130:8181/720p/cctv7.m3u8$LR•IPV4•29『线路14』
-CCTV7国防军事,http://173.208.212.130:8181/1080p/cctv7.m3u8$LR•IPV4•29『线路15』
-CCTV7国防军事,http://sagrad.org:8181/3m1080p/cctv7.m3u8$LR•IPV4•29『线路16』
+CCTV7国防军事,http://173.208.212.130:8181/720p/cctv7.m3u8$LR•IPV4•29『线路13』
 CCTV8电视剧,http://my1nas.dpdns.org:1234/624878356$LR•IPV4•29『线路1』
 CCTV8电视剧,http://xch819.cn:7788/624878356$LR•IPV4•29『线路2』
 CCTV8电视剧,https://tv.zhuhongxuan.cn/624878356$LR•IPV4•29『线路3』
@@ -162,8 +158,10 @@ CCTV8电视剧,http://192.151.150.154/live/cctv8hd.m3u8$LR•IPV4•29『线路1
 CCTV8电视剧,http://192.151.150.154/live/cctv8k.m3u8$LR•IPV4•29『线路15』
 CCTV8电视剧,http://198.204.228.26/live/cctv8hd.m3u8$LR•IPV4•29『线路16』
 CCTV8电视剧,http://198.204.228.26/live/cctv8k.m3u8$LR•IPV4•29『线路17』
-CCTV8电视剧,http://173.208.212.130:8181/720p/cctv8k.m3u8$LR•IPV4•29『线路18』
-CCTV8电视剧,http://sagrad.org:8181/3m1080p/cctv8.m3u8$LR•IPV4•29『线路19』
+CCTV8电视剧,http://173.208.212.130:8181/720p/cctv8.m3u8$LR•IPV4•29『线路18』
+CCTV8电视剧,http://173.208.212.130:8181/720p/cctv8k.m3u8$LR•IPV4•29『线路19』
+CCTV8电视剧,http://173.208.212.130:8181/1080p/cctv8.m3u8$LR•IPV4•29『线路20』
+CCTV8电视剧,http://sagrad.org:8181/3m1080p/cctv8.m3u8$LR•IPV4•29『线路21』
 CCTV9纪录,http://my1nas.dpdns.org:1234/673168140$LR•IPV4•29『线路1』
 CCTV9纪录,http://xch819.cn:7788/673168140$LR•IPV4•29『线路2』
 CCTV9纪录,https://tv.zhuhongxuan.cn/673168140$LR•IPV4•29『线路3』
@@ -177,7 +175,6 @@ CCTV9纪录,http://38.75.136.137:98/gslb/dsdqca/nmgwshd.m3u8?auth=test20251009$L
 CCTV9纪录,http://120.76.248.139/live/bfgd/4200000128.m3u8$LR•IPV4•29『线路11』
 CCTV9纪录,http://107.150.60.122/live/cctv9hd.m3u8$LR•IPV4•29『线路12』
 CCTV9纪录,http://192.151.150.154/live/cctv9hd.m3u8$LR•IPV4•29『线路13』
-CCTV9纪录,http://sagrad.org:8181/3m1080p/cctv9.m3u8$LR•IPV4•29『线路14』
 CCTV10科教,http://my1nas.dpdns.org:1234/624878405$LR•IPV4•29『线路1』
 CCTV10科教,http://xch819.cn:7788/624878405$LR•IPV4•29『线路2』
 CCTV10科教,https://tv.zhuhongxuan.cn/624878405$LR•IPV4•29『线路3』
@@ -191,6 +188,7 @@ CCTV10科教,http://38.75.136.137:98/gslb/dsdqca/nxwshd.m3u8?auth=test20251009$L
 CCTV10科教,http://120.76.248.139/live/bfgd/4200000129.m3u8$LR•IPV4•29『线路11』
 CCTV10科教,http://107.150.60.122/live/cctv10hd.m3u8$LR•IPV4•29『线路12』
 CCTV10科教,http://192.151.150.154/live/cctv10hd.m3u8$LR•IPV4•29『线路13』
+CCTV10科教,http://173.208.212.130:8181/1080p/cctv10.m3u8$LR•IPV4•29『线路14』
 CCTV11戏曲,http://my1nas.dpdns.org:1234/667987558$LR•IPV4•29『线路1』
 CCTV11戏曲,http://xch819.cn:7788/667987558$LR•IPV4•29『线路2』
 CCTV11戏曲,https://tv.zhuhongxuan.cn/667987558$LR•IPV4•29『线路3』
@@ -230,11 +228,15 @@ CCTV13新闻,http://38.75.136.137:98/gslb/dsdqca/ybwshd.m3u8?auth=test20251009$L
 CCTV13新闻,http://120.76.248.139/live/bfgd/4200000067.m3u8$LR•IPV4•29『线路12』
 CCTV13新闻,http://107.150.60.122/live/cctv13hd.m3u8$LR•IPV4•29『线路13』
 CCTV13新闻,http://192.151.150.154/live/cctv13hd.m3u8$LR•IPV4•29『线路14』
+CCTV13新闻,http://sagrad.org:8181/3m1080p/cctv13.m3u8$LR•IPV4•29『线路15』
 CCTV14少儿,http://38.75.136.137:98/gslb/dsdqpub/cctv14hd.m3u8?auth=testpub$LR•IPV4•29『线路1』
 CCTV14少儿,http://120.76.248.139/live/bfgd/4200000132.m3u8$LR•IPV4•29『线路2』
 CCTV14少儿,http://107.150.60.122/live/cctv14hd.m3u8$LR•IPV4•29『线路3』
 CCTV14少儿,http://192.151.150.154/live/cctv14hd.m3u8$LR•IPV4•29『线路4』
-CCTV14少儿,http://173.208.212.130:8181/1080p/cctv14.m3u8$LR•IPV4•29『线路5』
+CCTV14少儿,http://198.204.228.26/live/cctv14hd.m3u8$LR•IPV4•29『线路5』
+CCTV14少儿,http://173.208.212.130:8181/720p/cctv14.m3u8$LR•IPV4•29『线路6』
+CCTV14少儿,http://173.208.212.130:8181/1080p/cctv14.m3u8$LR•IPV4•29『线路7』
+CCTV14少儿,http://sagrad.org:8181/3m1080p/cctv14.m3u8$LR•IPV4•29『线路8』
 CCTV15音乐,http://my1nas.dpdns.org:1234/673168223$LR•IPV4•29『线路1』
 CCTV15音乐,http://xch819.cn:7788/673168223$LR•IPV4•29『线路2』
 CCTV15音乐,https://tv.zhuhongxuan.cn/673168223$LR•IPV4•29『线路3』
@@ -248,6 +250,10 @@ CCTV15音乐,http://38.75.136.137:98/gslb/dsdqca/chcymdyhd.m3u8?auth=test2025100
 CCTV15音乐,http://120.76.248.139/live/bfgd/4200000133.m3u8$LR•IPV4•29『线路11』
 CCTV15音乐,http://107.150.60.122/live/cctv15hd.m3u8$LR•IPV4•29『线路12』
 CCTV15音乐,http://192.151.150.154/live/cctv15hd.m3u8$LR•IPV4•29『线路13』
+CCTV15音乐,http://198.204.228.26/live/cctv15hd.m3u8$LR•IPV4•29『线路14』
+CCTV15音乐,http://173.208.212.130:8181/720p/cctv15.m3u8$LR•IPV4•29『线路15』
+CCTV15音乐,http://173.208.212.130:8181/1080p/cctv15.m3u8$LR•IPV4•29『线路16』
+CCTV15音乐,http://sagrad.org:8181/3m1080p/cctv15.m3u8$LR•IPV4•29『线路17』
 CCTV17农业农村,http://my1nas.dpdns.org:1234/673168256$LR•IPV4•29『线路1』
 CCTV17农业农村,http://xch819.cn:7788/673168256$LR•IPV4•29『线路2』
 CCTV17农业农村,https://tv.zhuhongxuan.cn/673168256$LR•IPV4•29『线路3』
@@ -327,8 +333,7 @@ CCTV17农业农村,http://sagrad.org:8181/3m1080p/cctv17.m3u8$LR•IPV4•29『�
 吉林卫视,http://38.75.136.137:98/gslb/dsdqpub/jlwshd.m3u8?auth=testpub$LR•IPV4•29『线路6』
 吉林卫视,http://120.76.248.139/live/bfgd/4200000097.m3u8$LR•IPV4•29『线路7』
 吉林卫视,http://107.150.60.122/live/jlwshd.m3u8$LR•IPV4•29『线路8』
-吉林卫视,http://198.204.228.26/live/jlwshd.m3u8$LR•IPV4•29『线路9』
-吉林卫视,http://by4.nty.tv189.cn/live/tm-ysjlws-4000k.m3u8$LR•IPV4•29『线路10』
+吉林卫视,http://by4.nty.tv189.cn/live/tm-ysjlws-4000k.m3u8$LR•IPV4•29『线路9』
 黑龙江卫视,http://my1nas.dpdns.org:1234/738906901$LR•IPV4•29『线路1』
 黑龙江卫视,http://xch819.cn:7788/738906901$LR•IPV4•29『线路2』
 黑龙江卫视,https://tv.zhuhongxuan.cn/738906901$LR•IPV4•29『线路3』
@@ -337,7 +342,6 @@ CCTV17农业农村,http://sagrad.org:8181/3m1080p/cctv17.m3u8$LR•IPV4•29『�
 黑龙江卫视,http://38.75.136.137:98/gslb/dsdqpub/hljwshd.m3u8?auth=testpub$LR•IPV4•29『线路6』
 黑龙江卫视,http://120.76.248.139/live/bfgd/4200000095.m3u8$LR•IPV4•29『线路7』
 黑龙江卫视,http://107.150.60.122/live/hljwshd.m3u8$LR•IPV4•29『线路8』
-黑龙江卫视,http://198.204.228.26/live/hljwshd.m3u8$LR•IPV4•29『线路9』
 东方卫视,https://bp-resource-dfl.bestv.cn/148/3/video.m3u8$LR•IPV4•29『线路1』
 东方卫视,http://nn.7x9d.cn/91tv1.php?e=dfws4k$LR•IPV4•29『线路2』
 东方卫视,http://my1nas.dpdns.org:1234/651632648$LR•IPV4•29『线路3』
@@ -635,4 +639,4 @@ TVB星河3,http://php.jdshipin.com/TVOD/iptv.php?id=xinghe$LR•IPV4•29『线�
 江西少儿,http://198.204.228.26/live/jxtv6.m3u8$LR•IPV4•29『线路3』
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse$LR•IPV4•29『线路1』
 灵鹿整合,#genre#
-20261122 18:54,https://d.kstore.dev/download/7547/20260401003530.mp4
+20261123 03:14,https://d.kstore.dev/download/7547/20260401003530.mp4
